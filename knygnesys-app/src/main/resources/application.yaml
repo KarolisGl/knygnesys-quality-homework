@@ -1,0 +1,33 @@
+# Public homework profile. Local demonstration only; no private configuration copied.
+server:
+  port: 10032
+  servlet:
+    session:
+      cookie:
+        same-site: lax
+        http-only: true
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://127.0.0.1:15432/knygnesys_homework}
+    username: ${DB_USER:knygnesys_demo}
+    password: ${DB_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  session:
+    jdbc:
+      initialize-schema: never
+  mail:
+    host: ${SMTP_HOST:127.0.0.1}
+    port: ${SMTP_PORT:1025}
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+springdoc:
+  api-docs:
+    path: /api-docs
+knygnesys:
+  epub:
+    storage-dir: ./epub-storage

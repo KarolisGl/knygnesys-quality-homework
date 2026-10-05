@@ -1,0 +1,17 @@
+node_modules/
+.angular/
+dist/
+target/
+coverage/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+epub-storage/
+analysis/generated/
+analysis/tools/node_modules/
+analysis/evidence/runtime/*.cookies

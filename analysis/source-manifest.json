@@ -1,0 +1,526 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "c6f6f09300dcd4f4be0430f129b4055a780bf392b911fffaf7d0ab3a7b36b072"
+  },
+  {
+    "path": "db-migration/.gitignore",
+    "sha256": "91e32e7c7446da0e17ef5bc0a3a783065c4476613ea4a7c24dee14aa889c6ddd"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V1__init.sql",
+    "sha256": "2b63d62938339d8f2288048cae8ca21a6d6e3a96ac4cb1f8e690668326ad79b9"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V2__spring_session.sql",
+    "sha256": "d75b49119b4df89806a7b39e4bdc97a11ac05bcccee277f00e0465722cb84d98"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V4__add_epub_to_reading_list.sql",
+    "sha256": "5f3cbd8f6d547f223fba29ce7377eb3889967fca61bbbd052d810be010ccc81b"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V5__add_completed_at_to_reading_list.sql",
+    "sha256": "5719c4c337a814f69c8fd078406da965b3ec2d2f6275cc6b891e4f900e2c0f8c"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V6__add_current_page_to_reading_list.sql",
+    "sha256": "509b11a5a62bb5aed33799cf9cc60d8e7d10c53a107b9313eead08c2c7c3006f"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V7__add_genre_to_books.sql",
+    "sha256": "66b2d2260b89ea297cc9a6bf8a960e7bdd614d1184bf0d14c2710de1dcd03688"
+  },
+  {
+    "path": "db-migration/src/main/resources/db/migration/V8__add_notified_at_to_goals.sql",
+    "sha256": "ca8f1cdbb2f2c622cb645cdbfb871c998a54159f72e9750907a2611bdb8f1037"
+  },
+  {
+    "path": "knygnesys-app/.gitignore",
+    "sha256": "089382e4d7944ab6cb6900a1269678ebff93c00d441ada788cd05a8da182b22b"
+  },
+  {
+    "path": "knygnesys-app/.mvn/wrapper/maven-wrapper.properties",
+    "sha256": "8f2a4438810348270d9d98f8d6d530541ddb7271e373db207e8ac381e0e35b62"
+  },
+  {
+    "path": "knygnesys-app/Dockerfile",
+    "sha256": "1f73b4aa70274b2a14562e567524ee63e7b11d8e260d04eb44fcd26b3e4dacbf"
+  },
+  {
+    "path": "knygnesys-app/mvnw",
+    "sha256": "cae96cef89ebea3531221f4ae17c23cf8edf67d00eae8306d4186ae1bbed4d02"
+  },
+  {
+    "path": "knygnesys-app/mvnw.cmd",
+    "sha256": "4a361e1374a3e5ad6d03e18e9adc0cf181ac5058ac6203b76f0ba3b456b56481"
+  },
+  {
+    "path": "knygnesys-app/pom.xml",
+    "sha256": "fb04090c95c0b7eceff0e31508a4cbfcc7564c8dcf6efe7579c43ea2f3e655fb"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/KnygnesysApplication.java",
+    "sha256": "deb6b61a2e4a9aacfa3d66109ae382a250e940f500751fb83d5c96f0d5d60f26"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+    "sha256": "12595c2114c515555d0c885b7fd10627808ceb71cdfcfd0aafed5cb4d8befdfe"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthController.java",
+    "sha256": "7b19f873106a4b18d94b4bbbd39beefe016c52629589aa3d72a6b7dc7421c812"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/AuthResponse.java",
+    "sha256": "dacc6d4323e78653d7a1927214b619f9601967ba9af01eaeb48a0fd06cccba95"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/LoginRequest.java",
+    "sha256": "af17096821c43888666f573a0d6b546ff1542afd5adb452d688d77290fd9edca"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/RegisterRequest.java",
+    "sha256": "0e895356464910faecb014a1a82690ca58c9d29baf55ae321525efdf7b448a2e"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/service/AuthService.java",
+    "sha256": "c830e5bc310b456f4d8b04d9dddff311aa2ce88dc0ac8422f7d2da3e50d8b5ef"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/Book.java",
+    "sha256": "75046e3934f2fdd4126bc4572ff42b428e126f1ba869fe473e03676abcefcb2d"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/repository/BookRepository.java",
+    "sha256": "77e18974f906224161e24eb1237229f9ba0021026536c15aa0674119084e30ff"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/Goal.java",
+    "sha256": "40b988c347f2d65c9d616863ac0a6d3ac83ed88f9c9c1c645d66905e1a38a6a2"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+    "sha256": "b72857752e769189732c5d47f2b24f6221cc0a1dacbce2883fc811049806812b"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalController.java",
+    "sha256": "23eea0012210f7e14115bf357359df36fec04acf54553168a264cbe75a9614e2"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/GoalResponse.java",
+    "sha256": "82062ea2cf062b251b466448677d4b26b03b88e60df0f1c7f5eef15610bb5bee"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/SetGoalRequest.java",
+    "sha256": "550f43ee414adafc791def1f36ba5b35488485a0b9a48e265e5f9c86795e8a09"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/repository/GoalRepository.java",
+    "sha256": "15968db5da5d6e3b1c5ff58092008ca2235bfddddcf595205e2fc374baec8d49"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/EmailService.java",
+    "sha256": "a8f7910c4fbd19372a47cb394e62751b56ed4470690311f949360a47f9bd5777"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+    "sha256": "6f9572c6cd32b347a042c59e183ca79910e92594300bc804b3b8e93bc245116f"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+    "sha256": "b978618537be3a09555e50f79f568cbcfa057f3122b28dca1ed57786954113dd"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+    "sha256": "021386f8585adcae8dbdef6166031279fae35cc2976a6d3384669e6253773e55"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/repository/ReadingProgressRepository.java",
+    "sha256": "690c2fff333831a7e9cf0048d32532671a424cb5a2d9d0a8c52c497dcbb249b9"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+    "sha256": "26c0c6baed625eed8f5c6af1f9f2017eb6d54e02d7686cb81143f2fba68f8cc4"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+    "sha256": "fcc11ff4ea7ec230245c6a805d4565137b245df3d75d21fe5ecd209c99114a5c"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryController.java",
+    "sha256": "6a4d45ab7f27e196f2ccf7a830c97178734f0b672dd4bfc0ff83992469c90c95"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/AddBookRequest.java",
+    "sha256": "002937bafc8fce6cb373451611ce3bf0473e885a47675c328d0323bd59c63c53"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/LibraryBookDto.java",
+    "sha256": "43bec8d9763f587ff5de66882c84eb2b394d0e05974f896c9207b5ce8f8cc523"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/UpdateProgressRequest.java",
+    "sha256": "abfd8d61c4cec5a0d8ade29c274d5e5e7034ac340729b39b1bfec44f2e880daa"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/repository/ReadingListRepository.java",
+    "sha256": "0e559f8a1b7f984918fd19048c07e6fcd38196fccb5f28083362737af68ca141"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+    "sha256": "a2ded97ab2c6b0fefe99117e68bf05a519f5055109f49cd6ef44ae8706559c20"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/controller/RecommendationsController.java",
+    "sha256": "7ccf725ad2516615b0e68410d503b56535600b3c5d55ae412d07a712d2511d0e"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibraryBookDoc.java",
+    "sha256": "3dfc4e5cb6819af509ac98aeab9bfb5fb4e34d48fee0d7c3bc26202ff23317ac"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibrarySearchResponse.java",
+    "sha256": "453aec01c6154e328d1db81a8100275eb90479e29d67e840a54b8e247941744c"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/RecommendationDto.java",
+    "sha256": "f5507a4a8e97d374007a86186d137e3e4cf56aa9993659c34d1ddc639c5f6bde"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+    "sha256": "9d4a9f5ad5225a13c45d3f44de7f73bf75b3a1596d9b9de63972958efbc0a052"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/CorsConfig.java",
+    "sha256": "7eac1ba2f33673f3acdc90442160c8c9d851834bca7bce757df8277e4cb55db9"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/OpenApiConfig.java",
+    "sha256": "4e832f46fbead6743d20804b458d466dbed1bac2d9eebffe0524b3c3f52b01ef"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+    "sha256": "d0242f9716d99a2c09035fcc379b4ffc2e7381d6b27b2637b145ff45a781ef7f"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/UserDetailsServiceImpl.java",
+    "sha256": "6777cdae99138037ce4ea4875853feb27743d3b980c646f34922aa36dce3b6a4"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/GlobalExceptionHandler.java",
+    "sha256": "4568bf11926e617e0efba4f0bfcb0016d125cd95f627a6725ae0002856870d0e"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/ResourceNotFoundException.java",
+    "sha256": "b556b581ef9466638a323faafad89c759488d2c77b912938bba08f2c960547fb"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+    "sha256": "3b6ac90a60f969d0aa6785556d5b431cb8045df6ceade35b58fbc1c86ff9d5ba"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsController.java",
+    "sha256": "fc738f9e23dee1128dfa4ce61ef29d9a11ef79e4b6069efd2b1ac915d3e43bb1"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/GenreDataPoint.java",
+    "sha256": "14b946a6a3d27011971e324378eed6e7e04fba0dcfa250b232e755f272d17329"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/PagesDayDataPoint.java",
+    "sha256": "7c1b0448bb25e7a64e9dcce59e9e5abcf52613a64556ec06d11a65f00ccefcd5"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsDataPoint.java",
+    "sha256": "7b28c9328f9819e7891ea84dae36c58f83c90bdfa1e3bcdc645952e201a42ac0"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsResponse.java",
+    "sha256": "5ea7f071865451cc857c40c1c3f9712dfa3aca81311c00354616bc0e8bb9315d"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsSummary.java",
+    "sha256": "ec90f4336c254d772e0f2bc5b797efe913d7264789b6a8fb1ecc2782ea329d9e"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+    "sha256": "a98918637264293bfe2990fa06b1838567dd5c6c608b7c45b24c08f49a47c631"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+    "sha256": "36cc212391ab45ce0c994b104f809dec2057d246d3170f1f65002358b31fc815"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+    "sha256": "616d8abd507a858fd3c97deca6ffe1006b9d9847306a2844c97b3b6bb9c881c9"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserController.java",
+    "sha256": "088b8626c8df56308820fd24a768dbf8fea4aaa9d367ebc8224e24edd3ad404f"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/repository/UserRepository.java",
+    "sha256": "8234e9d363c3138b3d7824f2a2db3bcedfb6c0d05db338bd4a0870ee699412e4"
+  },
+  {
+    "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/service/UserService.java",
+    "sha256": "8e4526e3720c14c1d0db22f7c99125bcb88976c6d3021310850ed03e6bcabcb1"
+  },
+  {
+    "path": "knygnesys-app/src/test/java/lt/prifkodas/knygnesys/auth/service/AuthServiceTest.java",
+    "sha256": "785e9bda6c127db7fa4857be39b66162f6ca005a0cf3708171632a030cbf93db"
+  },
+  {
+    "path": "knygnesys-app/src/test/java/lt/prifkodas/knygnesys/stats/service/StatsServiceTest.java",
+    "sha256": "9f2ff32e3261c8097b5f83342a9de66be4a6e52a1e7b7d372552806af4ccef38"
+  },
+  {
+    "path": "knygnesys-app/src/test/java/lt/prifkodas/knygnesys/user/service/UserServiceTest.java",
+    "sha256": "fbdad99eb85dc307052f5b44aa1edff2d28ea3cc64485b2c16a7f5f6b71da749"
+  },
+  {
+    "path": "knygnesys-ui/.editorconfig",
+    "sha256": "d62fd282eadb5b3ff888a23ba5968e490cc0a77dded2fbc4f704b7e6e247f4db"
+  },
+  {
+    "path": "knygnesys-ui/.gitignore",
+    "sha256": "202cd589ea8625b5e65c4da88c7f7c600b9b218d6b3c854ed6813cff68473264"
+  },
+  {
+    "path": "knygnesys-ui/.prettierrc",
+    "sha256": "0a7210e2b6bf0131fc80129e68997e4070b8c1e39c02e4f32149257846d34b65"
+  },
+  {
+    "path": "knygnesys-ui/.vscode/extensions.json",
+    "sha256": "6da5b6004a21316f17db45d15fc93a8d8b060ddfa4139c1fadab4d191187c898"
+  },
+  {
+    "path": "knygnesys-ui/.vscode/launch.json",
+    "sha256": "d2e7a817688daf2f187f74902717e525da165d77060fec3b0da1a9d2726971ed"
+  },
+  {
+    "path": "knygnesys-ui/.vscode/mcp.json",
+    "sha256": "1057d2c3bef5bcc58f79ef86ebfdd2f6b22654c33cbfefe2ea1cacfe445ff5d8"
+  },
+  {
+    "path": "knygnesys-ui/.vscode/tasks.json",
+    "sha256": "fcfc78f7041bc36369d7638898bb52973adf849fc47d6fdaa27920d522d3396e"
+  },
+  {
+    "path": "knygnesys-ui/angular.json",
+    "sha256": "e426aeeeee53ad3526634c9866eb04bb80835648515ce622b9ae7905e5c5374d"
+  },
+  {
+    "path": "knygnesys-ui/eslint.config.js",
+    "sha256": "7ac50b4b2ed1328f5675bf522f5678cd870717102f087721c50927daeada7994"
+  },
+  {
+    "path": "knygnesys-ui/package-lock.json",
+    "sha256": "10422028e60e085481ef97dea9b2201e96c34d46809b562842771b6bf6432331"
+  },
+  {
+    "path": "knygnesys-ui/package.json",
+    "sha256": "27a335a60c8e898cae9901aa0c6732f5fc41e23575494fbf27fd9ed674bb7003"
+  },
+  {
+    "path": "knygnesys-ui/public/book.png",
+    "sha256": "f30bf202c66ada32b6314b1a5d55d114c7c83c55222a665fb6acce7738f4234d"
+  },
+  {
+    "path": "knygnesys-ui/src/app/app.config.ts",
+    "sha256": "223a8cf6298ba87dfc3537b7f410c96eb87789e640388d4fcb018396a6d110f6"
+  },
+  {
+    "path": "knygnesys-ui/src/app/app.html",
+    "sha256": "5f6d554ea8d20ed044b13aa033c824605a90a2e305e25e5cb4bd41d1296cf493"
+  },
+  {
+    "path": "knygnesys-ui/src/app/app.routes.ts",
+    "sha256": "057c754e5f28bd6211e9792aee06576cb40a706b3a85e6cef10a69c3b65695b9"
+  },
+  {
+    "path": "knygnesys-ui/src/app/app.ts",
+    "sha256": "e9ed4b57a53305616229407be9118776d32c04e5b53cf315ff407ef2a0c9cc01"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.scss",
+    "sha256": "88eb3f021f9d297d783998b0b28428917e8209c1bfe6605e6c937a2c2db9a3c2"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.spec.ts",
+    "sha256": "32df2cfa67f4624a9e69d66314b874f5ef3b983db43edbced45f06c0d3bbc782"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+    "sha256": "bbaf9598e547eb21a06e2f87c4f41f04d4817a27cca1cabf27353f53635725e4"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.scss",
+    "sha256": "c6534fbdd3819cc09ffe4dea63576609eaf0a55945c51bfe132b529ea5418ef5"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.spec.ts",
+    "sha256": "f14b316afa43b179a77b0ff34de0cece9a264fc3b9877647c51431ed90bc7c49"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.ts",
+    "sha256": "99c690ce977d08d620bf5d4013aa6b7b2d64aa5664172803565247f408f429f7"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.scss",
+    "sha256": "88eb3f021f9d297d783998b0b28428917e8209c1bfe6605e6c937a2c2db9a3c2"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.spec.ts",
+    "sha256": "0df05244ef45c77aa455b6557813574457895a513a2c185fff2c5866f2453712"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts",
+    "sha256": "e29a817bcacaed92cd8b0329d4fb4278e81bae2298cd1bb705bb9a9e07a96a6d"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/navbar/navbar.component.html",
+    "sha256": "8656b3e9bd03257e72afb0b48bf34ded3e6212c7e607fd3726ee07fd0fde88dd"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/navbar/navbar.component.scss",
+    "sha256": "8c05b423158b6c6ecaa88dddccbe1fc6f488664cbf04211ede2921a6bd32b462"
+  },
+  {
+    "path": "knygnesys-ui/src/app/components/navbar/navbar.component.ts",
+    "sha256": "49c813c823d0d16420a6e8dd6a92bfaf064b75e24f4e3ff638ecbcd6ff87d0ab"
+  },
+  {
+    "path": "knygnesys-ui/src/app/guards/auth.guard.ts",
+    "sha256": "79e890fa1fc916cd86fceb5052b1d97fb4861514ddd27410f202df8727196058"
+  },
+  {
+    "path": "knygnesys-ui/src/app/interceptors/credentials.interceptor.ts",
+    "sha256": "b99a21580eeb6b17bb82ba78ab162bef6debca00e836ab20afaf49020032e889"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+    "sha256": "036ece08bae2b95debb2b9c205acdb154d6afab9e5b816ea67da6f47354e5da6"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+    "sha256": "da74f36e94407f8b99123e082a88a74cd83f75fd2497c15ed8c89af49e2b5624"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+    "sha256": "922467cd1f7299bc3987f28f8813dc2cf23dfc8448e653688540b0c67e966492"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+    "sha256": "3bbe9fa9c3e38a594d7e5d4cdd3f06960988a6c58b2cead8fab0626770061a6e"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.scss",
+    "sha256": "3e87b2528212528a69f319cd51611c97ea8c10d4c56fb4db1083f68f06dbe092"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+    "sha256": "2de8ce0761d84bd5e3ac8fa4794a9340831b6ec648c963697ec70b076902947e"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/home/home.html",
+    "sha256": "ad3b1678795c0f94a8fd03e6863d5b265d858acb76f31d06272dae17c00733b4"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/home/home.scss",
+    "sha256": "2b6b1f0c80dbcb2d8fdf38e1c8e76876e6ff59510e079d08455ab366cbe1fa51"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/home/home.ts",
+    "sha256": "bb59f95a5fa9c0dcf99a3d78fae0307484382403a4e911387460bc179bb44e19"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/login/login.component.html",
+    "sha256": "92be887197e3d38f1db1a2825977c3a2208570ce1f1bc250d39aa984ab7bdc1e"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/login/login.component.scss",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/login/login.component.ts",
+    "sha256": "a190d88cee04b750babee12c8e7cff4b7af600291dcf6c773446665fdc48f0dc"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/register/register.component.html",
+    "sha256": "29ef2c08024d8beb939647315b827fe118797e7fc56c9b1333dc250116a7c2e3"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/register/register.component.scss",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/register/register.component.ts",
+    "sha256": "36f7caab0ce074425462882f08f3f715089e07eae5b91c341dc1ff0f2c2a0553"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.html",
+    "sha256": "c0841b42822a1a589b338636072b705358cd5d0b5dfe0265b8ca4be6f606977d"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.scss",
+    "sha256": "0beb2541cb7f96ff0e991006f0dae1c1d37d1a1adac1944a5619a9c1b5d79842"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.spec.ts",
+    "sha256": "d4fb519024c357fe350da7fddd1af5536e51a2e65342f6e9564607241449b24f"
+  },
+  {
+    "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.ts",
+    "sha256": "6b1ec021de5b8c94bb8bf12463d85ddd0ed5608c2567f936b43b1749d18b4a7e"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/auth.service.ts",
+    "sha256": "271a2367299af737615461a77b7fd1f16f8758665c9b5e18d4b69b15ab841441"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/book-search.service.ts",
+    "sha256": "e0dfc27ff5b1c26e6a7f62d85e1911764d9ff85b582bb5a749cb113be8846004"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/epub-storage.service.ts",
+    "sha256": "e1ca547a9a08888909f92444d5e512556a9ed1d90fd7e36a5e8f5de5b1ea8d6d"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/goal.service.ts",
+    "sha256": "03dbce7c70773339e5db156e79878043e5351c6b705de65754d0998649829759"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/library.service.ts",
+    "sha256": "bc86c2b41fbe40de183b4effd3d19948bd94189c7d3271198bbd3eea3918b450"
+  },
+  {
+    "path": "knygnesys-ui/src/app/services/stats.service.ts",
+    "sha256": "700101d9bd662093c85bed9aafee1b7a402261a21d146d14dcf69339a6c3f4ec"
+  },
+  {
+    "path": "knygnesys-ui/src/index.html",
+    "sha256": "c937916b4b356ee74247cdbec8958760637f776277d2ea888c91a010148b5ba7"
+  },
+  {
+    "path": "knygnesys-ui/src/main.ts",
+    "sha256": "2341253f1a947c37dfa27838951cf7e224f7abb32dff45a8d425f042b5eeed13"
+  },
+  {
+    "path": "knygnesys-ui/src/styles.scss",
+    "sha256": "c7295b915b6a250b910d30ff3b9d1991b6f43c9474d3afafc6cba59eee44383e"
+  },
+  {
+    "path": "knygnesys-ui/tsconfig.app.json",
+    "sha256": "5fd4b1994fe3c2d0d4e2e9f3c21a54912765a4948d0d2048ddf96726889f4692"
+  },
+  {
+    "path": "knygnesys-ui/tsconfig.json",
+    "sha256": "b6445b51aafffbe2fed1026bbe83c8bdf1f9194c928f6bad0db9bad66fa10b4a"
+  },
+  {
+    "path": "knygnesys-ui/tsconfig.spec.json",
+    "sha256": "1e90321d1afed110a815a62074d8b96558ffddabbb87d4a3df6c5de8c372b422"
+  }
+]
