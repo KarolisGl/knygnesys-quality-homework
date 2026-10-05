@@ -1,0 +1,74 @@
+
+> knygnesys-ui@0.0.0 build
+> ng build
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size | Estimated transfer size
+main-EDOEKCHQ.js    | main          | 942.61 kB |               243.54 kB
+styles-JG7EAGFK.css | styles        | 230.85 kB |                22.46 kB
+
+                    | Initial total |   1.17 MB |               266.00 kB
+
+Application bundle generation complete. [7.835 seconds] - 2026-10-05T18:30:42.779Z
+
+▲ [WARNING] bundle initial exceeded maximum budget. Budget 1.00 MB was not met by 173.46 kB with a total of 1.17 MB.
+
+
+▲ [WARNING] src/app/pages/epub-reader/epub-reader.component.scss exceeded maximum budget. Budget 4.00 kB was not met by 1.48 kB with a total of 5.48 kB.
+
+
+▲ [WARNING] src/app/pages/biblioteka/biblioteka.component.scss exceeded maximum budget. Budget 4.00 kB was not met by 2.25 kB with a total of 6.25 kB.
+
+
+▲ [WARNING] Module 'event-emitter' used by 'node_modules/epubjs/src/book.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module '@xmldom/xmldom' used by 'node_modules/epubjs/src/utils/core.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'path-webpack' used by 'node_modules/epubjs/src/utils/url.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'jszip/dist/jszip' used by 'node_modules/epubjs/src/archive.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'localforage' used by 'node_modules/epubjs/src/store.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'marks-pane' used by 'node_modules/epubjs/src/managers/views/iframe.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'lodash/debounce' used by 'node_modules/epubjs/src/managers/continuous/index.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+▲ [WARNING] Module 'lodash/throttle' used by 'node_modules/epubjs/src/managers/helpers/stage.js' is not ESM
+
+  CommonJS or AMD dependencies can cause optimization bailouts.
+  For more information see: https://angular.dev/tools/cli/build#configuring-commonjs-dependencies
+
+
+Output location: /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/dist/knygnesys-ui
+
+npm --prefix /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui run build exit=0

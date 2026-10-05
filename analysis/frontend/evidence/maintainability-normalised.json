@@ -1,0 +1,240 @@
+{
+  "input": "maintainability.json",
+  "formula": "max(0,(171-5.2*ln(V)-0.23*G-16.2*ln(L))*100/171)",
+  "scale": "0..100",
+  "scope": {
+    "sourceRoot": "../../knygnesys-ui/src",
+    "productionTsFiles": 22,
+    "specFilesExcluded": true
+  },
+  "summary": "Median of measured per-file emitted-JavaScript indices; frontend proxy, not whole-system or Visual Studio engine result",
+  "medianFileMINormalised": 46.18301142157224,
+  "files": [
+    {
+      "sourceFile": "app/app.config.ts",
+      "halsteadVolume": 88,
+      "cyclomaticEmittedJS": 1,
+      "logicalLocEmittedJS": 7,
+      "miNormalised": 67.81526558480543
+    },
+    {
+      "sourceFile": "app/app.routes.ts",
+      "halsteadVolume": 284.984,
+      "cyclomaticEmittedJS": 1,
+      "logicalLocEmittedJS": 16,
+      "miNormalised": 56.41018181306313
+    },
+    {
+      "sourceFile": "app/app.ts",
+      "halsteadVolume": 270,
+      "cyclomaticEmittedJS": 4,
+      "logicalLocEmittedJS": 13,
+      "miNormalised": 58.138027030603254
+    },
+    {
+      "sourceFile": "app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "halsteadVolume": 2600.321,
+      "cyclomaticEmittedJS": 13,
+      "logicalLocEmittedJS": 110,
+      "miNormalised": 29.80853166604734
+    },
+    {
+      "sourceFile": "app/components/charts/genres-chart/genres-chart.component.ts",
+      "halsteadVolume": 2138.424,
+      "cyclomaticEmittedJS": 14,
+      "logicalLocEmittedJS": 78,
+      "miNormalised": 33.52551473068768
+    },
+    {
+      "sourceFile": "app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts",
+      "halsteadVolume": 1776.716,
+      "cyclomaticEmittedJS": 11,
+      "logicalLocEmittedJS": 81,
+      "miNormalised": 34.13497620930407
+    },
+    {
+      "sourceFile": "app/components/navbar/navbar.component.ts",
+      "halsteadVolume": 356.122,
+      "cyclomaticEmittedJS": 4,
+      "logicalLocEmittedJS": 22,
+      "miNormalised": 52.31209984676586
+    },
+    {
+      "sourceFile": "app/guards/auth.guard.ts",
+      "halsteadVolume": 189.99,
+      "cyclomaticEmittedJS": 4,
+      "logicalLocEmittedJS": 17,
+      "miNormalised": 56.665317159337896
+    },
+    {
+      "sourceFile": "app/interceptors/credentials.interceptor.ts",
+      "halsteadVolume": 120.928,
+      "cyclomaticEmittedJS": 3,
+      "logicalLocEmittedJS": 10,
+      "miNormalised": 63.200646662121436
+    },
+    {
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts",
+      "halsteadVolume": 8681.517,
+      "cyclomaticEmittedJS": 66,
+      "logicalLocEmittedJS": 275,
+      "miNormalised": 10.333193038340092
+    },
+    {
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts",
+      "halsteadVolume": 7608.781,
+      "cyclomaticEmittedJS": 49,
+      "logicalLocEmittedJS": 210,
+      "miNormalised": 15.575529287300292
+    },
+    {
+      "sourceFile": "app/pages/home/home.ts",
+      "halsteadVolume": 5017.322,
+      "cyclomaticEmittedJS": 42,
+      "logicalLocEmittedJS": 176,
+      "miNormalised": 19.45659119210963
+    },
+    {
+      "sourceFile": "app/pages/login/login.component.ts",
+      "halsteadVolume": 436.398,
+      "cyclomaticEmittedJS": 4,
+      "logicalLocEmittedJS": 23,
+      "miNormalised": 51.27281252208388
+    },
+    {
+      "sourceFile": "app/pages/register/register.component.ts",
+      "halsteadVolume": 466.107,
+      "cyclomaticEmittedJS": 4,
+      "logicalLocEmittedJS": 23,
+      "miNormalised": 51.07253482464067
+    },
+    {
+      "sourceFile": "app/pages/statistika/statistika.component.ts",
+      "halsteadVolume": 8126.166,
+      "cyclomaticEmittedJS": 44,
+      "logicalLocEmittedJS": 275,
+      "miNormalised": 13.493284674802767
+    },
+    {
+      "sourceFile": "app/services/auth.service.ts",
+      "halsteadVolume": 698.807,
+      "cyclomaticEmittedJS": 6,
+      "logicalLocEmittedJS": 33,
+      "miNormalised": 46.15194713933129
+    },
+    {
+      "sourceFile": "app/services/book-search.service.ts",
+      "halsteadVolume": 1488.32,
+      "cyclomaticEmittedJS": 10,
+      "logicalLocEmittedJS": 50,
+      "miNormalised": 39.378438849519426
+    },
+    {
+      "sourceFile": "app/services/epub-storage.service.ts",
+      "halsteadVolume": 2078.015,
+      "cyclomaticEmittedJS": 24,
+      "logicalLocEmittedJS": 98,
+      "miNormalised": 30.10517615026439
+    },
+    {
+      "sourceFile": "app/services/goal.service.ts",
+      "halsteadVolume": 227.549,
+      "cyclomaticEmittedJS": 3,
+      "logicalLocEmittedJS": 14,
+      "miNormalised": 58.090625813565886
+    },
+    {
+      "sourceFile": "app/services/library.service.ts",
+      "halsteadVolume": 1225.342,
+      "cyclomaticEmittedJS": 12,
+      "logicalLocEmittedJS": 42,
+      "miNormalised": 41.352444907504655
+    },
+    {
+      "sourceFile": "app/services/stats.service.ts",
+      "halsteadVolume": 659.919,
+      "cyclomaticEmittedJS": 9,
+      "logicalLocEmittedJS": 32,
+      "miNormalised": 46.21407570381319
+    },
+    {
+      "sourceFile": "main.ts",
+      "halsteadVolume": 46.507,
+      "cyclomaticEmittedJS": 2,
+      "logicalLocEmittedJS": 5,
+      "miNormalised": 72.80770237210389
+    }
+  ],
+  "selectedMethods": [
+    {
+      "name": "loadEpub",
+      "lineStart": 42,
+      "lineEnd": 97,
+      "cyclomatic": 6,
+      "halsteadVolume": 1552.494,
+      "logicalLoc": 48,
+      "physicalLoc": 56,
+      "maintainabilityManual": 68.69893028814968,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts",
+      "miNormalised": 40.174813034005666
+    },
+    {
+      "name": "applyFilters",
+      "lineStart": 58,
+      "lineEnd": 77,
+      "cyclomatic": 5,
+      "halsteadVolume": 404.015,
+      "logicalLoc": 20,
+      "physicalLoc": 20,
+      "maintainabilityManual": 90.11158673730453,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts",
+      "miNormalised": 52.69683434930089
+    },
+    {
+      "name": "resolveStatus",
+      "lineStart": 210,
+      "lineEnd": 216,
+      "cyclomatic": 5,
+      "halsteadVolume": 124,
+      "logicalLoc": 5,
+      "physicalLoc": 7,
+      "maintainabilityManual": 118.71164167742137,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts",
+      "miNormalised": 69.4220126768546
+    },
+    {
+      "name": "onKeydown",
+      "lineStart": 146,
+      "lineEnd": 153,
+      "cyclomatic": 4,
+      "halsteadVolume": 140,
+      "logicalLoc": 9,
+      "physicalLoc": 8,
+      "maintainabilityManual": 108.78842124958489,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts",
+      "miNormalised": 63.61895979507888
+    },
+    {
+      "name": "syncProgress",
+      "lineStart": 187,
+      "lineEnd": 196,
+      "cyclomatic": 3,
+      "halsteadVolume": 271.029,
+      "logicalLoc": 8,
+      "physicalLoc": 10,
+      "maintainabilityManual": 107.4914727284191,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts",
+      "miNormalised": 62.86051036749655
+    }
+  ],
+  "rejectedWholeCorpus": {
+    "summedInputs": {
+      "cyclomatic": 330,
+      "halsteadVolume": 44586.23499999999,
+      "logicalLoc": 1610,
+      "physicalLoc": 1572,
+      "maintainabilityManual": 0
+    },
+    "reason": "Applying one-file formula to the whole codebase sum is size-biased and not a defensible whole-system quality verdict."
+  }
+}

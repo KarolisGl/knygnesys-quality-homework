@@ -1,0 +1,53 @@
+
+> knygnesys-ui@0.0.0 lint
+> eslint .
+
+
+/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/src/app/app.ts
+  12:15  error  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts
+   31:13  error    Output bindings, including aliases, should not be named as standard DOM events     @angular-eslint/no-output-native
+   67:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   69:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   79:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   81:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   83:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   86:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   88:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   91:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+   97:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+  101:7   warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+
+/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/src/app/pages/home/home.html
+   17:44  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   24:66  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   27:46  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   30:42  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   35:40  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   37:40  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   41:38  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   42:57  error  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+   44:31  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   45:48  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   51:51  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   52:49  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   58:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   59:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   60:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   67:43  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   72:51  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   77:49  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   81:38  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   82:57  error  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+   84:31  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   85:48  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   91:51  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   97:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   98:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   99:36  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  106:43  error  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+
+✖ 39 problems (29 errors, 10 warnings)
+
+npm --prefix /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui run lint exit=1

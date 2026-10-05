@@ -58,4 +58,18 @@ Frontend: `npm run test -- --watch=false`, `npm run build`, `npm run lint`, `npx
 Backend: `bash mvnw test`, `bash mvnw package`.
 Saved failures are kept as failures. A compiler pass is not a claim that lint passes; a smoke test is not proof of complete coverage.
 
+## Local SonarQube and recorded findings
+
+The real SonarQube Community Build instance is at `http://localhost:19000/dashboard?id=knygnesys-homework` on the prepared machine, bound to loopback only. Server version: `26.9.0.129388`; SonarScanner CLI: `8.1.0.6389`. This uses H2 for evaluation, not production. The guide contains the pinned image digest, first-start procedure and token-safe scanner commands.
+
+Run `bash analysis/run_sonar.sh` with `SONAR_TOKEN` and an official scanner available, then `python3 analysis/export_sonar.py` for the public local project's evidence. Native MQR results: maintainability A, reliability D, security D; 85 unique findings. Maintainability debt ratio: 0.1%, estimated effort: 192 minutes. Impact categories overlap and must not be summed as unique findings. The repeat scan's gate is OK because new-code `new_violations` is zero at a zero threshold; existing findings remain. No coverage report was imported. Neither result is a full quality/coverage guarantee. Scanner semantic warnings are preserved in its log.
+
+Supporting measurements remain separate: ESLint/SonarJS method metrics, TypeScript import graph, emitted-JavaScript MI and an explicitly scoped Java AST decision counter. `analysis/frontend/scripts/reproduce-analysis.sh` and `analysis/measure_java_structure.py` reproduce those. Install the Java parser's pinned Python dependencies from `analysis/requirements.txt` in an isolated environment. Existing lint violations are reported, not relabelled as successful checks.
+
+## Document verification and remaining student work
+
+The report was opened and saved through LibreOffice, its real contents index and page fields were refreshed, and its rendered PDF used embedded Times New Roman. The standalone HTML guide was rendered at desktop and mobile widths with no horizontal page overflow or JavaScript errors. `analysis/deliverable-ad-hoc.json` labels these focused checks as ad-hoc verification, not whole-suite success. Source hashes matched the preserved manifest.
+
+The university's current general process document delegates detailed formatting to faculties/departments. Since the team's department is unspecified, exact template compliance is **unverified**; the report appendix and `analysis/formatting-provisional.md` state explicit academic layout defaults. Complete the first page and actual reviewer attribution; confirm any department-specific template before submission. No student review or before/after code improvement is fabricated.
+
 No new licence is imposed on the original source. Publication is for the requested academic analysis; existing source notices are retained.

@@ -1,0 +1,37 @@
+
+> knygnesys-ui@0.0.0 test
+> ng test --watch=false
+
+❯ Building...
+✔ Building...
+Initial chunk files                                                                 | Names                                                                            |  Raw size
+styles.css                                                                          | styles                                                                           | 276.97 kB | 
+spec-app-pages-statistika-statistika.component.js                                   | spec-app-pages-statistika-statistika.component                                   |  45.01 kB | 
+chunk-OIKQYCPM.js                                                                   | -                                                                                |   8.71 kB | 
+chunk-7UJ7MJQ5.js                                                                   | -                                                                                |   8.50 kB | 
+chunk-WPAQSGAS.js                                                                   | -                                                                                |   7.21 kB | 
+chunk-CGZBV6BD.js                                                                   | -                                                                                |   4.07 kB | 
+spec-app-components-charts-genres-chart-genres-chart.component.js                   | spec-app-components-charts-genres-chart-genres-chart.component                   |   2.87 kB | 
+spec-app-components-charts-pages-per-day-chart-pages-per-day-chart.component.js     | spec-app-components-charts-pages-per-day-chart-pages-per-day-chart.component     |   2.31 kB | 
+spec-app-components-charts-books-per-month-chart-books-per-month-chart.component.js | spec-app-components-charts-books-per-month-chart-books-per-month-chart.component |   2.10 kB | 
+init-testbed.js                                                                     | init-testbed                                                                     |   1.21 kB | 
+vitest-mock-patch.js                                                                | vitest-mock-patch                                                                | 704 bytes | 
+
+                                                                                    | Initial total                                                                    | 359.67 kB
+
+Application bundle generation complete. [2.459 seconds] - 2026-10-05T18:30:45.903Z
+
+
+[1m[46m RUN [49m[22m [36mv4.1.1 [39m[90m/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui[39m
+
+ [32m✓[39m [30m[43m knygnesys-ui [49m[39m src/app/components/charts/books-per-month-chart/books-per-month-chart.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 117[2mms[22m[39m
+ [32m✓[39m [30m[43m knygnesys-ui [49m[39m src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 127[2mms[22m[39m
+ [32m✓[39m [30m[43m knygnesys-ui [49m[39m src/app/components/charts/genres-chart/genres-chart.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 153[2mms[22m[39m
+ [32m✓[39m [30m[43m knygnesys-ui [49m[39m src/app/pages/statistika/statistika.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 418[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m17 passed[39m[22m[90m (17)[39m
+[2m   Start at [22m 21:30:46
+[2m   Duration [22m 1.73s[2m (transform 434ms, setup 1.27s, import 476ms, tests 814ms, environment 2.72s)[22m
+
+npm --prefix /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui test -- --watch=false exit=0

@@ -1,0 +1,5 @@
+{
+  "output": "{\n  \"verification\": \"ad-hoc, not a test-suite result\",\n  \"scan\": \"SUCCESS\",\n  \"languages\": {\n    \"java\": 52,\n    \"ts\": 22,\n    \"web\": 9,\n    \"css\": 11\n  },\n  \"public_dashboard_http\": 200,\n  \"browser_js_errors\": [],\n  \"maintainability_rating\": \"A\",\n  \"reliability_rating\": \"4.0\",\n  \"security_rating\": \"4.0\",\n  \"dashboard_title\": \"Overview\"\n}",
+  "exit_code": 0,
+  "error": null
+}

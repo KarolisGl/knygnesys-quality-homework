@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Knygnesys — run and defence guide</title><style>
+:root{color-scheme:light;--ink:#1b2330;--muted:#536071;--line:#d2d8e0;--accent:#183d61}
+*{box-sizing:border-box}body{margin:0;background:#eef1f5;color:var(--ink);font:12pt/1.5 "Times New Roman",Times,serif}
+a{color:#154f83;overflow-wrap:anywhere}header{background:#183d61;color:white;padding:24px max(24px,calc((100vw - 1120px)/2))}header p{margin:0;max-width:72ch}header a{color:white}.layout{display:grid;grid-template-columns:250px minmax(0,870px);max-width:1160px;margin:24px auto;gap:24px;padding:0 20px}
+nav{font:14px/1.4 Arial,sans-serif;position:sticky;top:16px;align-self:start;max-height:95vh;overflow:auto;padding:16px;background:white;border:1px solid var(--line)}nav ul{padding-left:16px}nav li{margin:8px 0}main{background:white;padding:40px 46px;border:1px solid var(--line);min-width:0}h1{font-size:22pt;line-height:1.2}h2{font-size:16pt;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:6px;margin-top:32px;scroll-margin-top:20px}h3{font-size:13pt;scroll-margin-top:20px}p,li{max-width:85ch}li{margin-bottom:6px}pre{background:#f3f5f7;border-left:3px solid var(--accent);padding:14px;overflow:auto;font:10pt/1.5 "Liberation Mono",monospace;white-space:pre}code{font:10pt/1.4 "Liberation Mono",monospace;overflow-wrap:anywhere}pre code{overflow-wrap:normal}table{border-collapse:collapse;width:100%;font-size:10.5pt;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}th{background:#eef2f6}blockquote{border-left:3px solid var(--accent);margin-left:0;padding:10px 18px;background:#f3f5f7}.skip{position:absolute;left:-9999px}.skip:focus{left:10px;top:10px;background:white;color:black;padding:10px}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:16px;color:var(--muted);font-size:10pt}
+@media(max-width:850px){.layout{display:block;padding:0 12px}nav{position:static;max-height:none;margin-bottom:16px}main{padding:24px 18px}h1{font-size:19pt}}
+@page{size:A4;margin:20mm 10mm 20mm 30mm}@media print{body{background:white;color:black;font-size:12pt}.layout{display:block;margin:0;padding:0}header,nav,.skip{display:none}main{border:0;padding:0}h1{font-size:14pt}h2{font-size:14pt;color:black;break-before:page}h3{font-size:12pt;color:black}pre{white-space:pre-wrap;overflow:visible;font-size:9pt}table{display:table;font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}a{color:black}h2,h3{break-after:avoid}}
+</style></head><body><a class="skip" href="#content">Skip to guide</a><header><p>Code-quality homework · two-person team · English explanation</p><p><a href="https://github.com/KarolisGl/knygnesys-quality-homework">Public source and evidence repository</a></p></header><div class="layout"><nav aria-label="Contents"><strong>Contents</strong><div class="toc">
+<ul>
+<li><a href="#read-this-before-the-defence">Read this before the defence</a><ul>
+<li><a href="#what-you-must-be-able-to-show">What you must be able to show</a></li>
+</ul>
+</li>
+<li><a href="#repository-layout-and-the-evidence-chain">Repository layout and the evidence chain</a></li>
+<li><a href="#prerequisites-and-safe-local-setup">Prerequisites and safe local setup</a><ul>
+<li><a href="#start-the-disposable-database">Start the disposable database</a></li>
+<li><a href="#apply-the-database-schema-once">Apply the database schema once</a></li>
+<li><a href="#build-and-start-the-backend">Build and start the backend</a></li>
+<li><a href="#install-and-start-the-frontend">Install and start the frontend</a></li>
+<li><a href="#stop-your-demonstration-cleanly">Stop your demonstration cleanly</a></li>
+</ul>
+</li>
+<li><a href="#reproduce-builds-tests-and-static-checks">Reproduce builds, tests and static checks</a></li>
+<li><a href="#understand-cyclomatic-complexity">Understand cyclomatic complexity</a><ul>
+<li><a href="#do-not-confuse-path-count-with-universal-test-count">Do not confuse path count with universal test count</a></li>
+</ul>
+</li>
+<li><a href="#understand-cognitive-complexity">Understand cognitive complexity</a></li>
+<li><a href="#understand-the-maintainability-index">Understand the maintainability index</a></li>
+<li><a href="#explain-structure-cohesion-and-coupling">Explain structure, cohesion and coupling</a></li>
+<li><a href="#interpret-static-findings-critically">Interpret static findings critically</a></li>
+<li><a href="#perform-and-defend-each-team-members-review">Perform and defend each team member's review</a></li>
+<li><a href="#suggested-live-presentation-sequence">Suggested live presentation sequence</a></li>
+<li><a href="#defence-questions-and-worked-answers">Defence questions and worked answers</a><ul>
+<li><a href="#why-did-you-choose-this-system">Why did you choose this system?</a></li>
+<li><a href="#why-do-the-two-complexity-values-differ">Why do the two complexity values differ?</a></li>
+<li><a href="#is-the-number-of-tests-equal-to-cyclomatic-complexity">Is the number of tests equal to cyclomatic complexity?</a></li>
+<li><a href="#why-not-use-ai-to-provide-the-metric-values">Why not use AI to provide the metric values?</a></li>
+<li><a href="#why-is-the-maintainability-score-not-a-whole-system-grade">Why is the maintainability score not a whole-system grade?</a></li>
+<li><a href="#why-can-a-passing-test-suite-coexist-with-defects">Why can a passing test suite coexist with defects?</a></li>
+<li><a href="#did-you-fix-all-reported-issues">Did you fix all reported issues?</a></li>
+<li><a href="#which-fix-should-come-first">Which fix should come first?</a></li>
+<li><a href="#could-an-analyser-be-wrong">Could an analyser be wrong?</a></li>
+<li><a href="#what-does-low-inheritance-depth-prove">What does low inheritance depth prove?</a></li>
+<li><a href="#why-are-you-not-using-sonarqubes-maintainability-rating">Why are you not using SonarQube's maintainability rating?</a></li>
+<li><a href="#can-you-reproduce-the-results-on-another-machine">Can you reproduce the results on another machine?</a></li>
+<li><a href="#what-did-ai-do">What did AI do?</a></li>
+</ul>
+</li>
+<li><a href="#troubleshooting-without-hiding-failures">Troubleshooting without hiding failures</a></li>
+<li><a href="#submission-and-personal-preparation-checklist">Submission and personal preparation checklist</a></li>
+<li><a href="#recorded-results-and-a-reproducible-sonarqube-demonstration">Recorded results and a reproducible SonarQube demonstration</a><ul>
+<li><a href="#what-actually-ran">What actually ran</a></li>
+<li><a href="#start-or-reopen-the-local-sonarqube-instance">Start or reopen the local SonarQube instance</a></li>
+<li><a href="#install-the-official-scanner">Install the official scanner</a></li>
+<li><a href="#run-the-scan-without-putting-credentials-in-command-history">Run the scan without putting credentials in command history</a></li>
+<li><a href="#export-the-same-evidence">Export the same evidence</a></li>
+<li><a href="#reproduce-the-supporting-frontend-and-java-metrics">Reproduce the supporting frontend and Java metrics</a></li>
+<li><a href="#reproduce-the-http-scenario">Reproduce the HTTP scenario</a></li>
+<li><a href="#a-minimal-live-defence-route-for-the-two-students">A minimal live defence route for the two students</a></li>
+</ul>
+</li>
+<li><a href="#sources-used-in-this-guide">Sources used in this guide</a></li>
+</ul>
+</div>
+</nav><main id="content"><h1 id="knygnesys-run-reproduce-and-defend-the-homework">Knygnesys — run, reproduce and defend the homework</h1>
+<h2 id="read-this-before-the-defence">Read this before the defence</h2>
+<p>This guide supports the Lithuanian report <strong>Knygnesys_ataskaita.docx</strong>. It is not a replacement for understanding the code. The assignment permits AI assistance but requires every code-quality claim to be checked with tools, source inspection or tests. Keep the conversation that produced the work and disclose its use. Never tell the lecturer that an AI-written review was independently performed by a named student unless that student actually checked it.</p>
+<p>The analysed project is a book-reading and library-management system. Its frontend is Angular and TypeScript; its backend is Java and Spring Boot; its database is PostgreSQL. The public homework copy preserves the analysed Java and TypeScript source. It deliberately replaces private configuration and the original administrator seed. This is a safe demonstration copy, not a production deployment.</p>
+<p>Your title page is yours to complete. Add the real faculty, department, course, student names, study group, lecturer and submission date. This is a two-person team. Each student gets one distinct review fragment with four recommendations. Each must read their fragment, check each claim, record their name and be able to defend their own recommendations. Do not invent participants or signatures.</p>
+<h3 id="what-you-must-be-able-to-show">What you must be able to show</h3>
+<ul>
+<li>The public repository and the exact source revision used for the analysis.</li>
+<li>A running application, not just screenshots of code.</li>
+<li>The tool names, installed versions, configurations and input scope.</li>
+<li>Both cyclomatic and cognitive complexity for the selected methods.</li>
+<li>At least one hand calculation of cyclomatic complexity.</li>
+<li>The maintainability formula, its measured inputs and its limitations.</li>
+<li>Object-oriented or module structure metrics, cohesion and coupling.</li>
+<li>Results from at least two static analysis tools, including results that found no errors.</li>
+<li>Distinct findings with locations, consequences and suitable fixes.</li>
+<li>Test results, including failed checks. An expected lint exit is different from a failed tool installation.</li>
+<li>Separate code-review work for each team member.</li>
+<li>Evidence-based conclusions, rather than a claim that all code is good or all code is bad.</li>
+</ul>
+<h2 id="repository-layout-and-the-evidence-chain">Repository layout and the evidence chain</h2>
+<p>The source directories are <code>knygnesys-ui/</code>, <code>knygnesys-app/</code> and <code>db-migration/</code>. The <code>analysis/</code> directory contains configurations, scripts and saved tool output. The two deliverable documents are in <code>deliverables/</code>.</p>
+<p><code>analysis/source-manifest.json</code> identifies original files copied without changes using SHA-256 hashes. The manifest is not a security certificate. It lets you compare the analysed source with the publication copy. The public copy omits local agent settings, deployment workflows, Postman collections and original credential-bearing files. It does not claim to reproduce the original Git history; the starting workspace was an archive with no <code>.git</code> directory.</p>
+<p>There are three different evidence categories:</p>
+<ol>
+<li><strong>Executed measurement:</strong> a tool read the code and produced saved output. Use this for numerical results and analyser findings.</li>
+<li><strong>Executed behavioural check:</strong> tests or HTTP requests ran against the program. Use this for the behaviour actually exercised.</li>
+<li><strong>Manual review or proposed change:</strong> the source suggests a risk or improvement. Explain the reasoning, but do not call a suggested fix implemented or a risk an exploited vulnerability without additional proof.</li>
+</ol>
+<p>Keep the distinction visible during your presentation. A passing test can support one scenario without proving every input safe. A tool warning is a candidate problem, not a final verdict. A compiler finding and a style warning do not have the same meaning.</p>
+<h2 id="prerequisites-and-safe-local-setup">Prerequisites and safe local setup</h2>
+<p>Use Git, a supported Node.js runtime with npm, a <strong>JDK</strong> for Java twenty-one, Python three and Podman. A JRE alone is not sufficient to compile Java. Maven is available through the backend wrapper. On a different operating system, Docker can replace Podman, but you must also change the database script's executable and container invocation; the supplied path was tested with Podman on Linux.</p>
+<p>Check your tools before running the project:</p>
+<pre><code class="language-bash">git --version
+node --version
+npm --version
+java -version
+javac -version
+python3 --version
+podman --version
+</code></pre>
+<p>If <code>java</code> works but <code>javac</code> is missing, install or select a JDK. If the machine chooses a newer incompatible Java runtime, set <code>JAVA_HOME</code> to your Java twenty-one JDK and add its <code>bin</code> directory to <code>PATH</code>. Do not change the project's target version just to make an unrelated runtime work. The actual Java path used for the recorded run is listed in the evidence summary.</p>
+<p>Clone the public repository, then enter its root. All commands below state the directory in which they must run. If you obtain an archive rather than cloning, there is no source revision history until you initialise Git; use the published repository for the defence.</p>
+<h3 id="start-the-disposable-database">Start the disposable database</h3>
+<p>Run from the repository root:</p>
+<pre><code class="language-bash">podman run -d --name knygnesys-homework-db \
+  -p 127.0.0.1:15432:5432 \
+  -e POSTGRES_USER=knygnesys_demo \
+  -e POSTGRES_DB=knygnesys_homework \
+  -e POSTGRES_HOST_AUTH_METHOD=trust \
+  docker.io/library/postgres:15
+podman exec knygnesys-homework-db pg_isready \
+  -U knygnesys_demo -d knygnesys_homework
+</code></pre>
+<p>Wait until the readiness command says the database accepts connections. If the container already exists, use <code>podman start knygnesys-homework-db</code>; do not create another database with the same name. If the host port is occupied, change the host port and set <code>DB_URL</code> to match. Do not stop unrelated containers.</p>
+<p><strong>Safety limit:</strong> this disposable example deliberately uses PostgreSQL trust authentication. The port is bound only to loopback. Do not change the binding to all network interfaces. Do not use it with real users, production data or a shared server. The application itself has security weaknesses discussed in the review. Do not reuse real account passwords in this demonstration.</p>
+<h3 id="apply-the-database-schema-once">Apply the database schema once</h3>
+<p>Run from the repository root, against the empty disposable database:</p>
+<pre><code class="language-bash">python3 analysis/setup_database.py
+</code></pre>
+<p>This script runs the included SQL migrations through <code>psql</code> inside the container in numeric order and in one transaction. It refuses to continue if public tables already exist. That refusal prevents accidental reapplication or destructive changes. The demonstration does <strong>not</strong> use Flyway and does not create Flyway's schema-history table. The original project organises the SQL as Flyway migrations; the homework runner makes a fresh database reproducible without publishing the original Flyway credentials. Do not point Flyway at this already-initialised demo and claim it created the database.</p>
+<p>The original administrator insert was excluded. Its public replacement is a no-op SQL statement. Register a fresh throwaway account through the application instead.</p>
+<p>To reset this dedicated demo, stop the backend first. Only when you no longer need the demo data, remove <strong>this named container</strong> and recreate it. Do not run a global prune or delete another project's volumes.</p>
+<pre><code class="language-bash">podman stop knygnesys-homework-db
+podman rm knygnesys-homework-db
+</code></pre>
+<p>Then repeat database creation and schema setup. This container was not given a named persistent volume; deleting it discards its demo database.</p>
+<h3 id="build-and-start-the-backend">Build and start the backend</h3>
+<p>Run from <code>knygnesys-app/</code>:</p>
+<pre><code class="language-bash">bash mvnw test
+bash mvnw package
+java -jar target/knygnesys-app-0.0.1-SNAPSHOT.jar
+</code></pre>
+<p>Keep the backend terminal open. Wait for Spring Boot's started message. It listens on <code>http://localhost:10032</code>. The public <code>application.yaml</code> uses <code>jdbc:postgresql://127.0.0.1:15432/knygnesys_homework</code>, the demonstration user and no private password. Environment variables can override the database URL, user and password. Do not put real secrets in Git or in screenshots.</p>
+<p>The mail sender points to a local SMTP endpoint. No real mail credentials are published. The inactivity reminder is not proved by an authentication/library smoke test. Do not promise the lecturer that mail was delivered unless you actually supply a local mail sink and test that scenario.</p>
+<p>If the wrapper is not executable, <code>bash mvnw</code> works without changing permissions. The wrapper may download Maven and project dependencies on the first run. Complete that download before the defence. A network outage during an uncached first run is a setup failure, not proof of a code defect.</p>
+<h3 id="install-and-start-the-frontend">Install and start the frontend</h3>
+<p>In a second terminal, run from <code>knygnesys-ui/</code>:</p>
+<pre><code class="language-bash">npm ci
+npm run start -- --host 127.0.0.1
+</code></pre>
+<p>Open <code>http://localhost:4200</code>. Use <code>localhost</code> in the browser when demonstrating backend session requests, because the source CORS configuration expects that origin. If the server binds to loopback, the <code>localhost</code> address still reaches it. Mixing <code>127.0.0.1</code> and <code>localhost</code> in origins can produce CORS or cookie problems; these are different origins.</p>
+<p>Register a throwaway user, log in, open the library and statistics pages. The backend uses session cookies, not a JWT. A library request before authentication should be rejected. Book search and recommendations depend on Open Library. If that external service fails, distinguish an external dependency failure from a local compile failure. Local library smoke tests use a directly supplied book payload so they do not need Open Library to return a particular result.</p>
+<h3 id="stop-your-demonstration-cleanly">Stop your demonstration cleanly</h3>
+<p>Use Ctrl+C in the frontend and backend terminals. Then run <code>podman stop knygnesys-homework-db</code>. Do not stop other running user services. If you need the demonstration again, start the existing database container and relaunch the backend and frontend. Do not reapply migrations to its existing tables.</p>
+<h2 id="reproduce-builds-tests-and-static-checks">Reproduce builds, tests and static checks</h2>
+<p>The exact commands for the recorded analyser and metric runs are in the evidence summary below. The general project checks are:</p>
+<pre><code class="language-bash"># From knygnesys-ui/
+npm run build
+npm run test -- --watch=false
+npm run lint
+npx tsc --noEmit -p tsconfig.app.json
+
+# From knygnesys-app/
+bash mvnw test
+bash mvnw package
+</code></pre>
+<p><code>npm run test -- --watch=false</code> runs the Angular test target once. Do not leave a watch process open and call it a finished test run. The production build also checks templates and styles, and it can fail because of configured size budgets even if TypeScript compilation passes. Check the exit code and the actual output. The development build and the production build are not interchangeable.</p>
+<p>ESLint may exit nonzero because it found configured rule violations. In an analysis task, that is useful evidence. A fatal configuration error, by contrast, means the analysis did not run. Keep the command, exit code, rule identifiers and report file together. Do not silence rules merely to get a green output for the presentation.</p>
+<p>A threshold of zero in a complexity-only analyser configuration intentionally reports every function with nonzero complexity. Those diagnostic messages are <strong>measurement output</strong>, not proof that every reported function is defective. The normal quality-analysis configuration is separate. Preserve the configuration that produced each output.</p>
+<p>The TypeScript compiler is a second kind of static check. It checks types before execution.[8] A clean compiler result is meaningful even when ESLint reports stylistic or maintainability problems. The primary shared analyser is now the real local SonarQube server; it uses compiled Java classes as well as source and has a native maintainability rating.[5][6] ESLint and its SonarJS plugin remain separate supporting checks, not a substitute advertised as that server.</p>
+<h2 id="understand-cyclomatic-complexity">Understand cyclomatic complexity</h2>
+<p>Cyclomatic complexity estimates the number of linearly independent paths in a control-flow graph. ESLint's complexity rule implements a language-specific convention, including branches introduced by optional chaining and default values.[3] Do not mix its values with a manual convention that ignores those constructs without explaining the difference.</p>
+<p>For a simple single-entry function, the practical counting model is a base path plus counted decision points. A decision can be an <code>if</code>, a loop condition, a case, a catch or a short-circuit expression, depending on the tool. A return is not automatically another decision. A comparison expression is not automatically another branch unless it controls execution.</p>
+<p><strong>Defence wording:</strong> “I use the reported tool convention. I check one method by listing each increment. I do not infer runtime speed or security from the number.”</p>
+<p>The classical graph formula is <code>V(G) = E - N + 2P</code>, where <code>E</code> is the edge count, <code>N</code> the node count and <code>P</code> the number of connected components. For a usual single connected function, <code>P</code> is one. You do not need to draw every low-level syntax node if you give an explicit decision-point calculation consistent with the selected analyser.</p>
+<h3 id="do-not-confuse-path-count-with-universal-test-count">Do not confuse path count with universal test count</h3>
+<p>The metric provides a basis-path testing target under the chosen control-flow model. It is not the exact minimum number of tests for every coverage criterion. A single test may cover several decisions. A branch can be infeasible under some input constraints. Loops admit many iteration counts, and complete execution-path coverage may be impossible. Exceptions, boundary values and external failures add scenarios that the simple basis-path model does not fully describe.</p>
+<p>State the criterion before stating a minimum. Explain which input makes each planned path execute and which assertions detect a wrong result. Do not say that a method with complexity five is completely tested just because there are five tests anywhere in the project. Tests must actually invoke that method and exercise the relevant branches.</p>
+<h2 id="understand-cognitive-complexity">Understand cognitive complexity</h2>
+<p>Cognitive complexity estimates the difficulty of following control flow, not the number of independent paths. SonarSource's method increments for breaks in linear flow, adds nesting costs and discounts readable shorthand.[1] The method declaration itself does not add the base point that cyclomatic complexity has. Ordinary early returns can make a function clearer without adding cognitive points.</p>
+<p>Nested loops and conditions are harder to hold in mind than a flat sequence of checks. This is why two functions can have the same cyclomatic score and different cognitive scores. The metric is still an approximation. Good names, data structure choice, domain knowledge and unsafe I/O can affect understanding without a matching change in the score.</p>
+<p>Watch the language implementation. Logical-expression treatment, nested callbacks, lambdas, optional chaining and null-coalescing can produce differences across analysers and versions. For a hand count, show the increments. For a tool count, show the rule and version. Do not advertise a home-written counter as the official SonarQube engine.</p>
+<p><strong>Defence wording:</strong> “Cyclomatic complexity helps plan control-flow tests. Cognitive complexity helps prioritise methods that are hard to read. Neither metric alone proves code quality.”</p>
+<h2 id="understand-the-maintainability-index">Understand the maintainability index</h2>
+<p>The Microsoft-normalised maintainability index combines Halstead volume, cyclomatic complexity and lines of code:[4]</p>
+<p><code>MI = max(0, (171 - 5.2 × ln(V) - 0.23 × G - 16.2 × ln(L)) × 100 / 171)</code></p>
+<p><code>V</code> is the Halstead volume, <code>G</code> the chosen cyclomatic-complexity aggregate and <code>L</code> the measured lines of code. <code>ln</code> means natural logarithm, not base-ten logarithm. Halstead volume depends on counted operators and operands. Tokenisation and aggregation choices therefore matter.</p>
+<p>The same formula can yield different values when one tool includes comments, another excludes them, or one uses per-method averages and another uses whole-module totals. The report states which variant was actually calculated. Do not substitute a different tool's colour threshold or compare a raw index on a roughly one-hundred-seventy-one-point scale with a normalised index on a one-hundred-point scale.</p>
+<p>Microsoft's published bands are low below ten, moderate from ten through nineteen, and good from twenty through one hundred.[2][4] These broad bands do not mean a value of twenty-one is excellent or that a value of seventy proves a system safe. The bands come from Microsoft's model. If we calculate the formula on JavaScript/TypeScript-derived inputs, the result is a documented application of that formula, not a measurement made by Visual Studio on this Angular application.</p>
+<p>Transpilation adds an important limit. JavaScript output can omit TypeScript types and add decorators or helper code. A maintainability value on that output is a proxy for the analysed frontend representation. It is not automatically an exact score for the hand-written TypeScript and certainly not a score for the complete Java-plus-database-plus-frontend system.</p>
+<p><strong>Defence wording:</strong> “This value applies to the declared input scope. I show the measured inputs and formula. I use it to compare hotspots, not to replace review, testing or security analysis.”</p>
+<h2 id="explain-structure-cohesion-and-coupling">Explain structure, cohesion and coupling</h2>
+<p><strong>Cohesion</strong> asks whether a component's responsibilities belong together. <strong>Coupling</strong> asks how strongly it depends on other components. High cohesion and controlled coupling usually help a maintainer change one concern without changing many unrelated parts. Microsoft explicitly connects high cohesion and low coupling with good software design.[2]</p>
+<p>In Knygnesys, feature-oriented backend packages separate authentication, library, goals, statistics and recommendations. Controllers delegate to services and repositories handle persistence. That is a useful structure. A library service can still combine database state, filesystem actions and status calculations in one class, even when its package name is tidy. A frontend component can still combine search, filters, upload state and reader state. Package separation is not sufficient proof of single responsibility.</p>
+<p>For every numerical structure metric, state its definition:</p>
+<ul>
+<li><strong>WMC:</strong> often the sum of method complexities. Some tools count methods with unit weight. These are not the same number. Say which version you used and whether constructors, generated methods and lambdas are included.</li>
+<li><strong>CBO:</strong> number of distinct coupled classes under the selected definition. An import count is an import-based proxy, not a resolved type-use CBO. Framework and standard-library exclusions can change the result.</li>
+<li><strong>RFC:</strong> response set size, often methods declared in the class plus distinct methods it can call. A shallow source-call count is not a transitive response set. Dynamic dispatch and generated code complicate it.</li>
+<li><strong>DIT:</strong> depth of the inheritance chain. Counting application superclasses differs from counting implicit <code>Object</code>, framework bases or implemented interfaces.</li>
+<li><strong>NOC:</strong> immediate subclasses. An interface's implementers are not always counted as children under the same definition.</li>
+<li><strong>Fan-in/fan-out:</strong> incoming and outgoing dependencies. Explain whether the graph covers local imports only or external libraries too.</li>
+</ul>
+<p>A high value is a reason to inspect, not automatically a defect. Framework-based application code needs some coupling. Adding abstraction interfaces everywhere merely to reduce a number can make a small project harder to understand. Prefer an actual seam needed for tests or a real responsibility boundary.</p>
+<h2 id="interpret-static-findings-critically">Interpret static findings critically</h2>
+<p>For each selected finding, show the original code location and rule identifier. Explain the impact in terms of behaviour or maintenance. Propose a fix that fits this program. Name a check that would verify the fix, and say whether you actually applied it.</p>
+<p>Use this five-part answer:</p>
+<ol>
+<li><strong>Observation:</strong> the tool reports a specific rule at a specific location.</li>
+<li><strong>Source check:</strong> the relevant construct is present in the analysed revision.</li>
+<li><strong>Impact:</strong> explain why it matters here; identify assumptions.</li>
+<li><strong>Fix:</strong> suggest the smallest suitable change, with trade-offs.</li>
+<li><strong>Verification:</strong> run the analyser again and test the relevant behaviour before calling it fixed.</li>
+</ol>
+<p>Examples of important distinctions:</p>
+<ul>
+<li>Locale-dependent lowercasing can change search matching under a different default locale. <code>Locale.ROOT</code> is suitable for locale-neutral keys, but human-language search rules can need a more explicit linguistic policy. Do not apply it blindly everywhere.</li>
+<li>Catching every <code>Exception</code> can hide diagnostic detail. In a scheduled batch, catching per-user failures can still be intentional so one failure does not abort all users. Improve the exception handling and logging rather than removing resilience without thought.</li>
+<li>Generated Lombok getters that expose mutable objects can produce SpotBugs warnings. Decide whether the object is intended to be mutable and whether a defensive copy is appropriate. Do not blindly make JPA entities immutable or remove all generated accessors.</li>
+<li>Empty callbacks and logging-only failures can leave a UI inconsistent. An error handler must change the relevant user-visible state, not merely print a message.</li>
+<li>Weak password storage or disabled CSRF can be serious review findings even when an analyser does not report them. Label them as manual security review unless a tool actually emitted the relevant rule.</li>
+</ul>
+<p>A long list of repeated warnings is not better analysis. Group repeated cases, then analyse different mechanisms deeply. Do not count the same problem in several files as several distinct problem types just to meet the rubric.</p>
+<h2 id="perform-and-defend-each-team-members-review">Perform and defend each team member's review</h2>
+<p>Google's review guidance asks reviewers to examine design, functionality, complexity, tests, naming and context, rather than only formatting.[7] Read the whole selected fragment and its callers. Check whether the proposal creates a new problem in a sibling call path.</p>
+<p>This is a two-person team. The report provides exactly two review fragments: backend library progress/filesystem logic and frontend reader lifecycle/settings. Each member takes one different fragment, writes a short review record and confirms or rejects the provided suggestions. Each person has four concrete recommendations supported by source evidence. This meets the three-to-five recommendation requirement without adding a third reviewer or an unnecessary review fragment. The shared metric and static-analysis requirements still apply in full.</p>
+<p>For each recommendation, answer:</p>
+<ul>
+<li>Which concern is mixed with another concern?</li>
+<li>Which invariant must remain true?</li>
+<li>Which caller depends on the current behaviour?</li>
+<li>Which design principle is relevant, and why is it useful here?</li>
+<li>Would the change reduce complexity, improve coupling or increase testability?</li>
+<li>Could the metric stay the same while behaviour improves?</li>
+<li>Which regression test would detect a bad implementation of the change?</li>
+</ul>
+<p>Avoid slogan-only comments such as “use SOLID.” Explain the actual seam. For example, filesystem storage can be separated from library state so a service test does not need real disk operations. However, extra interfaces and layers are not useful merely because a principle has a name. Keep the smallest design that supports the demonstrated need.</p>
+<p>A proposed split can reduce per-method complexity while leaving total class complexity unchanged or even increasing it through additional entry points. That is not necessarily worse. Explain whether you improved readability and test isolation or merely moved branches to a different file. Similarly, validation can add complexity while preventing invalid state.</p>
+<h2 id="suggested-live-presentation-sequence">Suggested live presentation sequence</h2>
+<p>Prepare an approximately ten-minute demonstration; adjust it to the lecturer's time limit. Use the cached installations and a disposable local database. Keep the raw evidence available in case a network dependency fails.</p>
+<ol>
+<li><strong>Purpose and source:</strong> explain what Knygnesys does and why it is a meaningful system to analyse. Open the public repository and identify the analysed files.</li>
+<li><strong>Working program:</strong> show the running frontend and backend. Explain the database configuration and session authentication. Run the smoke test or show its saved output alongside a rerun.</li>
+<li><strong>Tool selection:</strong> state which tool measures each property. Explain why compiler checks, source analysis and bytecode analysis complement each other.</li>
+<li><strong>Complexity:</strong> show the selected method table. Open one method. Reconstruct the hand count. Explain why cognitive and cyclomatic values differ.</li>
+<li><strong>Testability:</strong> identify actual branch inputs and assertions. State the coverage criterion and distinguish an estimate from measured coverage.</li>
+<li><strong>Maintainability:</strong> show input numbers, the formula and the calculated scope. Explain why a favourable index does not cancel review findings.</li>
+<li><strong>Structure:</strong> show the service/component metrics and dependency boundaries. Explain one cohesive area and one mixed-responsibility hotspot.</li>
+<li><strong>Static findings:</strong> show a few distinct warnings in the saved output and source. Explain the fix and its limits. Include one warning that deserves context rather than automatic refactoring.</li>
+<li><strong>Team review:</strong> each member explains their own fragment and recommendations. Do not present an unassigned AI draft as completed human review.</li>
+<li><strong>Conclusions and AI disclosure:</strong> state strengths, priority risks, remaining checks and the verification method used for AI-generated suggestions.</li>
+</ol>
+<p>Do not spend the whole presentation installing dependencies or scrolling through logs. Run one concise measurement live, then open the saved complete result. If a live check fails, explain the exact failure; do not change the saved result or claim it passed.</p>
+<h2 id="defence-questions-and-worked-answers">Defence questions and worked answers</h2>
+<h3 id="why-did-you-choose-this-system">Why did you choose this system?</h3>
+<p>It contains real business logic, persistence, UI state and external dependencies, so different quality methods reveal different risks. It is not just a small synthetic function. The source is available in the public homework repository and the recorded checks show which parts build, test and run.</p>
+<h3 id="why-do-the-two-complexity-values-differ">Why do the two complexity values differ?</h3>
+<p>They measure different properties. Cyclomatic complexity counts independent control-flow paths under the tool convention. Cognitive complexity adds the mental cost of nesting and discounts some shorthand. A flat set of alternatives can have many paths without much nesting.</p>
+<h3 id="is-the-number-of-tests-equal-to-cyclomatic-complexity">Is the number of tests equal to cyclomatic complexity?</h3>
+<p>Not for every criterion. It is a basis-path planning target under the control-flow model. Branch coverage, condition coverage, boundary-value coverage and full execution-path coverage have different requirements. I show the concrete inputs and assertions, not just a total test count.</p>
+<h3 id="why-not-use-ai-to-provide-the-metric-values">Why not use AI to provide the metric values?</h3>
+<p>The assignment requires tool measurements or an explicit manual method. AI can explain a result but is not the final source of the number. I keep the raw output and the configuration, and I check one method by hand.</p>
+<h3 id="why-is-the-maintainability-score-not-a-whole-system-grade">Why is the maintainability score not a whole-system grade?</h3>
+<p>Its inputs cover a stated code representation and aggregation method. It does not incorporate all Java services, SQL migrations, architecture, authentication or external failures unless those were explicitly measured. Calling a frontend proxy the score for the whole system would exceed the evidence.</p>
+<h3 id="why-can-a-passing-test-suite-coexist-with-defects">Why can a passing test suite coexist with defects?</h3>
+<p>Tests prove only their exercised scenarios and assertions. Existing tests may focus on service or chart behaviour while missing file replacement failure, invalid progress values or settings corruption. A pass is real evidence but not complete proof.</p>
+<h3 id="did-you-fix-all-reported-issues">Did you fix all reported issues?</h3>
+<p>No, unless a specific change is explicitly listed as implemented and tested. This homework primarily measures and analyses the baseline. Publication configuration changes protect credentials and support a disposable demo; they are not a general refactoring of the analysed code. Suggested fixes are separate from actual changes.</p>
+<h3 id="which-fix-should-come-first">Which fix should come first?</h3>
+<p>Prioritise correctness and data-loss/security risk before style. State the evidence for each risk. Validate invariants at the backend, preserve old data until a replacement is durable, and make failures visible. Re-run relevant tests and analysers after implementing a fix.</p>
+<h3 id="could-an-analyser-be-wrong">Could an analyser be wrong?</h3>
+<p>Yes. Rules simplify context, and generated/framework code can trigger warnings that require interpretation. I inspect the source, reproduce the result and assess the programme's intended contract. I do not delete or suppress a warning without explaining why.</p>
+<h3 id="what-does-low-inheritance-depth-prove">What does low inheritance depth prove?</h3>
+<p>It suggests there is no deep application inheritance hierarchy under the chosen definition. It does not prove low coupling or good cohesion. A class with no parent can still depend on many services and mix many concerns.</p>
+<h3 id="why-are-you-not-using-sonarqubes-maintainability-rating">Why are you not using SonarQube's maintainability rating?</h3>
+<p>A maintainability rating and a maintainability index are different measures. A rating depends on a tool's debt model and configuration. This work reports the actual selected index or measurement, its formula and its scope. I do not relabel one as the other.</p>
+<h3 id="can-you-reproduce-the-results-on-another-machine">Can you reproduce the results on another machine?</h3>
+<p>Yes for the declared tools and source inputs if dependencies are available and the pinned configurations are used. File paths, timing, runtime versions and some external-service results can differ. Use the source revision and manifest, compare structured metrics and rule types, and do not demand identical wall-clock times.</p>
+<h3 id="what-did-ai-do">What did AI do?</h3>
+<p>Hermes assisted with code inspection, tool setup, interpretation, documentation and review suggestions. The final numbers come from actual tools or explicit manual calculations. Behaviour claims are checked with tests or requests. Team members remain responsible for understanding and verifying their own review fragments. Preserve this conversation for the lecturer if requested.</p>
+<h2 id="troubleshooting-without-hiding-failures">Troubleshooting without hiding failures</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely distinction</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>javac</code> missing</td>
+<td>JRE selected, not JDK</td>
+<td>Select a JDK; verify <code>JAVA_HOME</code> and compiler version.</td>
+</tr>
+<tr>
+<td>Maven cannot resolve dependencies</td>
+<td>Tool/network/cache issue</td>
+<td>Check the exact repository/network error; pre-cache before defence.</td>
+</tr>
+<tr>
+<td>Database connection refused</td>
+<td>Container stopped or wrong port</td>
+<td>Run readiness check and compare <code>DB_URL</code> with the host port.</td>
+</tr>
+<tr>
+<td>Schema setup refuses nonempty database</td>
+<td>Intended safety check</td>
+<td>Reuse the existing schema or reset only the disposable container.</td>
+</tr>
+<tr>
+<td>Backend starts but library request fails</td>
+<td>Runtime behaviour issue</td>
+<td>Inspect backend error and source relationship loading; do not call it a build failure.</td>
+</tr>
+<tr>
+<td>Browser CORS error</td>
+<td>Origin mismatch</td>
+<td>Use the expected localhost frontend origin and check backend CORS configuration.</td>
+</tr>
+<tr>
+<td>Library endpoint returns unauthorised</td>
+<td>Missing/expired session</td>
+<td>Log in with a throwaway account; verify cookies without publishing them.</td>
+</tr>
+<tr>
+<td>Book search is empty or slow</td>
+<td>External service or query behaviour</td>
+<td>Separate local CRUD demonstration from Open Library availability.</td>
+</tr>
+<tr>
+<td>Production build reports budget errors</td>
+<td>Build policy/asset size</td>
+<td>Record the failure; a development build is not a production pass.</td>
+</tr>
+<tr>
+<td>Lint exits nonzero with rule messages</td>
+<td>Findings were detected</td>
+<td>Open the report; do not hide the exit or disable rules for the demo.</td>
+</tr>
+<tr>
+<td>Complexity run reports many errors</td>
+<td>Zero threshold used for measurement</td>
+<td>Explain this is collection, not normal quality gating.</td>
+</tr>
+<tr>
+<td>Word contents/page numbers are stale</td>
+<td>Fields need updating</td>
+<td>Select all and update fields in Word; inspect pagination after title-page edits.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="submission-and-personal-preparation-checklist">Submission and personal preparation checklist</h2>
+<ul>
+<li>Complete your own title page and check the course's faculty-specific template.</li>
+<li>Assign, verify and name each real team reviewer; add fragments if your team is larger.</li>
+<li>Read the report's limitations. Do not describe unperformed checks as successful.</li>
+<li>Check that the public repository opens without lecturer authentication.</li>
+<li>Keep the source revision and the evidence files available.</li>
+<li>Run the commands once on the machine used for presentation.</li>
+<li>Use disposable accounts and local-only configuration. Never expose real passwords.</li>
+<li>Make sure every selected finding has a source location, impact, fix and verification plan.</li>
+<li>Know the hand calculation and the maintainability inputs without asking AI during the defence.</li>
+<li>Update the Word table of contents after editing the title page or headings.</li>
+<li>Save the AI conversation and retain the disclosure in the report.</li>
+<li>Check that your conclusions follow from the measurements, not from broad assumptions.</li>
+</ul>
+<h2 id="recorded-results-and-a-reproducible-sonarqube-demonstration">Recorded results and a reproducible SonarQube demonstration</h2>
+<h3 id="what-actually-ran">What actually ran</h3>
+<p>The real local server is <strong>SonarQube Community Build 26.9.0.129388</strong>, with <strong>SonarScanner CLI 8.1.0.6389</strong>. The dashboard is at <a href="http://localhost:19000/dashboard?id=knygnesys-homework">http://localhost:19000/dashboard?id=knygnesys-homework</a>. This is not just an ESLint plugin. The original supporting SonarJS run remains clearly labelled as a separate method-metric measurement.</p>
+<p>The scan's server compute task finished with <code>SUCCESS</code>. The scanner also logged unresolved Java imports/types and a preview-feature warning. The project independently compiles with Java twenty-one; these analyser warnings remain a documented semantic-analysis limitation, not a claim that the project itself failed compilation. It included fifty-two Java files, twenty-two TypeScript files, nine HTML files and eleven CSS/SCSS files. Sonar's measured source-line count is 5354, its aggregate cyclomatic complexity is 521, and aggregate cognitive complexity is 203. Those are corpus totals, not a claim that one method has that score.</p>
+<table>
+<thead>
+<tr>
+<th>Result</th>
+<th>Recorded value</th>
+<th>What you must say</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MQR maintainability</td>
+<td>A; debt ratio 0.1%; estimated effort 192 minutes</td>
+<td>A low modelled debt ratio, not proof of defect-free code</td>
+</tr>
+<tr>
+<td>MQR reliability</td>
+<td>D; forty-five quality-impact findings</td>
+<td>Inspect and prioritise concrete findings; do not claim every warning was reproduced as a failure</td>
+</tr>
+<tr>
+<td>MQR security</td>
+<td>D; three findings</td>
+<td>Security-sensitive patterns need investigation and fixes</td>
+</tr>
+<tr>
+<td>Unique issue records</td>
+<td>eighty-five</td>
+<td>Impact categories overlap, so do not add the three category counts</td>
+</tr>
+<tr>
+<td>Duplication</td>
+<td>0.9%</td>
+<td>The measured scanner scope and matching algorithm matter</td>
+</tr>
+<tr>
+<td>Quality gate</td>
+<td>OK; <code>new_violations</code> zero, threshold zero</td>
+<td>This checks new code, not clearance of the eighty-five existing findings; OK is not a blanket release approval</td>
+</tr>
+<tr>
+<td>Sonar coverage</td>
+<td>0.0%, without an imported coverage report</td>
+<td>Actual exercised coverage was not measured here; this is not proof that passing tests exercised no code</td>
+</tr>
+<tr>
+<td>Backend tests</td>
+<td>twenty-eight passed</td>
+<td>AuthService six, StatsService fifteen, UserService seven</td>
+</tr>
+<tr>
+<td>Frontend tests</td>
+<td>seventeen passed in four files</td>
+<td>The existing statistics/chart suite, not complete EPUB coverage</td>
+</tr>
+<tr>
+<td>Normal project lint</td>
+<td>twenty-nine errors and ten warnings; exit one</td>
+<td>A real analysis with existing violations, not an installation failure</td>
+</tr>
+<tr>
+<td>App/spec TypeScript checks</td>
+<td>both exit zero</td>
+<td>Types checked; runtime and security guarantees do not follow</td>
+</tr>
+</tbody>
+</table>
+<p>In the first report table, Java method cyclomatic values come from the documented AST decision counter and cognitive values come from actual SonarQube issues. <code>getPagesPerDay</code> is eleven/sixteen; <code>buildDataPointsForRange</code> is eighteen/twenty-two; <code>buildDataPoints</code> is thirteen/twenty-two. For TypeScript, <code>applyFilters</code> is seven/four and <code>loadEpub</code> is seven/three under ESLint/SonarJS. Show the tool convention instead of silently substituting a number from another analyser.</p>
+<p>The additional frontend emitted-JavaScript MI median is 46.18/100. It is a per-file summary of a clearly scoped proxy. The report rejects a naive whole-corpus MI of zero as a system-quality verdict. The native SonarQube rating is the primary whole-scan maintainability result. Different representations and aggregations answer different questions.</p>
+<h3 id="start-or-reopen-the-local-sonarqube-instance">Start or reopen the local SonarQube instance</h3>
+<p>For the instance prepared on this machine:</p>
+<pre><code class="language-bash">podman start knygnesys-homework-sonarqube
+curl -fsS http://127.0.0.1:19000/api/system/status
+</code></pre>
+<p>Wait for <code>status</code> to become <code>UP</code>; a container merely being started does not prove the application is ready. The dashboard is readable without logging in because this loopback-only homework instance has a public project and forced authentication disabled. Admin operations and analysis upload still require credentials. It is not a production server.</p>
+<p>For a fresh machine, first read Sonar's official quick-start guidance.[11] The following uses the exact recorded image digest rather than a floating <code>latest</code> tag:</p>
+<pre><code class="language-bash">podman run -d --name knygnesys-homework-sonarqube \
+  -p 127.0.0.1:19000:9000 \
+  --memory=3g --pids-limit=2048 \
+  --ulimit nofile=131072:131072 --ulimit nproc=8192:8192 \
+  -v knygnesys-homework-sonar-data:/opt/sonarqube/data \
+  -v knygnesys-homework-sonar-extensions:/opt/sonarqube/extensions \
+  -v knygnesys-homework-sonar-logs:/opt/sonarqube/logs \
+  docker.io/library/sonarqube@sha256:2561a3ceb4e80c3cd2db2a110683a896f99efb5363855a0c4876936d51a882ca
+</code></pre>
+<p>This uses the embedded H2 database, which Sonar supports for evaluation only. Do not promise that it supports production scaling, server-version upgrades or later database migration. Named volumes preserve this demonstration across container restarts. Do not delete them before the defence. Stopping this container is safe; deleting its data volume discards the scan history and account setup.</p>
+<p>The recorded host already met Elasticsearch's system prerequisites; no kernel setting was changed. On a different host, check the official server prerequisites if the server fails to start, and inspect <code>podman logs knygnesys-homework-sonarqube</code>. Do not disable safety checks blindly, run the server privileged, expose its port to the network, or change unrelated system settings just to get a demo working.</p>
+<p>A fresh server uses the vendor's documented initial admin login and requires a password change. Complete that change yourself in the local UI, create project key <code>knygnesys-homework</code>, then generate a project-analysis token. The existing prepared server's initial password was changed to a random local value; it is not published in the report, repository or scanner log. Its local admin password and project token are stored with owner-only permissions at <code>/home/airuk/Desktop/Knygnesys-homework-work/sonar-private/credentials.json</code>. That is a private local setup file, not a file to submit, upload or screenshot. The published scripts do not require that file.</p>
+<h3 id="install-the-official-scanner">Install the official scanner</h3>
+<p>Get the official scanner from Sonar's scanner documentation.[6] The measured platform-independent CLI archive was:</p>
+<p><code>https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.1.0.6389.zip</code></p>
+<p>It needs the appropriate Java runtime. On this machine a separate Temurin JDK was selected for compilation and scanner startup. The scanner also auto-provisioned its engine runtime as needed. Do not assume a Java version from the scanner launcher is the same as the project's Java target. The scanner log records actual launcher/engine facts.</p>
+<p>On a fresh setup, unzip the official archive outside the repository, make its launcher executable where required, and check it with <code>sonar-scanner --version</code>. Set <code>SONAR_SCANNER_CLI</code> if the executable is not on <code>PATH</code>. Do not publish downloaded scanners or full dependency folders in the homework Git repository.</p>
+<h3 id="run-the-scan-without-putting-credentials-in-command-history">Run the scan without putting credentials in command history</h3>
+<p>From the repository root, using your own scanner path and Java-twenty-one JDK:</p>
+<pre><code class="language-bash">export JAVA_HOME=/absolute/path/to/jdk-21
+export PATH=&quot;$JAVA_HOME/bin:$PATH&quot;
+export SONAR_SCANNER_CLI=/absolute/path/to/sonar-scanner-8.1.0.6389/bin/sonar-scanner
+export SONAR_HOST_URL=http://127.0.0.1:19000
+read -r -s -p 'Local project analysis token: ' SONAR_TOKEN
+printf '\n'
+export SONAR_TOKEN
+bash analysis/run_sonar.sh
+unset SONAR_TOKEN
+</code></pre>
+<p>Enter the token only when the shell asks; it is not echoed. Do not replace this with a token written literally in a shell command, Git file, report or screenshot. Close the terminal or unset the environment after the scan.</p>
+<p>The runner invokes Maven tests and copies their dependency JARs into an ignored target directory. It uses compiled main and test classes, sets the project's Java source level, imports JUnit execution reports and loads the frontend's TypeScript configuration. The scanner configuration is <code>sonar-project.properties</code>, which contains no token. No Java or TypeScript business logic is changed for scanning.</p>
+<p><code>sonar.qualitygate.wait=true</code> waits for the server's analysis processing. A server-reported gate failure must be reported honestly; do not equate it with a broken scanner download, and do not loosen the quality profile merely to obtain green output. On the repeated unchanged-source scan, the gate is OK because its new-code <code>new_violations</code> condition is zero at a zero threshold. Existing findings remain. That is not an overall-code release or coverage guarantee.</p>
+<h3 id="export-the-same-evidence">Export the same evidence</h3>
+<p>The prepared public project permits read-only evidence retrieval. From the repository root:</p>
+<pre><code class="language-bash">python3 analysis/export_sonar.py
+</code></pre>
+<p>This saves project measures, per-file measures, issues, the project quality-gate result, available metric definitions, quality-profile information and the server version. It paginates issue results instead of silently keeping only the first page. The saved JSON is primary evidence; the dashboard screenshot is a useful view of it, not the source of numeric transcription.</p>
+<p>For an authentication-enforced server, do not disable login just to reproduce this anonymous exporter on a shared installation. Retrieve authorised evidence through your own server's approved UI/API route. The supplied exporter is scoped to this public local homework instance.</p>
+<p><code>analysis/sonarqube/compute-task.json</code> records the successful server-side task from the prepared run. <code>scanner.log</code> records the scanner execution, language analysis, scopes and messages. <code>dashboard.png</code> is the real rendered dashboard. <code>project-measures.json</code> and <code>issues-page-1.json</code> hold the actual measures and issue locations. Do not alter these saved numbers by hand to match an expected conclusion.</p>
+<h3 id="reproduce-the-supporting-frontend-and-java-metrics">Reproduce the supporting frontend and Java metrics</h3>
+<p>From the repository root:</p>
+<pre><code class="language-bash">bash analysis/frontend/scripts/reproduce-analysis.sh
+</code></pre>
+<p>This installs locked project and isolated analysis-tool dependencies, runs the build, tests, original lint, both app/spec type checks, and the metric-only ESLint/SonarJS configuration. It then recalculates emitted-JavaScript metrics, the TypeScript import graph and normalised MI. The wrapper explicitly tolerates only the baseline lint violation exit-one result; a fatal analyser configuration error still fails. Diagnostic complexity warnings with a zero threshold are not counted as a new quality failure.</p>
+<p>For the Java structural script, use an isolated environment:</p>
+<pre><code class="language-bash">python3 -m venv analysis/.venv
+analysis/.venv/bin/python -m pip install -r analysis/requirements.txt
+analysis/.venv/bin/python analysis/measure_java_structure.py
+</code></pre>
+<p>If your Python has no pip module or the platform prevents global installation, use <code>uv venv analysis/.venv</code> followed by <code>uv pip install --python analysis/.venv/bin/python -r analysis/requirements.txt</code>. Do not use a pip executable belonging to a different Python version.</p>
+<p>The parser versions are pinned because the first attempted native binding version crashed on this environment. The pinned pair was actually run successfully against all fifty-two main Java files and includes a small self-check for branch and short-circuit counting. <code>java-structure.json</code> records each selected method's decision locations. <code>CBO_import</code> is explicitly an import-based proxy; generated Lombok methods and implicit <code>Object</code> inheritance are excluded. Explain those limits instead of claiming full semantic CK metrics.</p>
+<h3 id="reproduce-the-http-scenario">Reproduce the HTTP scenario</h3>
+<p>With the database and backend running, from the root:</p>
+<pre><code class="language-bash">python3 analysis/runtime_smoke.py
+</code></pre>
+<p>The script generates a throwaway account and holds its session cookie in memory. It checks the OpenAPI document, rejection before login, registration/login, library add/list/progress/remove, logout and rejection afterwards. It deliberately does not print credentials or cookie values. It removes its book during the normal successful path, but the generated demo account remains. Run it only on the disposable database.</p>
+<p>The recorded statuses are 401 before authentication, 201 for registration/addition, 200 for successful authenticated reads and progress update, 204 for removal/logout, then 401 again. The final success marker is <code>RESULT PASS</code>. This is a real API integration smoke check, not full browser E2E coverage.</p>
+<h3 id="a-minimal-live-defence-route-for-the-two-students">A minimal live defence route for the two students</h3>
+<p>Student one can run the server and HTTP scenario, show the password/CSRF findings, and explain the LibraryService review. Student two can run the frontend checks and source-metric calculation, reconstruct <code>applyFilters</code> as one base path plus three conditions, two optional accesses and one short-circuit operator, and explain the reader review. Both students must understand the shared SonarQube result and why a passing new-code gate does not remove existing security/reliability D findings.</p>
+<p>For each of the six selected findings, show the source location and rule key. For the integer subtraction finding, the recorded Java expression check shows that int-first subtraction and long-first subtraction differ at the minimum integer. This supports the narrow overflow statement, not an invented HTTP exploit. For accessibility, prefer real semantic buttons and associated labels rather than empty key handlers added only to silence a tool. For security, explain account-data migration and token integration before claiming that a one-line bean/config change fixes everything.</p>
+<p>The recommendations have not been applied. No before/after improvement has been measured. If the lecturer asks for a fixed version, make a separate change, add the relevant regression check and scan again with the same configuration. The current documents analyse the baseline honestly.</p>
+<h2 id="sources-used-in-this-guide">Sources used in this guide</h2>
+<p>[1] SonarSource, Cognitive Complexity: <a href="https://www.sonarsource.com/docs/CognitiveComplexity.pdf">https://www.sonarsource.com/docs/CognitiveComplexity.pdf</a>.</p>
+<p>[2] Microsoft Learn, Code metrics values: <a href="https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values">https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values</a>.</p>
+<p>[3] ESLint, complexity: <a href="https://eslint.org/docs/latest/rules/complexity">https://eslint.org/docs/latest/rules/complexity</a>.</p>
+<p>[4] Microsoft Learn, Maintainability index range and meaning: <a href="https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-maintainability-index-range-and-meaning">https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-maintainability-index-range-and-meaning</a>.</p>
+<p>[5] SonarQube Community Build, measures and metrics: <a href="https://docs.sonarsource.com/sonarqube-community-build/user-guide/code-metrics/metrics-definition">https://docs.sonarsource.com/sonarqube-community-build/user-guide/code-metrics/metrics-definition</a>.</p>
+<p>[6] SonarScanner CLI: <a href="https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner">https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner</a>.</p>
+<p>[7] Google Engineering Practices, code review: <a href="https://google.github.io/eng-practices/review/reviewer/looking-for.html">https://google.github.io/eng-practices/review/reviewer/looking-for.html</a>.</p>
+<p>[8] TypeScript Handbook: <a href="https://www.typescriptlang.org/docs/handbook/intro.html">https://www.typescriptlang.org/docs/handbook/intro.html</a>.</p>
+<p>[9] Public project and evidence: <a href="https://github.com/KarolisGl/knygnesys-quality-homework">https://github.com/KarolisGl/knygnesys-quality-homework</a>.</p>
+<p>[10] Official VILNIUS TECH source scope and formatting decisions: report appendix B and the repository's <code>analysis/formatting-provisional.md</code>.</p>
+<p>[11] SonarQube Community Build, official local quick start: <a href="https://docs.sonarsource.com/sonarqube-community-build/try-out-sonarqube">https://docs.sonarsource.com/sonarqube-community-build/try-out-sonarqube</a>.</p>
+<p>[12] Tree-sitter Java grammar and bindings: <a href="https://github.com/tree-sitter/tree-sitter-java">https://github.com/tree-sitter/tree-sitter-java</a> and <a href="https://tree-sitter.github.io/py-tree-sitter/">https://tree-sitter.github.io/py-tree-sitter/</a>.</p><footer>Prepared from executed checks and explicit source review. Complete the title page and human reviewer attribution before submission.</footer></main></div></body></html>

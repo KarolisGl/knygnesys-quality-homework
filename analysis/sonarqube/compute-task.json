@@ -1,0 +1,21 @@
+{
+  "task": {
+    "id": "244643db-30af-4c80-ad11-12b09d7efb68",
+    "type": "REPORT",
+    "componentId": "c05757e4-d6e5-4f93-a013-0e23a742ed73",
+    "componentKey": "knygnesys-homework",
+    "componentName": "Knygnesys code-quality homework",
+    "componentQualifier": "TRK",
+    "analysisId": "2d3e923a-92a7-4169-b92f-335167fba9ea",
+    "status": "SUCCESS",
+    "submittedAt": "2026-10-05T18:53:04+0000",
+    "submitterLogin": "admin",
+    "startedAt": "2026-10-05T18:53:05+0000",
+    "executedAt": "2026-10-05T18:53:06+0000",
+    "executionTimeMs": 1405,
+    "hasScannerContext": true,
+    "warningCount": 0,
+    "warnings": [],
+    "infoMessages": []
+  }
+}

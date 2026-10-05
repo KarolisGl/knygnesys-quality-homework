@@ -1,0 +1,2 @@
+original selected manifest/config hashes unchanged
+source-copy-dry-run-lines=1

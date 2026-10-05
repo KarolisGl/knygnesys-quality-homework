@@ -1,0 +1,3105 @@
+{
+  "tool": {
+    "name": "typhonjs-escomplex",
+    "version": "0.1.0"
+  },
+  "scope": {
+    "sourceRoot": "../../knygnesys-ui/src",
+    "productionTsFiles": 22,
+    "specFilesExcluded": true
+  },
+  "transpilation": {
+    "compiler": "typescript.transpileModule",
+    "typescriptVersion": "5.9.2",
+    "target": "ES2022",
+    "module": "ESNext",
+    "experimentalDecorators": true,
+    "semanticTypeChecking": false,
+    "angularTemplateCompilation": false,
+    "note": "Metrics are for emitted JavaScript. Type annotations and TS-only syntax are erased; Angular external templates are not part of TS metrics; decorator lowering is used with compiler helpers omitted to reduce helper-code skew. Angular template semantics and type-checking are not measured here."
+  },
+  "methodology": {
+    "aggregate": "Sum per-file Halstead volume, cyclomatic complexity, and logical SLOC for the corpus.",
+    "maintainabilityIndex": "max(0, 171 - 5.2*ln(HalsteadVolume) - 0.23*Cyclomatic - 16.2*ln(logicalLOC)); unnormalized 0..171 scale.",
+    "perFunction": "Same formula applied to typhonjs-escomplex method metrics; method names are those recovered from emitted JavaScript.",
+    "medianFileMI": 78.97294953088853
+  },
+  "totals": {
+    "cyclomatic": 330,
+    "halsteadVolume": 44586.23499999999,
+    "logicalLoc": 1610,
+    "physicalLoc": 1572,
+    "maintainabilityManual": 0
+  },
+  "topMethodsByCyclomatic": [
+    {
+      "name": "loadEpub",
+      "lineStart": 42,
+      "lineEnd": 97,
+      "cyclomatic": 6,
+      "halsteadVolume": 1552.494,
+      "logicalLoc": 48,
+      "physicalLoc": 56,
+      "maintainabilityManual": 68.69893028814968,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "name": "getPresetRange",
+      "lineStart": 141,
+      "lineEnd": 160,
+      "cyclomatic": 5,
+      "halsteadVolume": 534.706,
+      "logicalLoc": 36,
+      "physicalLoc": 20,
+      "maintainabilityManual": 79.13206446869712,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "applyFilters",
+      "lineStart": 58,
+      "lineEnd": 77,
+      "cyclomatic": 5,
+      "halsteadVolume": 404.015,
+      "logicalLoc": 20,
+      "physicalLoc": 20,
+      "maintainabilityManual": 90.11158673730453,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "name": "filterLibrary",
+      "lineStart": 9,
+      "lineEnd": 21,
+      "cyclomatic": 5,
+      "halsteadVolume": 363.11,
+      "logicalLoc": 14,
+      "physicalLoc": 13,
+      "maintainabilityManual": 96.44480100318276,
+      "sourceFile": "app/services/library.service.ts"
+    },
+    {
+      "name": "resolveStatus",
+      "lineStart": 210,
+      "lineEnd": 216,
+      "cyclomatic": 5,
+      "halsteadVolume": 124,
+      "logicalLoc": 5,
+      "physicalLoc": 7,
+      "maintainabilityManual": 118.71164167742137,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "name": "applyPreset",
+      "lineStart": 68,
+      "lineEnd": 81,
+      "cyclomatic": 4,
+      "halsteadVolume": 423.04,
+      "logicalLoc": 17,
+      "physicalLoc": 14,
+      "maintainabilityManual": 92.73511679272832,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "applyCustomRange",
+      "lineStart": 88,
+      "lineEnd": 100,
+      "cyclomatic": 4,
+      "halsteadVolume": 302.608,
+      "logicalLoc": 13,
+      "physicalLoc": 13,
+      "maintainabilityManual": 98.82314156868338,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "<anon method-18>",
+      "lineStart": 82,
+      "lineEnd": 93,
+      "cyclomatic": 4,
+      "halsteadVolume": 301.195,
+      "logicalLoc": 11,
+      "physicalLoc": 12,
+      "maintainabilityManual": 101.5537555239502,
+      "sourceFile": "app/pages/home/home.ts"
+    },
+    {
+      "name": "getStats",
+      "lineStart": 6,
+      "lineEnd": 15,
+      "cyclomatic": 4,
+      "halsteadVolume": 172.877,
+      "logicalLoc": 11,
+      "physicalLoc": 10,
+      "maintainabilityManual": 104.4406787140183,
+      "sourceFile": "app/services/stats.service.ts"
+    },
+    {
+      "name": "onKeydown",
+      "lineStart": 146,
+      "lineEnd": 153,
+      "cyclomatic": 4,
+      "halsteadVolume": 140,
+      "logicalLoc": 9,
+      "physicalLoc": 8,
+      "maintainabilityManual": 108.78842124958489,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "name": "resolveGranularity",
+      "lineStart": 161,
+      "lineEnd": 170,
+      "cyclomatic": 4,
+      "halsteadVolume": 131.686,
+      "logicalLoc": 9,
+      "physicalLoc": 10,
+      "maintainabilityManual": 109.10677628248997,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "loadAllStats",
+      "lineStart": 171,
+      "lineEnd": 201,
+      "cyclomatic": 3,
+      "halsteadVolume": 708.244,
+      "logicalLoc": 29,
+      "physicalLoc": 31,
+      "maintainabilityManual": 81.63330648535191,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "nextPeriod",
+      "lineStart": 111,
+      "lineEnd": 126,
+      "cyclomatic": 3,
+      "halsteadVolume": 413.303,
+      "logicalLoc": 24,
+      "physicalLoc": 16,
+      "maintainabilityManual": 87.49978685162887,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "getPagesPerDay",
+      "lineStart": 16,
+      "lineEnd": 23,
+      "cyclomatic": 3,
+      "halsteadVolume": 158.123,
+      "logicalLoc": 9,
+      "physicalLoc": 8,
+      "maintainabilityManual": 108.3854211490149,
+      "sourceFile": "app/services/stats.service.ts"
+    },
+    {
+      "name": "applyTheme",
+      "lineStart": 129,
+      "lineEnd": 140,
+      "cyclomatic": 3,
+      "halsteadVolume": 216.644,
+      "logicalLoc": 8,
+      "physicalLoc": 12,
+      "maintainabilityManual": 108.65611866729185,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "name": "syncProgress",
+      "lineStart": 187,
+      "lineEnd": 196,
+      "cyclomatic": 3,
+      "halsteadVolume": 271.029,
+      "logicalLoc": 8,
+      "physicalLoc": 10,
+      "maintainabilityManual": 107.4914727284191,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "name": "extractGenre",
+      "lineStart": 33,
+      "lineEnd": 40,
+      "cyclomatic": 3,
+      "halsteadVolume": 187.487,
+      "logicalLoc": 7,
+      "physicalLoc": 8,
+      "maintainabilityManual": 111.57096613500192,
+      "sourceFile": "app/services/book-search.service.ts"
+    },
+    {
+      "name": "render",
+      "lineStart": 39,
+      "lineEnd": 88,
+      "cyclomatic": 2,
+      "halsteadVolume": 1099.073,
+      "logicalLoc": 55,
+      "physicalLoc": 50,
+      "maintainabilityManual": 69.20964604289267,
+      "sourceFile": "app/components/charts/books-per-month-chart/books-per-month-chart.component.ts"
+    },
+    {
+      "name": "render",
+      "lineStart": 22,
+      "lineEnd": 69,
+      "cyclomatic": 2,
+      "halsteadVolume": 925.522,
+      "logicalLoc": 48,
+      "physicalLoc": 48,
+      "maintainabilityManual": 72.30868252943074,
+      "sourceFile": "app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts"
+    },
+    {
+      "name": "render",
+      "lineStart": 34,
+      "lineEnd": 74,
+      "cyclomatic": 2,
+      "halsteadVolume": 702.958,
+      "logicalLoc": 37,
+      "physicalLoc": 41,
+      "maintainabilityManual": 77.95558465559205,
+      "sourceFile": "app/components/charts/genres-chart/genres-chart.component.ts"
+    },
+    {
+      "name": "loadRecommendations",
+      "lineStart": 72,
+      "lineEnd": 95,
+      "cyclomatic": 2,
+      "halsteadVolume": 450.034,
+      "logicalLoc": 22,
+      "physicalLoc": 24,
+      "maintainabilityManual": 88.6966319511734,
+      "sourceFile": "app/pages/home/home.ts"
+    },
+    {
+      "name": "jumpToCurrentPeriod",
+      "lineStart": 127,
+      "lineEnd": 140,
+      "cyclomatic": 2,
+      "halsteadVolume": 357.233,
+      "logicalLoc": 18,
+      "physicalLoc": 14,
+      "maintainabilityManual": 93.14835872632413,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "search",
+      "lineStart": 9,
+      "lineEnd": 32,
+      "cyclomatic": 2,
+      "halsteadVolume": 343.019,
+      "logicalLoc": 17,
+      "physicalLoc": 24,
+      "maintainabilityManual": 94.28545746235685,
+      "sourceFile": "app/services/book-search.service.ts"
+    },
+    {
+      "name": "onEpubFileSelected",
+      "lineStart": 149,
+      "lineEnd": 166,
+      "cyclomatic": 2,
+      "halsteadVolume": 310,
+      "logicalLoc": 14,
+      "physicalLoc": 18,
+      "maintainabilityManual": 97.957095313341,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "name": "exportPng",
+      "lineStart": 23,
+      "lineEnd": 31,
+      "cyclomatic": 2,
+      "halsteadVolume": 166.908,
+      "logicalLoc": 10,
+      "physicalLoc": 9,
+      "maintainabilityManual": 106.62741912894889,
+      "sourceFile": "app/components/charts/books-per-month-chart/books-per-month-chart.component.ts"
+    }
+  ],
+  "files": [
+    {
+      "sourceFile": "app/app.config.ts",
+      "transpiledFile": "evidence/transpiled-js/app/app.config.js",
+      "sourcePhysicalLoc": 14,
+      "aggregate": {
+        "cyclomatic": 1,
+        "halsteadVolume": 88,
+        "logicalLoc": 7,
+        "physicalLoc": 13,
+        "maintainabilityTool": 119.879
+      },
+      "maintainabilityManual": 115.96410415001728,
+      "methods": [],
+      "classes": [],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/app.routes.ts",
+      "transpiledFile": "evidence/transpiled-js/app/app.routes.js",
+      "sourcePhysicalLoc": 17,
+      "aggregate": {
+        "cyclomatic": 1,
+        "halsteadVolume": 284.984,
+        "logicalLoc": 16,
+        "physicalLoc": 15,
+        "maintainabilityTool": 100.941
+      },
+      "maintainabilityManual": 96.46141090033795,
+      "methods": [],
+      "classes": [],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/app.ts",
+      "transpiledFile": "evidence/transpiled-js/app/app.js",
+      "sourcePhysicalLoc": 19,
+      "aggregate": {
+        "cyclomatic": 4,
+        "halsteadVolume": 270,
+        "logicalLoc": 13,
+        "physicalLoc": 23,
+        "maintainabilityTool": 123.095
+      },
+      "maintainabilityManual": 99.41602622233157,
+      "methods": [],
+      "classes": [
+        {
+          "name": "App",
+          "lineStart": 5,
+          "lineEnd": 14,
+          "maintainabilityTool": 146.181,
+          "aggregate": {
+            "cyclomatic": 3,
+            "halsteadVolume": 98.991,
+            "logicalLoc": 5,
+            "physicalLoc": 10
+          },
+          "methods": [
+            {
+              "name": "constructor",
+              "lineStart": 7,
+              "lineEnd": 9,
+              "cyclomatic": 1,
+              "halsteadVolume": 10,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 158.79655751643097
+            },
+            {
+              "name": "showNavbar",
+              "lineStart": 10,
+              "lineEnd": 13,
+              "cyclomatic": 2,
+              "halsteadVolume": 55.351,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 138.43980310056725
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/components/charts/books-per-month-chart/books-per-month-chart.component.js",
+      "sourcePhysicalLoc": 128,
+      "aggregate": {
+        "cyclomatic": 13,
+        "halsteadVolume": 2600.321,
+        "logicalLoc": 110,
+        "physicalLoc": 117,
+        "maintainabilityTool": 105.477
+      },
+      "maintainabilityManual": 50.972589148940955,
+      "methods": [],
+      "classes": [
+        {
+          "name": "BooksPerMonthChartComponent",
+          "lineStart": 15,
+          "lineEnd": 89,
+          "maintainabilityTool": 113.186,
+          "aggregate": {
+            "cyclomatic": 12,
+            "halsteadVolume": 1947.131,
+            "logicalLoc": 88,
+            "physicalLoc": 75
+          },
+          "methods": [
+            {
+              "name": "<anon method-1>",
+              "lineStart": 19,
+              "lineEnd": 19,
+              "cyclomatic": 1,
+              "halsteadVolume": 30,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 141.85478929028568
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 20,
+              "lineEnd": 20,
+              "cyclomatic": 1,
+              "halsteadVolume": 30,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 141.85478929028568
+            },
+            {
+              "name": "exportPng",
+              "lineStart": 23,
+              "lineEnd": 31,
+              "cyclomatic": 2,
+              "halsteadVolume": 166.908,
+              "logicalLoc": 10,
+              "physicalLoc": 9,
+              "maintainabilityManual": 106.62741912894889
+            },
+            {
+              "name": "ngOnChanges",
+              "lineStart": 32,
+              "lineEnd": 35,
+              "cyclomatic": 1,
+              "halsteadVolume": 36,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 134.33818244360486
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 34,
+              "lineEnd": 34,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 148.72791965819374
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 36,
+              "lineEnd": 38,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 159.95690398326485
+            },
+            {
+              "name": "render",
+              "lineStart": 39,
+              "lineEnd": 88,
+              "cyclomatic": 2,
+              "halsteadVolume": 1099.073,
+              "logicalLoc": 55,
+              "physicalLoc": 50,
+              "maintainabilityManual": 69.20964604289267
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 47,
+              "lineEnd": 47,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 51,
+              "lineEnd": 51,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 59,
+              "lineEnd": 59,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/components/charts/genres-chart/genres-chart.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/components/charts/genres-chart/genres-chart.component.js",
+      "sourcePhysicalLoc": 116,
+      "aggregate": {
+        "cyclomatic": 14,
+        "halsteadVolume": 2138.424,
+        "logicalLoc": 78,
+        "physicalLoc": 106,
+        "maintainabilityTool": 111.045
+      },
+      "maintainabilityManual": 57.32863018947593,
+      "methods": [],
+      "classes": [
+        {
+          "name": "GenresChartComponent",
+          "lineStart": 15,
+          "lineEnd": 75,
+          "maintainabilityTool": 117.998,
+          "aggregate": {
+            "cyclomatic": 13,
+            "halsteadVolume": 1651.566,
+            "logicalLoc": 67,
+            "physicalLoc": 61
+          },
+          "methods": [
+            {
+              "name": "exportPng",
+              "lineStart": 19,
+              "lineEnd": 27,
+              "cyclomatic": 2,
+              "halsteadVolume": 166.908,
+              "logicalLoc": 10,
+              "physicalLoc": 9,
+              "maintainabilityManual": 106.62741912894889
+            },
+            {
+              "name": "ngOnChanges",
+              "lineStart": 28,
+              "lineEnd": 30,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 151.43319285574265
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 29,
+              "lineEnd": 29,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 148.72791965819374
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 31,
+              "lineEnd": 33,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 159.95690398326485
+            },
+            {
+              "name": "render",
+              "lineStart": 34,
+              "lineEnd": 74,
+              "cyclomatic": 2,
+              "halsteadVolume": 702.958,
+              "logicalLoc": 37,
+              "physicalLoc": 41,
+              "maintainabilityManual": 77.95558465559205
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 42,
+              "lineEnd": 42,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 45,
+              "lineEnd": 45,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 46,
+              "lineEnd": 46,
+              "cyclomatic": 1,
+              "halsteadVolume": 18.095,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.71269458351833
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 64,
+              "lineEnd": 68,
+              "cyclomatic": 2,
+              "halsteadVolume": 245.345,
+              "logicalLoc": 6,
+              "physicalLoc": 5,
+              "maintainabilityManual": 112.8996366054603
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 65,
+              "lineEnd": 65,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.js",
+      "sourcePhysicalLoc": 104,
+      "aggregate": {
+        "cyclomatic": 11,
+        "halsteadVolume": 1776.716,
+        "logicalLoc": 81,
+        "physicalLoc": 95,
+        "maintainabilityTool": 108.379
+      },
+      "maintainabilityManual": 58.37080931790996,
+      "methods": [],
+      "classes": [
+        {
+          "name": "PagesPerDayChartComponent",
+          "lineStart": 3,
+          "lineEnd": 70,
+          "maintainabilityTool": 112.68,
+          "aggregate": {
+            "cyclomatic": 10,
+            "halsteadVolume": 1491.357,
+            "logicalLoc": 71,
+            "physicalLoc": 68
+          },
+          "methods": [
+            {
+              "name": "exportPng",
+              "lineStart": 7,
+              "lineEnd": 15,
+              "cyclomatic": 2,
+              "halsteadVolume": 166.908,
+              "logicalLoc": 10,
+              "physicalLoc": 9,
+              "maintainabilityManual": 106.62741912894889
+            },
+            {
+              "name": "ngOnChanges",
+              "lineStart": 16,
+              "lineEnd": 18,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 151.43319285574265
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 17,
+              "lineEnd": 17,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 148.72791965819374
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 19,
+              "lineEnd": 21,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 159.95690398326485
+            },
+            {
+              "name": "render",
+              "lineStart": 22,
+              "lineEnd": 69,
+              "cyclomatic": 2,
+              "halsteadVolume": 925.522,
+              "logicalLoc": 48,
+              "physicalLoc": 48,
+              "maintainabilityManual": 72.30868252943074
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 30,
+              "lineEnd": 30,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 34,
+              "lineEnd": 34,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 52,
+              "lineEnd": 52,
+              "cyclomatic": 1,
+              "halsteadVolume": 27,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 153.6316482967775
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/components/navbar/navbar.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/components/navbar/navbar.component.js",
+      "sourcePhysicalLoc": 22,
+      "aggregate": {
+        "cyclomatic": 4,
+        "halsteadVolume": 356.122,
+        "logicalLoc": 22,
+        "physicalLoc": 23,
+        "maintainabilityTool": 120.966
+      },
+      "maintainabilityManual": 89.45369073796962,
+      "methods": [],
+      "classes": [
+        {
+          "name": "NavbarComponent",
+          "lineStart": 4,
+          "lineEnd": 13,
+          "maintainabilityTool": 136.29,
+          "aggregate": {
+            "cyclomatic": 3,
+            "halsteadVolume": 170.967,
+            "logicalLoc": 13,
+            "physicalLoc": 10
+          },
+          "methods": [
+            {
+              "name": "logout",
+              "lineStart": 7,
+              "lineEnd": 12,
+              "cyclomatic": 1,
+              "halsteadVolume": 55.351,
+              "logicalLoc": 6,
+              "physicalLoc": 6,
+              "maintainabilityManual": 120.87228402414388
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 9,
+              "lineEnd": 9,
+              "cyclomatic": 1,
+              "halsteadVolume": 22.459,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 143.36022026637664
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 10,
+              "lineEnd": 10,
+              "cyclomatic": 1,
+              "halsteadVolume": 22.459,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 143.36022026637664
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/guards/auth.guard.ts",
+      "transpiledFile": "evidence/transpiled-js/app/guards/auth.guard.js",
+      "sourcePhysicalLoc": 18,
+      "aggregate": {
+        "cyclomatic": 4,
+        "halsteadVolume": 189.99,
+        "logicalLoc": 17,
+        "physicalLoc": 13,
+        "maintainabilityTool": 129.484
+      },
+      "maintainabilityManual": 96.89769234246779,
+      "methods": [
+        {
+          "name": "<anon method-1>",
+          "lineStart": 5,
+          "lineEnd": 12,
+          "cyclomatic": 1,
+          "halsteadVolume": 108,
+          "logicalLoc": 11,
+          "physicalLoc": 8,
+          "maintainabilityManual": 107.57701419962046
+        },
+        {
+          "name": "<anon method-2>",
+          "lineStart": 8,
+          "lineEnd": 8,
+          "cyclomatic": 1,
+          "halsteadVolume": 0,
+          "logicalLoc": 1,
+          "physicalLoc": 1,
+          "maintainabilityManual": null
+        },
+        {
+          "name": "<anon method-3>",
+          "lineStart": 8,
+          "lineEnd": 11,
+          "cyclomatic": 1,
+          "halsteadVolume": 31.699,
+          "logicalLoc": 3,
+          "physicalLoc": 4,
+          "maintainabilityManual": 134.9997982234261
+        }
+      ],
+      "classes": [],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/interceptors/credentials.interceptor.ts",
+      "transpiledFile": "evidence/transpiled-js/app/interceptors/credentials.interceptor.js",
+      "sourcePhysicalLoc": 9,
+      "aggregate": {
+        "cyclomatic": 3,
+        "halsteadVolume": 120.928,
+        "logicalLoc": 10,
+        "physicalLoc": 7,
+        "maintainabilityTool": 123.838
+      },
+      "maintainabilityManual": 108.07310579222765,
+      "methods": [
+        {
+          "name": "<anon method-1>",
+          "lineStart": 1,
+          "lineEnd": 6,
+          "cyclomatic": 2,
+          "halsteadVolume": 87.569,
+          "logicalLoc": 8,
+          "physicalLoc": 6,
+          "maintainabilityManual": 113.59642634381478
+        }
+      ],
+      "classes": [],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/biblioteka/biblioteka.component.js",
+      "sourcePhysicalLoc": 296,
+      "aggregate": {
+        "cyclomatic": 66,
+        "halsteadVolume": 8681.517,
+        "logicalLoc": 275,
+        "physicalLoc": 264,
+        "maintainabilityTool": 111.046
+      },
+      "maintainabilityManual": 17.669760095561557,
+      "methods": [],
+      "classes": [
+        {
+          "name": "BibliotekaPuslapis",
+          "lineStart": 11,
+          "lineEnd": 254,
+          "maintainabilityTool": 124.439,
+          "aggregate": {
+            "cyclomatic": 65,
+            "halsteadVolume": 8318.636,
+            "logicalLoc": 266,
+            "physicalLoc": 244
+          },
+          "methods": [
+            {
+              "name": "constructor",
+              "lineStart": 39,
+              "lineEnd": 57,
+              "cyclomatic": 1,
+              "halsteadVolume": 134.886,
+              "logicalLoc": 10,
+              "physicalLoc": 19,
+              "maintainabilityManual": 107.96508561179685
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 41,
+              "lineEnd": 50,
+              "cyclomatic": 1,
+              "halsteadVolume": 141.777,
+              "logicalLoc": 9,
+              "physicalLoc": 10,
+              "maintainabilityManual": 109.412833763721
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 46,
+              "lineEnd": 49,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.529,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 135.54769113188203
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 51,
+              "lineEnd": 54,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.074,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 142.1998274931458
+            },
+            {
+              "name": "applyFilters",
+              "lineStart": 58,
+              "lineEnd": 77,
+              "cyclomatic": 5,
+              "halsteadVolume": 404.015,
+              "logicalLoc": 20,
+              "physicalLoc": 20,
+              "maintainabilityManual": 90.11158673730453
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 70,
+              "lineEnd": 72,
+              "cyclomatic": 1,
+              "halsteadVolume": 16.253,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 156.27095696297062
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 73,
+              "lineEnd": 75,
+              "cyclomatic": 1,
+              "halsteadVolume": 13.932,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 157.0722205669805
+            },
+            {
+              "name": "clearFilters",
+              "lineStart": 78,
+              "lineEnd": 85,
+              "cyclomatic": 1,
+              "halsteadVolume": 74.009,
+              "logicalLoc": 5,
+              "physicalLoc": 8,
+              "maintainabilityManual": 122.31533493992907
+            },
+            {
+              "name": "loadLocalEpubKeys",
+              "lineStart": 86,
+              "lineEnd": 89,
+              "cyclomatic": 1,
+              "halsteadVolume": 64.529,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 131.30348430074744
+            },
+            {
+              "name": "onSearch",
+              "lineStart": 90,
+              "lineEnd": 95,
+              "cyclomatic": 2,
+              "halsteadVolume": 74.009,
+              "logicalLoc": 5,
+              "physicalLoc": 6,
+              "maintainabilityManual": 122.08533493992906
+            },
+            {
+              "name": "onSearchKeydown",
+              "lineStart": 96,
+              "lineEnd": 99,
+              "cyclomatic": 2,
+              "halsteadVolume": 31.699,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 141.33833297477835
+            },
+            {
+              "name": "clearSearch",
+              "lineStart": 100,
+              "lineEnd": 105,
+              "cyclomatic": 1,
+              "halsteadVolume": 66.439,
+              "logicalLoc": 4,
+              "physicalLoc": 6,
+              "maintainabilityManual": 126.49135333587705
+            },
+            {
+              "name": "loadLibrary",
+              "lineStart": 106,
+              "lineEnd": 118,
+              "cyclomatic": 1,
+              "halsteadVolume": 93.765,
+              "logicalLoc": 7,
+              "physicalLoc": 13,
+              "maintainabilityManual": 115.63413899463413
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 109,
+              "lineEnd": 112,
+              "cyclomatic": 1,
+              "halsteadVolume": 42,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.1051336598554
+            },
+            {
+              "name": "<anon method-7>",
+              "lineStart": 113,
+              "lineEnd": 116,
+              "cyclomatic": 1,
+              "halsteadVolume": 42,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.1051336598554
+            },
+            {
+              "name": "addToLibrary",
+              "lineStart": 119,
+              "lineEnd": 142,
+              "cyclomatic": 1,
+              "halsteadVolume": 318.948,
+              "logicalLoc": 14,
+              "physicalLoc": 24,
+              "maintainabilityManual": 98.03912524374934
+            },
+            {
+              "name": "<anon method-8>",
+              "lineStart": 132,
+              "lineEnd": 135,
+              "cyclomatic": 1,
+              "halsteadVolume": 49.829,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 132.64777577550487
+            },
+            {
+              "name": "<anon method-9>",
+              "lineStart": 133,
+              "lineEnd": 133,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "<anon method-10>",
+              "lineStart": 136,
+              "lineEnd": 140,
+              "cyclomatic": 1,
+              "halsteadVolume": 70.324,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 130.8562926237578
+            },
+            {
+              "name": "isInLibrary",
+              "lineStart": 143,
+              "lineEnd": 145,
+              "cyclomatic": 1,
+              "halsteadVolume": 30,
+              "logicalLoc": 4,
+              "physicalLoc": 3,
+              "maintainabilityManual": 130.62580496521457
+            },
+            {
+              "name": "<anon method-11>",
+              "lineStart": 144,
+              "lineEnd": 144,
+              "cyclomatic": 1,
+              "halsteadVolume": 18.095,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.71269458351833
+            },
+            {
+              "name": "hasLocalEpub",
+              "lineStart": 146,
+              "lineEnd": 148,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 3,
+              "physicalLoc": 3,
+              "maintainabilityManual": 134.79064160395092
+            },
+            {
+              "name": "onEpubFileSelected",
+              "lineStart": 149,
+              "lineEnd": 166,
+              "cyclomatic": 2,
+              "halsteadVolume": 310,
+              "logicalLoc": 14,
+              "physicalLoc": 18,
+              "maintainabilityManual": 97.957095313341
+            },
+            {
+              "name": "<anon method-12>",
+              "lineStart": 157,
+              "lineEnd": 157,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.529,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 153.34521020830542
+            },
+            {
+              "name": "openEpubReader",
+              "lineStart": 167,
+              "lineEnd": 172,
+              "cyclomatic": 1,
+              "halsteadVolume": 133.216,
+              "logicalLoc": 4,
+              "physicalLoc": 6,
+              "maintainabilityManual": 122.87377762059245
+            },
+            {
+              "name": "closeEpubReader",
+              "lineStart": 173,
+              "lineEnd": 179,
+              "cyclomatic": 1,
+              "halsteadVolume": 110.702,
+              "logicalLoc": 5,
+              "physicalLoc": 7,
+              "maintainabilityManual": 120.22152790529424
+            },
+            {
+              "name": "onProgressChanged",
+              "lineStart": 180,
+              "lineEnd": 189,
+              "cyclomatic": 2,
+              "halsteadVolume": 72.34,
+              "logicalLoc": 6,
+              "physicalLoc": 10,
+              "maintainabilityManual": 119.25033502058093
+            },
+            {
+              "name": "<anon method-13>",
+              "lineStart": 184,
+              "lineEnd": 188,
+              "cyclomatic": 1,
+              "halsteadVolume": 15.51,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 138.71675904219668
+            },
+            {
+              "name": "<anon method-14>",
+              "lineStart": 184,
+              "lineEnd": 188,
+              "cyclomatic": 2,
+              "halsteadVolume": 85.952,
+              "logicalLoc": 6,
+              "physicalLoc": 5,
+              "maintainabilityManual": 118.3537937938215
+            },
+            {
+              "name": "changeCurrentPage",
+              "lineStart": 190,
+              "lineEnd": 196,
+              "cyclomatic": 2,
+              "halsteadVolume": 173.918,
+              "logicalLoc": 7,
+              "physicalLoc": 7,
+              "maintainabilityManual": 112.19161918171676
+            },
+            {
+              "name": "setCurrentPage",
+              "lineStart": 197,
+              "lineEnd": 204,
+              "cyclomatic": 2,
+              "halsteadVolume": 201.738,
+              "logicalLoc": 10,
+              "physicalLoc": 8,
+              "maintainabilityManual": 105.64187839919514
+            },
+            {
+              "name": "updatePage",
+              "lineStart": 205,
+              "lineEnd": 209,
+              "cyclomatic": 1,
+              "halsteadVolume": 122.624,
+              "logicalLoc": 6,
+              "physicalLoc": 5,
+              "maintainabilityManual": 116.73605823138215
+            },
+            {
+              "name": "<anon method-15>",
+              "lineStart": 207,
+              "lineEnd": 207,
+              "cyclomatic": 1,
+              "halsteadVolume": 15.51,
+              "logicalLoc": 3,
+              "physicalLoc": 1,
+              "maintainabilityManual": 138.71675904219668
+            },
+            {
+              "name": "<anon method-16>",
+              "lineStart": 207,
+              "lineEnd": 207,
+              "cyclomatic": 2,
+              "halsteadVolume": 60.944,
+              "logicalLoc": 3,
+              "physicalLoc": 1,
+              "maintainabilityManual": 131.37071279294813
+            },
+            {
+              "name": "resolveStatus",
+              "lineStart": 210,
+              "lineEnd": 216,
+              "cyclomatic": 5,
+              "halsteadVolume": 124,
+              "logicalLoc": 5,
+              "physicalLoc": 7,
+              "maintainabilityManual": 118.71164167742137
+            },
+            {
+              "name": "removeFromLibrary",
+              "lineStart": 217,
+              "lineEnd": 232,
+              "cyclomatic": 2,
+              "halsteadVolume": 138.242,
+              "logicalLoc": 9,
+              "physicalLoc": 16,
+              "maintainabilityManual": 109.3141318299261
+            },
+            {
+              "name": "<anon method-17>",
+              "lineStart": 221,
+              "lineEnd": 229,
+              "cyclomatic": 1,
+              "halsteadVolume": 92.511,
+              "logicalLoc": 6,
+              "physicalLoc": 9,
+              "maintainabilityManual": 118.20139330539709
+            },
+            {
+              "name": "<anon method-18>",
+              "lineStart": 222,
+              "lineEnd": 222,
+              "cyclomatic": 1,
+              "halsteadVolume": 15.51,
+              "logicalLoc": 3,
+              "physicalLoc": 1,
+              "maintainabilityManual": 138.71675904219668
+            },
+            {
+              "name": "<anon method-19>",
+              "lineStart": 222,
+              "lineEnd": 222,
+              "cyclomatic": 1,
+              "halsteadVolume": 16.253,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 156.27095696297062
+            },
+            {
+              "name": "<anon method-20>",
+              "lineStart": 224,
+              "lineEnd": 228,
+              "cyclomatic": 1,
+              "halsteadVolume": 53.774,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 132.2515725128857
+            },
+            {
+              "name": "<anon method-21>",
+              "lineStart": 230,
+              "lineEnd": 230,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 151.43319285574265
+            },
+            {
+              "name": "countByStatus",
+              "lineStart": 233,
+              "lineEnd": 235,
+              "cyclomatic": 1,
+              "halsteadVolume": 38.039,
+              "logicalLoc": 4,
+              "physicalLoc": 3,
+              "maintainabilityManual": 129.3912492139456
+            },
+            {
+              "name": "<anon method-22>",
+              "lineStart": 234,
+              "lineEnd": 234,
+              "cyclomatic": 1,
+              "halsteadVolume": 10,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.79655751643097
+            },
+            {
+              "name": "filteredLibrary",
+              "lineStart": 236,
+              "lineEnd": 241,
+              "cyclomatic": 2,
+              "halsteadVolume": 98.991,
+              "logicalLoc": 9,
+              "physicalLoc": 6,
+              "maintainabilityManual": 111.05081137521499
+            },
+            {
+              "name": "<anon method-23>",
+              "lineStart": 240,
+              "lineEnd": 240,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "statusLabel",
+              "lineStart": 242,
+              "lineEnd": 249,
+              "cyclomatic": 1,
+              "halsteadVolume": 74.231,
+              "logicalLoc": 5,
+              "physicalLoc": 8,
+              "maintainabilityManual": 122.29976018462688
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 250,
+              "lineEnd": 253,
+              "cyclomatic": 1,
+              "halsteadVolume": 31.02,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 141.68092845463727
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/epub-reader/epub-reader.component.js",
+      "sourcePhysicalLoc": 249,
+      "aggregate": {
+        "cyclomatic": 49,
+        "halsteadVolume": 7608.781,
+        "logicalLoc": 210,
+        "physicalLoc": 238,
+        "maintainabilityTool": 107.633
+      },
+      "maintainabilityManual": 26.634155081283495,
+      "methods": [],
+      "classes": [
+        {
+          "name": "EpubReaderComponent",
+          "lineStart": 8,
+          "lineEnd": 207,
+          "maintainabilityTool": 120.015,
+          "aggregate": {
+            "cyclomatic": 48,
+            "halsteadVolume": 6596.724,
+            "logicalLoc": 185,
+            "physicalLoc": 200
+          },
+          "methods": [
+            {
+              "name": "ngAfterViewInit",
+              "lineStart": 38,
+              "lineEnd": 41,
+              "cyclomatic": 1,
+              "halsteadVolume": 36,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.90671719495714
+            },
+            {
+              "name": "loadEpub",
+              "lineStart": 42,
+              "lineEnd": 97,
+              "cyclomatic": 6,
+              "halsteadVolume": 1552.494,
+              "logicalLoc": 48,
+              "physicalLoc": 56,
+              "maintainabilityManual": 68.69893028814968
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 48,
+              "lineEnd": 51,
+              "cyclomatic": 1,
+              "halsteadVolume": 42,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.1051336598554
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 77,
+              "lineEnd": 83,
+              "cyclomatic": 2,
+              "halsteadVolume": 62.27,
+              "logicalLoc": 4,
+              "physicalLoc": 7,
+              "maintainabilityManual": 126.59833655165909
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 85,
+              "lineEnd": 88,
+              "cyclomatic": 2,
+              "halsteadVolume": 59.795,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 138.0382210387409
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 92,
+              "lineEnd": 95,
+              "cyclomatic": 1,
+              "halsteadVolume": 42,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.1051336598554
+            },
+            {
+              "name": "prevPage",
+              "lineStart": 98,
+              "lineEnd": 100,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 159.95690398326485
+            },
+            {
+              "name": "nextPage",
+              "lineStart": 101,
+              "lineEnd": 103,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 159.95690398326485
+            },
+            {
+              "name": "toggleSettings",
+              "lineStart": 104,
+              "lineEnd": 108,
+              "cyclomatic": 2,
+              "halsteadVolume": 69.189,
+              "logicalLoc": 5,
+              "physicalLoc": 5,
+              "maintainabilityManual": 122.43552798822421
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 105,
+              "lineEnd": 105,
+              "cyclomatic": 1,
+              "halsteadVolume": 2,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 167.1656346610883
+            },
+            {
+              "name": "toggleToc",
+              "lineStart": 109,
+              "lineEnd": 113,
+              "cyclomatic": 2,
+              "halsteadVolume": 69.189,
+              "logicalLoc": 5,
+              "physicalLoc": 5,
+              "maintainabilityManual": 122.43552798822421
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 110,
+              "lineEnd": 110,
+              "cyclomatic": 1,
+              "halsteadVolume": 2,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 167.1656346610883
+            },
+            {
+              "name": "goToChapter",
+              "lineStart": 114,
+              "lineEnd": 117,
+              "cyclomatic": 1,
+              "halsteadVolume": 38.039,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.6202335390167
+            },
+            {
+              "name": "setTheme",
+              "lineStart": 118,
+              "lineEnd": 122,
+              "cyclomatic": 1,
+              "halsteadVolume": 44.918,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 133.18732017611265
+            },
+            {
+              "name": "changeFontSize",
+              "lineStart": 123,
+              "lineEnd": 128,
+              "cyclomatic": 1,
+              "halsteadVolume": 143.061,
+              "logicalLoc": 7,
+              "physicalLoc": 6,
+              "maintainabilityManual": 113.43724579910844
+            },
+            {
+              "name": "applyTheme",
+              "lineStart": 129,
+              "lineEnd": 140,
+              "cyclomatic": 3,
+              "halsteadVolume": 216.644,
+              "logicalLoc": 8,
+              "physicalLoc": 12,
+              "maintainabilityManual": 108.65611866729185
+            },
+            {
+              "name": "applyFontSize",
+              "lineStart": 141,
+              "lineEnd": 145,
+              "cyclomatic": 2,
+              "halsteadVolume": 66.608,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 130.908592533223
+            },
+            {
+              "name": "onKeydown",
+              "lineStart": 146,
+              "lineEnd": 153,
+              "cyclomatic": 4,
+              "halsteadVolume": 140,
+              "logicalLoc": 9,
+              "physicalLoc": 8,
+              "maintainabilityManual": 108.78842124958489
+            },
+            {
+              "name": "<anon method-7>",
+              "lineStart": 152,
+              "lineEnd": 152,
+              "cyclomatic": 1,
+              "halsteadVolume": 8,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 148.72791965819374
+            },
+            {
+              "name": "userPrefix",
+              "lineStart": 154,
+              "lineEnd": 156,
+              "cyclomatic": 1,
+              "halsteadVolume": 27,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 142.4026639717064
+            },
+            {
+              "name": "settingsKey",
+              "lineStart": 157,
+              "lineEnd": 159,
+              "cyclomatic": 1,
+              "halsteadVolume": 34.869,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 152.30168945188566
+            },
+            {
+              "name": "positionKey",
+              "lineStart": 160,
+              "lineEnd": 162,
+              "cyclomatic": 1,
+              "halsteadVolume": 53.151,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 150.1096880197107
+            },
+            {
+              "name": "loadSettings",
+              "lineStart": 163,
+              "lineEnd": 171,
+              "cyclomatic": 2,
+              "halsteadVolume": 122.985,
+              "logicalLoc": 10,
+              "physicalLoc": 9,
+              "maintainabilityManual": 108.21539703057194
+            },
+            {
+              "name": "saveSettings",
+              "lineStart": 172,
+              "lineEnd": 174,
+              "cyclomatic": 1,
+              "halsteadVolume": 86.039,
+              "logicalLoc": 6,
+              "physicalLoc": 3,
+              "maintainabilityManual": 118.57853305298522
+            },
+            {
+              "name": "loadPosition",
+              "lineStart": 175,
+              "lineEnd": 182,
+              "cyclomatic": 1,
+              "halsteadVolume": 39.863,
+              "logicalLoc": 5,
+              "physicalLoc": 8,
+              "maintainabilityManual": 125.53277322662032
+            },
+            {
+              "name": "savePosition",
+              "lineStart": 183,
+              "lineEnd": 185,
+              "cyclomatic": 1,
+              "halsteadVolume": 22.459,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 154.58920459144775
+            },
+            {
+              "name": "syncProgress",
+              "lineStart": 187,
+              "lineEnd": 196,
+              "cyclomatic": 3,
+              "halsteadVolume": 271.029,
+              "logicalLoc": 8,
+              "physicalLoc": 10,
+              "maintainabilityManual": 107.4914727284191
+            },
+            {
+              "name": "onClose",
+              "lineStart": 197,
+              "lineEnd": 199,
+              "cyclomatic": 1,
+              "halsteadVolume": 13.932,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 157.0722205669805
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 200,
+              "lineEnd": 206,
+              "cyclomatic": 2,
+              "halsteadVolume": 102.799,
+              "logicalLoc": 5,
+              "physicalLoc": 7,
+              "maintainabilityManual": 120.37667256676167
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/home/home.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/home/home.js",
+      "sourcePhysicalLoc": 173,
+      "aggregate": {
+        "cyclomatic": 42,
+        "halsteadVolume": 5017.322,
+        "logicalLoc": 176,
+        "physicalLoc": 151,
+        "maintainabilityTool": 115.119
+      },
+      "maintainabilityManual": 33.27077093850747,
+      "methods": [],
+      "classes": [
+        {
+          "name": "Home",
+          "lineStart": 10,
+          "lineEnd": 141,
+          "maintainabilityTool": 127.104,
+          "aggregate": {
+            "cyclomatic": 41,
+            "halsteadVolume": 4720.25,
+            "logicalLoc": 167,
+            "physicalLoc": 132
+          },
+          "methods": [
+            {
+              "name": "<anon method-1>",
+              "lineStart": 28,
+              "lineEnd": 28,
+              "cyclomatic": 1,
+              "halsteadVolume": 13.932,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 145.84323624190938
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 29,
+              "lineEnd": 29,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 4,
+              "physicalLoc": 1,
+              "maintainabilityManual": 130.13019203023208
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 29,
+              "lineEnd": 29,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 30,
+              "lineEnd": 30,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 4,
+              "physicalLoc": 1,
+              "maintainabilityManual": 130.13019203023208
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 30,
+              "lineEnd": 30,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 31,
+              "lineEnd": 31,
+              "cyclomatic": 1,
+              "halsteadVolume": 34.869,
+              "logicalLoc": 4,
+              "physicalLoc": 1,
+              "maintainabilityManual": 129.84372080174344
+            },
+            {
+              "name": "<anon method-7>",
+              "lineStart": 31,
+              "lineEnd": 31,
+              "cyclomatic": 1,
+              "halsteadVolume": 19.651,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.28373321645074
+            },
+            {
+              "name": "constructor",
+              "lineStart": 32,
+              "lineEnd": 48,
+              "cyclomatic": 1,
+              "halsteadVolume": 134.886,
+              "logicalLoc": 10,
+              "physicalLoc": 17,
+              "maintainabilityManual": 107.96508561179685
+            },
+            {
+              "name": "<anon method-8>",
+              "lineStart": 33,
+              "lineEnd": 42,
+              "cyclomatic": 1,
+              "halsteadVolume": 141.777,
+              "logicalLoc": 9,
+              "physicalLoc": 10,
+              "maintainabilityManual": 109.412833763721
+            },
+            {
+              "name": "<anon method-9>",
+              "lineStart": 38,
+              "lineEnd": 41,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.529,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 135.54769113188203
+            },
+            {
+              "name": "<anon method-10>",
+              "lineStart": 42,
+              "lineEnd": 45,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.074,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 142.1998274931458
+            },
+            {
+              "name": "loadLibrary",
+              "lineStart": 49,
+              "lineEnd": 56,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.432,
+              "logicalLoc": 4,
+              "physicalLoc": 8,
+              "maintainabilityManual": 128.1351954380051
+            },
+            {
+              "name": "<anon method-11>",
+              "lineStart": 51,
+              "lineEnd": 54,
+              "cyclomatic": 1,
+              "halsteadVolume": 33.688,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 141.25187888245884
+            },
+            {
+              "name": "loadGoal",
+              "lineStart": 57,
+              "lineEnd": 61,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.432,
+              "logicalLoc": 4,
+              "physicalLoc": 5,
+              "maintainabilityManual": 128.1351954380051
+            },
+            {
+              "name": "<anon method-12>",
+              "lineStart": 59,
+              "lineEnd": 59,
+              "cyclomatic": 1,
+              "halsteadVolume": 16.253,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 145.0419726378995
+            },
+            {
+              "name": "saveGoal",
+              "lineStart": 62,
+              "lineEnd": 71,
+              "cyclomatic": 2,
+              "halsteadVolume": 96,
+              "logicalLoc": 6,
+              "physicalLoc": 10,
+              "maintainabilityManual": 117.77888600287275
+            },
+            {
+              "name": "<anon method-13>",
+              "lineStart": 66,
+              "lineEnd": 69,
+              "cyclomatic": 1,
+              "halsteadVolume": 39.303,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.45025124536275
+            },
+            {
+              "name": "loadRecommendations",
+              "lineStart": 72,
+              "lineEnd": 95,
+              "cyclomatic": 2,
+              "halsteadVolume": 450.034,
+              "logicalLoc": 22,
+              "physicalLoc": 24,
+              "maintainabilityManual": 88.6966319511734
+            },
+            {
+              "name": "<anon method-14>",
+              "lineStart": 73,
+              "lineEnd": 73,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-15>",
+              "lineStart": 73,
+              "lineEnd": 73,
+              "cyclomatic": 2,
+              "halsteadVolume": 38.039,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 140.3902335390167
+            },
+            {
+              "name": "<anon method-16>",
+              "lineStart": 77,
+              "lineEnd": 77,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 162.66217718081376
+            },
+            {
+              "name": "<anon method-17>",
+              "lineStart": 82,
+              "lineEnd": 82,
+              "cyclomatic": 1,
+              "halsteadVolume": 4.755,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 151.43319285574265
+            },
+            {
+              "name": "<anon method-18>",
+              "lineStart": 82,
+              "lineEnd": 93,
+              "cyclomatic": 4,
+              "halsteadVolume": 301.195,
+              "logicalLoc": 11,
+              "physicalLoc": 12,
+              "maintainabilityManual": 101.5537555239502
+            },
+            {
+              "name": "addToLibrary",
+              "lineStart": 96,
+              "lineEnd": 117,
+              "cyclomatic": 1,
+              "halsteadVolume": 318.948,
+              "logicalLoc": 14,
+              "physicalLoc": 22,
+              "maintainabilityManual": 98.03912524374934
+            },
+            {
+              "name": "<anon method-19>",
+              "lineStart": 107,
+              "lineEnd": 110,
+              "cyclomatic": 1,
+              "halsteadVolume": 49.829,
+              "logicalLoc": 3,
+              "physicalLoc": 4,
+              "maintainabilityManual": 132.64777577550487
+            },
+            {
+              "name": "<anon method-20>",
+              "lineStart": 108,
+              "lineEnd": 108,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "<anon method-21>",
+              "lineStart": 111,
+              "lineEnd": 115,
+              "cyclomatic": 1,
+              "halsteadVolume": 87.569,
+              "logicalLoc": 3,
+              "physicalLoc": 5,
+              "maintainabilityManual": 129.71586024260475
+            },
+            {
+              "name": "isInLibrary",
+              "lineStart": 118,
+              "lineEnd": 120,
+              "cyclomatic": 1,
+              "halsteadVolume": 30,
+              "logicalLoc": 4,
+              "physicalLoc": 3,
+              "maintainabilityManual": 130.62580496521457
+            },
+            {
+              "name": "<anon method-22>",
+              "lineStart": 119,
+              "lineEnd": 119,
+              "cyclomatic": 1,
+              "halsteadVolume": 18.095,
+              "logicalLoc": 1,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.71269458351833
+            },
+            {
+              "name": "onSearch",
+              "lineStart": 121,
+              "lineEnd": 126,
+              "cyclomatic": 2,
+              "halsteadVolume": 74.009,
+              "logicalLoc": 5,
+              "physicalLoc": 6,
+              "maintainabilityManual": 122.08533493992906
+            },
+            {
+              "name": "onSearchKeydown",
+              "lineStart": 127,
+              "lineEnd": 130,
+              "cyclomatic": 2,
+              "halsteadVolume": 31.699,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 141.33833297477835
+            },
+            {
+              "name": "clearSearch",
+              "lineStart": 131,
+              "lineEnd": 136,
+              "cyclomatic": 1,
+              "halsteadVolume": 66.439,
+              "logicalLoc": 4,
+              "physicalLoc": 6,
+              "maintainabilityManual": 126.49135333587705
+            },
+            {
+              "name": "ngOnDestroy",
+              "lineStart": 137,
+              "lineEnd": 140,
+              "cyclomatic": 1,
+              "halsteadVolume": 31.02,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 141.68092845463727
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/login/login.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/login/login.component.js",
+      "sourcePhysicalLoc": 28,
+      "aggregate": {
+        "cyclomatic": 4,
+        "halsteadVolume": 436.398,
+        "logicalLoc": 23,
+        "physicalLoc": 28,
+        "maintainabilityTool": 119.519
+      },
+      "maintainabilityManual": 87.67650941276344,
+      "methods": [],
+      "classes": [
+        {
+          "name": "LoginComponent",
+          "lineStart": 5,
+          "lineEnd": 17,
+          "maintainabilityTool": 135.672,
+          "aggregate": {
+            "cyclomatic": 3,
+            "halsteadVolume": 226.178,
+            "logicalLoc": 13,
+            "physicalLoc": 13
+          },
+          "methods": [
+            {
+              "name": "login",
+              "lineStart": 11,
+              "lineEnd": 16,
+              "cyclomatic": 1,
+              "halsteadVolume": 81.41,
+              "logicalLoc": 6,
+              "physicalLoc": 6,
+              "maintainabilityManual": 118.8661063974589
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 13,
+              "lineEnd": 13,
+              "cyclomatic": 1,
+              "halsteadVolume": 22.459,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 143.36022026637664
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 14,
+              "lineEnd": 14,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/register/register.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/register/register.component.js",
+      "sourcePhysicalLoc": 29,
+      "aggregate": {
+        "cyclomatic": 4,
+        "halsteadVolume": 466.107,
+        "logicalLoc": 23,
+        "physicalLoc": 29,
+        "maintainabilityTool": 119.173
+      },
+      "maintainabilityManual": 87.33403455013556,
+      "methods": [],
+      "classes": [
+        {
+          "name": "RegisterComponent",
+          "lineStart": 5,
+          "lineEnd": 18,
+          "maintainabilityTool": 135.24,
+          "aggregate": {
+            "cyclomatic": 3,
+            "halsteadVolume": 252.173,
+            "logicalLoc": 13,
+            "physicalLoc": 14
+          },
+          "methods": [
+            {
+              "name": "register",
+              "lineStart": 12,
+              "lineEnd": 17,
+              "cyclomatic": 1,
+              "halsteadVolume": 95.184,
+              "logicalLoc": 6,
+              "physicalLoc": 6,
+              "maintainabilityManual": 118.05327492418866
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 14,
+              "lineEnd": 14,
+              "cyclomatic": 1,
+              "halsteadVolume": 22.459,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 143.36022026637664
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 15,
+              "lineEnd": 15,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/pages/statistika/statistika.component.ts",
+      "transpiledFile": "evidence/transpiled-js/app/pages/statistika/statistika.component.js",
+      "sourcePhysicalLoc": 248,
+      "aggregate": {
+        "cyclomatic": 44,
+        "halsteadVolume": 8126.166,
+        "logicalLoc": 275,
+        "physicalLoc": 212,
+        "maintainabilityTool": 95.803
+      },
+      "maintainabilityManual": 23.07351679391273,
+      "methods": [
+        {
+          "name": "toIso",
+          "lineStart": 10,
+          "lineEnd": 15,
+          "cyclomatic": 1,
+          "halsteadVolume": 206.439,
+          "logicalLoc": 11,
+          "physicalLoc": 6,
+          "maintainabilityManual": 104.20807074058555
+        },
+        {
+          "name": "parseIso",
+          "lineStart": 16,
+          "lineEnd": 19,
+          "cyclomatic": 1,
+          "halsteadVolume": 106.198,
+          "logicalLoc": 4,
+          "physicalLoc": 4,
+          "maintainabilityManual": 124.05244391341606
+        },
+        {
+          "name": "todayIso",
+          "lineStart": 20,
+          "lineEnd": 22,
+          "cyclomatic": 1,
+          "halsteadVolume": 11.61,
+          "logicalLoc": 2,
+          "physicalLoc": 3,
+          "maintainabilityManual": 146.79130833723795
+        },
+        {
+          "name": "capAtToday",
+          "lineStart": 23,
+          "lineEnd": 25,
+          "cyclomatic": 2,
+          "halsteadVolume": 23.265,
+          "logicalLoc": 3,
+          "physicalLoc": 3,
+          "maintainabilityManual": 136.3783404800342
+        },
+        {
+          "name": "shiftIsoDays",
+          "lineStart": 26,
+          "lineEnd": 30,
+          "cyclomatic": 1,
+          "halsteadVolume": 74.009,
+          "logicalLoc": 6,
+          "physicalLoc": 5,
+          "maintainabilityManual": 119.361725719867
+        },
+        {
+          "name": "daysBetween",
+          "lineStart": 31,
+          "lineEnd": 36,
+          "cyclomatic": 1,
+          "halsteadVolume": 144.43,
+          "logicalLoc": 9,
+          "physicalLoc": 6,
+          "maintainabilityManual": 109.31642804936526
+        }
+      ],
+      "classes": [
+        {
+          "name": "StatistikaPuslapis",
+          "lineStart": 37,
+          "lineEnd": 202,
+          "maintainabilityTool": 103.943,
+          "aggregate": {
+            "cyclomatic": 36,
+            "halsteadVolume": 6248.263,
+            "logicalLoc": 224,
+            "physicalLoc": 166
+          },
+          "methods": [
+            {
+              "name": "<anon method-1>",
+              "lineStart": 58,
+              "lineEnd": 58,
+              "cyclomatic": 1,
+              "halsteadVolume": 15.51,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 145.28529379354896
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 60,
+              "lineEnd": 60,
+              "cyclomatic": 1,
+              "halsteadVolume": 18.095,
+              "logicalLoc": 3,
+              "physicalLoc": 1,
+              "maintainabilityManual": 137.91517550709494
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 61,
+              "lineEnd": 64,
+              "cyclomatic": 1,
+              "halsteadVolume": 87.569,
+              "logicalLoc": 5,
+              "physicalLoc": 4,
+              "maintainabilityManual": 121.44048513759572
+            },
+            {
+              "name": "ngOnInit",
+              "lineStart": 65,
+              "lineEnd": 67,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 158.02029266230906
+            },
+            {
+              "name": "applyPreset",
+              "lineStart": 68,
+              "lineEnd": 81,
+              "cyclomatic": 4,
+              "halsteadVolume": 423.04,
+              "logicalLoc": 17,
+              "physicalLoc": 14,
+              "maintainabilityManual": 92.73511679272832
+            },
+            {
+              "name": "onCustomStartChange",
+              "lineStart": 82,
+              "lineEnd": 84,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 152.5881606803743
+            },
+            {
+              "name": "onCustomEndChange",
+              "lineStart": 85,
+              "lineEnd": 87,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 152.5881606803743
+            },
+            {
+              "name": "applyCustomRange",
+              "lineStart": 88,
+              "lineEnd": 100,
+              "cyclomatic": 4,
+              "halsteadVolume": 302.608,
+              "logicalLoc": 13,
+              "physicalLoc": 13,
+              "maintainabilityManual": 98.82314156868338
+            },
+            {
+              "name": "prevPeriod",
+              "lineStart": 101,
+              "lineEnd": 110,
+              "cyclomatic": 1,
+              "halsteadVolume": 273.86,
+              "logicalLoc": 15,
+              "physicalLoc": 10,
+              "maintainabilityManual": 97.71397820224294
+            },
+            {
+              "name": "nextPeriod",
+              "lineStart": 111,
+              "lineEnd": 126,
+              "cyclomatic": 3,
+              "halsteadVolume": 413.303,
+              "logicalLoc": 24,
+              "physicalLoc": 16,
+              "maintainabilityManual": 87.49978685162887
+            },
+            {
+              "name": "jumpToCurrentPeriod",
+              "lineStart": 127,
+              "lineEnd": 140,
+              "cyclomatic": 2,
+              "halsteadVolume": 357.233,
+              "logicalLoc": 18,
+              "physicalLoc": 14,
+              "maintainabilityManual": 93.14835872632413
+            },
+            {
+              "name": "getPresetRange",
+              "lineStart": 141,
+              "lineEnd": 160,
+              "cyclomatic": 5,
+              "halsteadVolume": 534.706,
+              "logicalLoc": 36,
+              "physicalLoc": 20,
+              "maintainabilityManual": 79.13206446869712
+            },
+            {
+              "name": "resolveGranularity",
+              "lineStart": 161,
+              "lineEnd": 170,
+              "cyclomatic": 4,
+              "halsteadVolume": 131.686,
+              "logicalLoc": 9,
+              "physicalLoc": 10,
+              "maintainabilityManual": 109.10677628248997
+            },
+            {
+              "name": "loadAllStats",
+              "lineStart": 171,
+              "lineEnd": 201,
+              "cyclomatic": 3,
+              "halsteadVolume": 708.244,
+              "logicalLoc": 29,
+              "physicalLoc": 31,
+              "maintainabilityManual": 81.63330648535191
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 186,
+              "lineEnd": 193,
+              "cyclomatic": 2,
+              "halsteadVolume": 136.741,
+              "logicalLoc": 6,
+              "physicalLoc": 8,
+              "maintainabilityManual": 115.93943574534416
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 194,
+              "lineEnd": 199,
+              "cyclomatic": 2,
+              "halsteadVolume": 75.284,
+              "logicalLoc": 4,
+              "physicalLoc": 6,
+              "maintainabilityManual": 125.61143967995051
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/auth.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/auth.service.js",
+      "sourcePhysicalLoc": 34,
+      "aggregate": {
+        "cyclomatic": 6,
+        "halsteadVolume": 698.807,
+        "logicalLoc": 33,
+        "physicalLoc": 28,
+        "maintainabilityTool": 118.178
+      },
+      "maintainabilityManual": 78.9198296082565,
+      "methods": [],
+      "classes": [
+        {
+          "name": "AuthService",
+          "lineStart": 4,
+          "lineEnd": 23,
+          "maintainabilityTool": 128.749,
+          "aggregate": {
+            "cyclomatic": 5,
+            "halsteadVolume": 564.708,
+            "logicalLoc": 27,
+            "physicalLoc": 20
+          },
+          "methods": [
+            {
+              "name": "register",
+              "lineStart": 8,
+              "lineEnd": 10,
+              "cyclomatic": 1,
+              "halsteadVolume": 76.147,
+              "logicalLoc": 5,
+              "physicalLoc": 3,
+              "maintainabilityManual": 122.16724426886017
+            },
+            {
+              "name": "login",
+              "lineStart": 11,
+              "lineEnd": 16,
+              "cyclomatic": 1,
+              "halsteadVolume": 96,
+              "logicalLoc": 7,
+              "physicalLoc": 6,
+              "maintainabilityManual": 115.5116449896712
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 12,
+              "lineEnd": 15,
+              "cyclomatic": 1,
+              "halsteadVolume": 41.209,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.20400094360141
+            },
+            {
+              "name": "logout",
+              "lineStart": 17,
+              "lineEnd": 22,
+              "cyclomatic": 1,
+              "halsteadVolume": 76.147,
+              "logicalLoc": 5,
+              "physicalLoc": 6,
+              "maintainabilityManual": 122.16724426886017
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 18,
+              "lineEnd": 21,
+              "cyclomatic": 1,
+              "halsteadVolume": 38.039,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 140.6202335390167
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/book-search.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/book-search.service.js",
+      "sourcePhysicalLoc": 73,
+      "aggregate": {
+        "cyclomatic": 10,
+        "halsteadVolume": 1488.32,
+        "logicalLoc": 50,
+        "physicalLoc": 46,
+        "maintainabilityTool": 107.103
+      },
+      "maintainabilityManual": 67.33713043267822,
+      "methods": [],
+      "classes": [
+        {
+          "name": "BookSearchService",
+          "lineStart": 4,
+          "lineEnd": 41,
+          "maintainabilityTool": 111.27,
+          "aggregate": {
+            "cyclomatic": 9,
+            "halsteadVolume": 1352.893,
+            "logicalLoc": 44,
+            "physicalLoc": 38
+          },
+          "methods": [
+            {
+              "name": "search",
+              "lineStart": 9,
+              "lineEnd": 32,
+              "cyclomatic": 2,
+              "halsteadVolume": 343.019,
+              "logicalLoc": 17,
+              "physicalLoc": 24,
+              "maintainabilityManual": 94.28545746235685
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 19,
+              "lineEnd": 31,
+              "cyclomatic": 1,
+              "halsteadVolume": 82.045,
+              "logicalLoc": 5,
+              "physicalLoc": 13,
+              "maintainabilityManual": 121.77931285698659
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 20,
+              "lineEnd": 28,
+              "cyclomatic": 2,
+              "halsteadVolume": 280.538,
+              "logicalLoc": 9,
+              "physicalLoc": 9,
+              "maintainabilityManual": 105.6340740687318
+            },
+            {
+              "name": "extractGenre",
+              "lineStart": 33,
+              "lineEnd": 40,
+              "cyclomatic": 3,
+              "halsteadVolume": 187.487,
+              "logicalLoc": 7,
+              "physicalLoc": 8,
+              "maintainabilityManual": 111.57096613500192
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 38,
+              "lineEnd": 38,
+              "cyclomatic": 1,
+              "halsteadVolume": 25.266,
+              "logicalLoc": 3,
+              "physicalLoc": 1,
+              "maintainabilityManual": 136.17929090785583
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/epub-storage.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/epub-storage.service.js",
+      "sourcePhysicalLoc": 67,
+      "aggregate": {
+        "cyclomatic": 24,
+        "halsteadVolume": 2078.015,
+        "logicalLoc": 98,
+        "physicalLoc": 65,
+        "maintainabilityTool": 119.457
+      },
+      "maintainabilityManual": 51.47985121695211,
+      "methods": [],
+      "classes": [
+        {
+          "name": "EpubStorageService",
+          "lineStart": 2,
+          "lineEnd": 60,
+          "maintainabilityTool": 129.475,
+          "aggregate": {
+            "cyclomatic": 23,
+            "halsteadVolume": 1892.546,
+            "logicalLoc": 92,
+            "physicalLoc": 59
+          },
+          "methods": [
+            {
+              "name": "openDb",
+              "lineStart": 6,
+              "lineEnd": 23,
+              "cyclomatic": 2,
+              "halsteadVolume": 62.27,
+              "logicalLoc": 5,
+              "physicalLoc": 18,
+              "maintainabilityManual": 122.98341102036889
+            },
+            {
+              "name": "<anon method-1>",
+              "lineStart": 9,
+              "lineEnd": 22,
+              "cyclomatic": 1,
+              "halsteadVolume": 109.393,
+              "logicalLoc": 8,
+              "physicalLoc": 14,
+              "maintainabilityManual": 112.66932313144369
+            },
+            {
+              "name": "<anon method-2>",
+              "lineStart": 11,
+              "lineEnd": 16,
+              "cyclomatic": 2,
+              "halsteadVolume": 101.579,
+              "logicalLoc": 4,
+              "physicalLoc": 6,
+              "maintainabilityManual": 124.05367988134898
+            },
+            {
+              "name": "<anon method-3>",
+              "lineStart": 17,
+              "lineEnd": 20,
+              "cyclomatic": 1,
+              "halsteadVolume": 44.379,
+              "logicalLoc": 2,
+              "physicalLoc": 4,
+              "maintainabilityManual": 139.8186304751222
+            },
+            {
+              "name": "<anon method-4>",
+              "lineStart": 21,
+              "lineEnd": 21,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            },
+            {
+              "name": "save",
+              "lineStart": 24,
+              "lineEnd": 32,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.106,
+              "logicalLoc": 4,
+              "physicalLoc": 9,
+              "maintainabilityManual": 128.1703154206811
+            },
+            {
+              "name": "<anon method-5>",
+              "lineStart": 26,
+              "lineEnd": 31,
+              "cyclomatic": 1,
+              "halsteadVolume": 134.886,
+              "logicalLoc": 8,
+              "physicalLoc": 6,
+              "maintainabilityManual": 111.58001114308706
+            },
+            {
+              "name": "<anon method-6>",
+              "lineStart": 29,
+              "lineEnd": 29,
+              "cyclomatic": 1,
+              "halsteadVolume": 2,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.93665033601718
+            },
+            {
+              "name": "<anon method-7>",
+              "lineStart": 30,
+              "lineEnd": 30,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            },
+            {
+              "name": "load",
+              "lineStart": 33,
+              "lineEnd": 41,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.106,
+              "logicalLoc": 4,
+              "physicalLoc": 9,
+              "maintainabilityManual": 128.1703154206811
+            },
+            {
+              "name": "<anon method-8>",
+              "lineStart": 35,
+              "lineEnd": 40,
+              "cyclomatic": 1,
+              "halsteadVolume": 143.061,
+              "logicalLoc": 9,
+              "physicalLoc": 6,
+              "maintainabilityManual": 109.36595206095775
+            },
+            {
+              "name": "<anon method-9>",
+              "lineStart": 38,
+              "lineEnd": 38,
+              "cyclomatic": 1,
+              "halsteadVolume": 19.651,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 144.05474889137963
+            },
+            {
+              "name": "<anon method-10>",
+              "lineStart": 39,
+              "lineEnd": 39,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            },
+            {
+              "name": "getAllKeys",
+              "lineStart": 42,
+              "lineEnd": 50,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.106,
+              "logicalLoc": 4,
+              "physicalLoc": 9,
+              "maintainabilityManual": 128.1703154206811
+            },
+            {
+              "name": "<anon method-11>",
+              "lineStart": 44,
+              "lineEnd": 49,
+              "cyclomatic": 1,
+              "halsteadVolume": 136,
+              "logicalLoc": 9,
+              "physicalLoc": 6,
+              "maintainabilityManual": 109.62915644132578
+            },
+            {
+              "name": "<anon method-12>",
+              "lineStart": 47,
+              "lineEnd": 47,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            },
+            {
+              "name": "<anon method-13>",
+              "lineStart": 48,
+              "lineEnd": 48,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            },
+            {
+              "name": "remove",
+              "lineStart": 51,
+              "lineEnd": 59,
+              "cyclomatic": 1,
+              "halsteadVolume": 48.106,
+              "logicalLoc": 4,
+              "physicalLoc": 9,
+              "maintainabilityManual": 128.1703154206811
+            },
+            {
+              "name": "<anon method-14>",
+              "lineStart": 53,
+              "lineEnd": 58,
+              "cyclomatic": 1,
+              "halsteadVolume": 128,
+              "logicalLoc": 8,
+              "physicalLoc": 6,
+              "maintainabilityManual": 111.85248965240467
+            },
+            {
+              "name": "<anon method-15>",
+              "lineStart": 56,
+              "lineEnd": 56,
+              "cyclomatic": 1,
+              "halsteadVolume": 2,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 155.93665033601718
+            },
+            {
+              "name": "<anon method-16>",
+              "lineStart": 57,
+              "lineEnd": 57,
+              "cyclomatic": 1,
+              "halsteadVolume": 11.61,
+              "logicalLoc": 2,
+              "physicalLoc": 1,
+              "maintainabilityManual": 146.79130833723795
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/goal.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/goal.service.js",
+      "sourcePhysicalLoc": 24,
+      "aggregate": {
+        "cyclomatic": 3,
+        "halsteadVolume": 227.549,
+        "logicalLoc": 14,
+        "physicalLoc": 17,
+        "maintainabilityTool": 124.129
+      },
+      "maintainabilityManual": 99.33497014119766,
+      "methods": [],
+      "classes": [
+        {
+          "name": "GoalService",
+          "lineStart": 3,
+          "lineEnd": 12,
+          "maintainabilityTool": 140.674,
+          "aggregate": {
+            "cyclomatic": 2,
+            "halsteadVolume": 125.02,
+            "logicalLoc": 8,
+            "physicalLoc": 10
+          },
+          "methods": [
+            {
+              "name": "getGoal",
+              "lineStart": 6,
+              "lineEnd": 8,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.074,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 142.1998274931458
+            },
+            {
+              "name": "setGoal",
+              "lineStart": 9,
+              "lineEnd": 11,
+              "cyclomatic": 1,
+              "halsteadVolume": 41.209,
+              "logicalLoc": 3,
+              "physicalLoc": 3,
+              "maintainabilityManual": 133.63546619224914
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/library.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/library.service.js",
+      "sourcePhysicalLoc": 82,
+      "aggregate": {
+        "cyclomatic": 12,
+        "halsteadVolume": 1225.342,
+        "logicalLoc": 42,
+        "physicalLoc": 44,
+        "maintainabilityTool": 116.481
+      },
+      "maintainabilityManual": 70.71268079183295,
+      "methods": [],
+      "classes": [
+        {
+          "name": "LibraryService",
+          "lineStart": 3,
+          "lineEnd": 39,
+          "maintainabilityTool": 124.758,
+          "aggregate": {
+            "cyclomatic": 11,
+            "halsteadVolume": 1086.896,
+            "logicalLoc": 36,
+            "physicalLoc": 37
+          },
+          "methods": [
+            {
+              "name": "getLibrary",
+              "lineStart": 6,
+              "lineEnd": 8,
+              "cyclomatic": 1,
+              "halsteadVolume": 28.074,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 142.1998274931458
+            },
+            {
+              "name": "filterLibrary",
+              "lineStart": 9,
+              "lineEnd": 21,
+              "cyclomatic": 5,
+              "halsteadVolume": 363.11,
+              "logicalLoc": 14,
+              "physicalLoc": 13,
+              "maintainabilityManual": 96.44480100318276
+            },
+            {
+              "name": "addBook",
+              "lineStart": 22,
+              "lineEnd": 24,
+              "cyclomatic": 1,
+              "halsteadVolume": 33,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 141.3591763553032
+            },
+            {
+              "name": "uploadEpub",
+              "lineStart": 25,
+              "lineEnd": 29,
+              "cyclomatic": 1,
+              "halsteadVolume": 121.014,
+              "logicalLoc": 4,
+              "physicalLoc": 5,
+              "maintainabilityManual": 123.37331889466586
+            },
+            {
+              "name": "getEpubUrl",
+              "lineStart": 30,
+              "lineEnd": 32,
+              "cyclomatic": 1,
+              "halsteadVolume": 31.699,
+              "logicalLoc": 1,
+              "physicalLoc": 3,
+              "maintainabilityManual": 152.79731729984948
+            },
+            {
+              "name": "updateProgress",
+              "lineStart": 33,
+              "lineEnd": 35,
+              "cyclomatic": 1,
+              "halsteadVolume": 72.34,
+              "logicalLoc": 3,
+              "physicalLoc": 3,
+              "maintainabilityManual": 130.70931934565206
+            },
+            {
+              "name": "removeBook",
+              "lineStart": 36,
+              "lineEnd": 38,
+              "cyclomatic": 1,
+              "halsteadVolume": 51.891,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 139.00545977833343
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "app/services/stats.service.ts",
+      "transpiledFile": "evidence/transpiled-js/app/services/stats.service.js",
+      "sourcePhysicalLoc": 58,
+      "aggregate": {
+        "cyclomatic": 9,
+        "halsteadVolume": 659.919,
+        "logicalLoc": 32,
+        "physicalLoc": 32,
+        "maintainabilityTool": 109.251
+      },
+      "maintainabilityManual": 79.02606945352055,
+      "methods": [],
+      "classes": [
+        {
+          "name": "StatsService",
+          "lineStart": 3,
+          "lineEnd": 27,
+          "maintainabilityTool": 114.092,
+          "aggregate": {
+            "cyclomatic": 8,
+            "halsteadVolume": 535,
+            "logicalLoc": 26,
+            "physicalLoc": 25
+          },
+          "methods": [
+            {
+              "name": "getStats",
+              "lineStart": 6,
+              "lineEnd": 15,
+              "cyclomatic": 4,
+              "halsteadVolume": 172.877,
+              "logicalLoc": 11,
+              "physicalLoc": 10,
+              "maintainabilityManual": 104.4406787140183
+            },
+            {
+              "name": "getPagesPerDay",
+              "lineStart": 16,
+              "lineEnd": 23,
+              "cyclomatic": 3,
+              "halsteadVolume": 158.123,
+              "logicalLoc": 9,
+              "physicalLoc": 8,
+              "maintainabilityManual": 108.3854211490149
+            },
+            {
+              "name": "getGenreStats",
+              "lineStart": 24,
+              "lineEnd": 26,
+              "cyclomatic": 1,
+              "halsteadVolume": 43.185,
+              "logicalLoc": 2,
+              "physicalLoc": 3,
+              "maintainabilityManual": 139.9604509687212
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sourceFile": "main.ts",
+      "transpiledFile": "evidence/transpiled-js/main.js",
+      "sourcePhysicalLoc": 7,
+      "aggregate": {
+        "cyclomatic": 2,
+        "halsteadVolume": 46.507,
+        "logicalLoc": 5,
+        "physicalLoc": 6,
+        "maintainabilityTool": 143.552
+      },
+      "maintainabilityManual": 124.50117105629764,
+      "methods": [
+        {
+          "name": "<anon method-1>",
+          "lineStart": 5,
+          "lineEnd": 5,
+          "cyclomatic": 1,
+          "halsteadVolume": 11.61,
+          "logicalLoc": 2,
+          "physicalLoc": 1,
+          "maintainabilityManual": 146.79130833723795
+        }
+      ],
+      "classes": [],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

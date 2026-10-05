@@ -1,0 +1,103 @@
+{
+  "files": 22,
+  "errors": 0,
+  "totals": {
+    "cyclomatic": 330,
+    "halsteadVolume": 44586.23499999999,
+    "logicalLoc": 1610,
+    "physicalLoc": 1572,
+    "maintainabilityManual": 0
+  },
+  "medianFileMI": 78.97294953088853,
+  "topMethodsByCyclomatic": [
+    {
+      "name": "loadEpub",
+      "lineStart": 42,
+      "lineEnd": 97,
+      "cyclomatic": 6,
+      "halsteadVolume": 1552.494,
+      "logicalLoc": 48,
+      "physicalLoc": 56,
+      "maintainabilityManual": 68.69893028814968,
+      "sourceFile": "app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "name": "getPresetRange",
+      "lineStart": 141,
+      "lineEnd": 160,
+      "cyclomatic": 5,
+      "halsteadVolume": 534.706,
+      "logicalLoc": 36,
+      "physicalLoc": 20,
+      "maintainabilityManual": 79.13206446869712,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "applyFilters",
+      "lineStart": 58,
+      "lineEnd": 77,
+      "cyclomatic": 5,
+      "halsteadVolume": 404.015,
+      "logicalLoc": 20,
+      "physicalLoc": 20,
+      "maintainabilityManual": 90.11158673730453,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "name": "filterLibrary",
+      "lineStart": 9,
+      "lineEnd": 21,
+      "cyclomatic": 5,
+      "halsteadVolume": 363.11,
+      "logicalLoc": 14,
+      "physicalLoc": 13,
+      "maintainabilityManual": 96.44480100318276,
+      "sourceFile": "app/services/library.service.ts"
+    },
+    {
+      "name": "resolveStatus",
+      "lineStart": 210,
+      "lineEnd": 216,
+      "cyclomatic": 5,
+      "halsteadVolume": 124,
+      "logicalLoc": 5,
+      "physicalLoc": 7,
+      "maintainabilityManual": 118.71164167742137,
+      "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "name": "applyPreset",
+      "lineStart": 68,
+      "lineEnd": 81,
+      "cyclomatic": 4,
+      "halsteadVolume": 423.04,
+      "logicalLoc": 17,
+      "physicalLoc": 14,
+      "maintainabilityManual": 92.73511679272832,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "applyCustomRange",
+      "lineStart": 88,
+      "lineEnd": 100,
+      "cyclomatic": 4,
+      "halsteadVolume": 302.608,
+      "logicalLoc": 13,
+      "physicalLoc": 13,
+      "maintainabilityManual": 98.82314156868338,
+      "sourceFile": "app/pages/statistika/statistika.component.ts"
+    },
+    {
+      "name": "<anon method-18>",
+      "lineStart": 82,
+      "lineEnd": 93,
+      "cyclomatic": 4,
+      "halsteadVolume": 301.195,
+      "logicalLoc": 11,
+      "physicalLoc": 12,
+      "maintainabilityManual": 101.5537555239502,
+      "sourceFile": "app/pages/home/home.ts"
+    }
+  ]
+}
+node /home/airuk/Desktop/knygnesys-quality-homework/analysis/frontend/scripts/measure-maintainability.mjs exit=0

@@ -1,0 +1,145 @@
+21:52:48.188 INFO  Scanner configuration file: /home/airuk/Desktop/Knygnesys-homework-work/sonar-tools/sonar-scanner-8.1.0.6389/conf/sonar-scanner.properties
+21:52:48.192 INFO  Project root configuration file: /home/airuk/Desktop/knygnesys-quality-homework/sonar-project.properties
+21:52:48.203 INFO  SonarScanner CLI 8.1.0.6389
+21:52:48.209 INFO  Linux 7.2.6-201.nobara.fc44.x86_64 amd64
+21:52:50.226 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+21:52:50.227 INFO  JRE provisioning: os[linux], arch[x86_64]
+21:52:50.537 INFO  Starting SonarScanner Engine...
+21:52:50.538 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+21:52:52.752 INFO  Load global settings
+21:52:52.816 INFO  Load global settings (done) | time=63ms
+21:52:52.819 INFO  Server id: 147B411E-AaENWC6XADfyH3gtMjBJ
+21:52:52.825 INFO  Loading required plugins
+21:52:52.826 INFO  Load plugins index
+21:52:52.836 INFO  Load plugins index (done) | time=10ms
+21:52:52.836 INFO  Load/download plugins
+21:52:52.854 INFO  Load/download plugins (done) | time=18ms
+21:52:53.063 INFO  Process project properties
+21:52:53.076 INFO  Process project properties (done) | time=12ms
+21:52:53.085 INFO  Project key: knygnesys-homework
+21:52:53.085 INFO  Base dir: /home/airuk/Desktop/knygnesys-quality-homework
+21:52:53.086 INFO  Working dir: /home/airuk/Desktop/knygnesys-quality-homework/.scannerwork
+21:52:53.092 INFO  Load project settings for component key: 'knygnesys-homework'
+21:52:53.104 INFO  Load project settings for component key: 'knygnesys-homework' (done) | time=13ms
+21:52:53.125 INFO  Load quality profiles
+21:52:53.163 INFO  Load quality profiles (done) | time=39ms
+21:52:53.202 INFO  Load active rules
+21:52:53.482 INFO  Load active rules (done) | time=280ms
+21:52:53.488 INFO  Load analysis cache
+21:52:53.515 INFO  Load analysis cache | time=27ms
+21:52:53.679 INFO  Preprocessing files...
+21:52:53.788 INFO  4 languages detected in 97 preprocessed files (done) | time=109ms
+21:52:53.789 INFO  4 files ignored because of inclusion/exclusion patterns
+21:52:53.789 INFO  0 files ignored because of scm ignore settings
+21:52:53.790 INFO  Loading plugins for detected languages
+21:52:53.790 INFO  Load/download plugins
+21:52:53.798 INFO  Load/download plugins (done) | time=7ms
+21:52:53.938 INFO  Load project repositories
+21:52:54.021 INFO  Load project repositories (done) | time=82ms
+21:52:54.041 INFO  Indexing files...
+21:52:54.042 INFO  Project configuration:
+21:52:54.042 INFO    Excluded sources: **/*.spec.ts
+21:52:54.056 INFO  97 files indexed (done) | time=14ms
+21:52:54.056 INFO  Quality profile for css: Sonar way
+21:52:54.057 INFO  Quality profile for java: Sonar way
+21:52:54.057 INFO  Quality profile for ts: Sonar way
+21:52:54.057 INFO  Quality profile for web: Sonar way
+21:52:54.057 INFO  ------------- Run sensors on module Knygnesys code-quality homework
+21:52:54.124 INFO  Load metrics repository
+21:52:54.140 INFO  Load metrics repository (done) | time=17ms
+21:52:54.602 INFO  Reflections took 53 ms to scan 1 urls, producing 30 keys and 295 values
+21:52:54.857 INFO  Sensor JavaSensor [java]
+21:52:54.859 INFO  Configured Java source version (sonar.java.source): 21, preview features enabled (sonar.java.enablePreview): false
+21:52:54.878 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+21:52:54.879 INFO  Using ECJ batch to parse 52 Main java source files with batch size 500 KB.
+21:52:55.054 INFO  Starting batch processing.
+21:52:55.458 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+21:52:56.854 INFO  100% analyzed
+21:52:56.854 INFO  Batch processing: Done.
+21:52:56.855 INFO  Did not optimize analysis for any files, performed a full analysis for all 52 files.
+21:52:56.857 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+21:52:56.857 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+21:52:56.857 INFO  Using ECJ batch to parse 3 Test java source files with batch size 500 KB.
+21:52:56.863 INFO  Starting batch processing.
+21:52:57.018 INFO  100% analyzed
+21:52:57.018 INFO  Batch processing: Done.
+21:52:57.018 INFO  Did not optimize analysis for any files, performed a full analysis for all 3 files.
+21:52:57.018 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+21:52:57.019 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+21:52:57.019 INFO  No "Generated" source files to scan.
+21:52:57.021 INFO  Sensor JavaSensor [java] (done) | time=2164ms
+21:52:57.021 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+21:52:57.024 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=3ms
+21:52:57.024 INFO  Sensor SurefireSensor [java]
+21:52:57.025 INFO  parsing [/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-app/target/surefire-reports]
+21:52:57.068 INFO  Sensor SurefireSensor [java] (done) | time=43ms
+21:52:57.068 INFO  Sensor HTML [web]
+21:52:57.214 INFO  Sensor HTML [web] (done) | time=145ms
+21:52:57.214 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+21:52:57.215 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+21:52:57.216 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+21:52:57.216 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+21:52:57.216 INFO  Sensor IaC hadolint report Sensor [iac]
+21:52:57.216 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+21:52:57.216 INFO  Sensor Java Config Sensor [iac]
+21:52:57.216 INFO  There are no files to be analyzed for the Java language
+21:52:57.217 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+21:52:57.217 INFO  Sensor IaC Docker Sensor [iac]
+21:52:57.218 INFO  There are no files to be analyzed for the Docker language
+21:52:57.218 INFO  Sensor IaC Docker Sensor [iac] (done) | time=1ms
+21:52:57.218 INFO  Sensor JavaScript/TypeScript module configuration [javascript]
+21:52:57.219 INFO  Sensor JavaScript/TypeScript module configuration [javascript] (done) | time=1ms
+21:52:57.219 INFO  Sensor TextAndSecretsSensor [text]
+21:52:57.234 INFO  Available processors: 16
+21:52:57.234 INFO  Using 16 threads for analysis.
+21:52:57.442 INFO  Start fetching files for the text and secrets analysis
+21:52:57.448 INFO  Using Git CLI to retrieve dirty files
+21:52:57.457 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+21:52:57.457 INFO  Starting the text and secrets analysis
+21:52:57.459 INFO  97 source files to be analyzed for the text and secrets analysis
+21:52:57.515 INFO  97/97 source files have been analyzed for the text and secrets analysis
+21:52:57.517 INFO  Sensor TextAndSecretsSensor [text] (done) | time=297ms
+21:52:57.518 INFO  ------------- Run sensors on project
+21:52:57.744 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco]
+21:52:57.744 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco] (done) | time=0ms
+21:52:57.745 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+21:52:58.001 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+21:52:58.001 INFO  Deploy location /home/airuk/.sonar/js/node-runtime, tagetRuntime: /home/airuk/.sonar/js/node-runtime/node,  version: /home/airuk/.sonar/js/node-runtime/version.txt
+21:52:58.008 INFO  Using embedded Node.js runtime.
+21:52:58.008 INFO  Using Node.js executable: '/home/airuk/.sonar/js/node-runtime/node'.
+21:52:59.818 INFO  Memory configuration: OS (60110 MB), Node.js (4288 MB).
+21:52:59.827 INFO  gRPC analyze-project server listening on 127.0.0.1:42755
+21:52:59.966 INFO  Plugin version: [13.8.0.44569]
+21:53:01.303 INFO  Resolving provided TSConfig files using '/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/tsconfig.app.json'
+21:53:01.367 INFO  Found 1 tsconfig.json file(s): [/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/tsconfig.app.json]
+21:53:03.806 INFO  42 source files to be analyzed
+21:53:03.806 INFO  Creating TypeScript(6.0.3) program with configuration file /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/tsconfig.app.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+21:53:03.806 INFO  Analyzing 22 file(s) from tsconfig /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/tsconfig.app.json (381 total files in program)
+21:53:03.806 INFO  42/42 source files have been analyzed
+21:53:03.812 INFO  Hit the cache for 0 out of 31
+21:53:03.813 INFO  Miss the cache for 31 out of 31: ANALYSIS_MODE_INELIGIBLE [31/31]
+21:53:03.813 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=6068ms
+21:53:03.813 INFO  Sensor IaC Project Sensor [iac]
+21:53:03.814 INFO  Sensor IaC Project Sensor [iac] (done) | time=0ms
+21:53:03.814 INFO  Sensor JavaProjectSensor [java]
+21:53:03.815 INFO  Sensor JavaProjectSensor [java] (done) | time=1ms
+21:53:03.815 INFO  Sensor Zero Coverage Sensor
+21:53:03.825 INFO  Sensor Zero Coverage Sensor (done) | time=9ms
+21:53:03.825 INFO  Sensor Java CPD Block Indexer
+21:53:03.852 INFO  Sensor Java CPD Block Indexer (done) | time=27ms
+21:53:03.853 INFO  ------------- Gather SCA dependencies on project
+21:53:03.857 INFO  Dependency analysis skipped
+21:53:03.872 INFO  CPD Executor 42 files had no CPD blocks
+21:53:03.873 INFO  CPD Executor Calculating CPD for 52 files
+21:53:03.891 INFO  CPD Executor CPD calculation finished (done) | time=18ms
+21:53:03.898 INFO  SCM revision ID 'a43fcadb762670230662ef9d1ed96824d6d35897'
+21:53:03.976 INFO  Analysis report generated in 75ms, dir size=764.5 kB
+21:53:04.230 INFO  Analysis report compressed in 253ms, zip size=342.2 kB
+21:53:04.315 INFO  Analysis report uploaded in 85ms
+21:53:04.316 INFO  ------------- Check Quality Gate status
+21:53:04.316 INFO  Waiting for the analysis report to be processed (max 300s)
+21:53:09.348 INFO  QUALITY GATE STATUS: PASSED - View details on http://127.0.0.1:19000/dashboard?id=knygnesys-homework
+21:53:09.503 INFO  Analysis total time: 16.620 s
+21:53:09.505 INFO  SonarScanner Engine completed successfully
+21:53:09.537 INFO  EXECUTION SUCCESS
+21:53:09.538 INFO  Total time: 21.352s

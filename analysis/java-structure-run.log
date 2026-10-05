@@ -1,0 +1,90 @@
+{
+  "topLevelDeclarations": 52,
+  "parseErrors": [],
+  "selected": [
+    {
+      "class": "LibraryService",
+      "loc": 135,
+      "declaredConcreteMethodsIncludingConstructors": 8,
+      "wmc": 22,
+      "cbo_import": 11,
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "RecommendationsService",
+      "loc": 52,
+      "declaredConcreteMethodsIncludingConstructors": 2,
+      "wmc": 7,
+      "cbo_import": 3,
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsService",
+      "loc": 288,
+      "declaredConcreteMethodsIncludingConstructors": 11,
+      "wmc": 69,
+      "cbo_import": 11,
+      "dit_explicit": 0,
+      "noc_direct": 0
+    }
+  ],
+  "StatsMethods": [
+    {
+      "name": "getStats",
+      "line": 37,
+      "cc": 6
+    },
+    {
+      "name": "getPagesPerDay",
+      "line": 72,
+      "cc": 11
+    },
+    {
+      "name": "getGenreStats",
+      "line": 130,
+      "cc": 1
+    },
+    {
+      "name": "buildSummary",
+      "line": 144,
+      "cc": 5
+    },
+    {
+      "name": "calculateSince",
+      "line": 161,
+      "cc": 5
+    },
+    {
+      "name": "filterByRange",
+      "line": 172,
+      "cc": 1
+    },
+    {
+      "name": "buildDataPointsForRange",
+      "line": 179,
+      "cc": 18
+    },
+    {
+      "name": "toGranularityBucketKey",
+      "line": 243,
+      "cc": 5
+    },
+    {
+      "name": "weekLabel",
+      "line": 253,
+      "cc": 1
+    },
+    {
+      "name": "buildDataPoints",
+      "line": 257,
+      "cc": 13
+    },
+    {
+      "name": "toBucketKey",
+      "line": 305,
+      "cc": 3
+    }
+  ]
+}

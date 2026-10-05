@@ -1,0 +1,117 @@
+{
+  "component": {
+    "key": "knygnesys-homework",
+    "name": "Knygnesys code-quality homework",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "coverage",
+        "value": "0.0",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "521"
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.9",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_security_rating",
+        "value": "4.0",
+        "bestValue": false
+      },
+      {
+        "metric": "functions",
+        "value": "317"
+      },
+      {
+        "metric": "classes",
+        "value": "69"
+      },
+      {
+        "metric": "software_quality_security_issues",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_maintainability_remediation_effort",
+        "value": "192",
+        "bestValue": false
+      },
+      {
+        "metric": "sqale_debt_ratio",
+        "value": "0.2",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_maintainability_debt_ratio",
+        "value": "0.1",
+        "bestValue": false
+      },
+      {
+        "metric": "sqale_index",
+        "value": "257",
+        "bestValue": false
+      },
+      {
+        "metric": "sqale_rating",
+        "value": "1.0",
+        "bestValue": true
+      },
+      {
+        "metric": "alert_status",
+        "value": "OK"
+      },
+      {
+        "metric": "test_failures",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "software_quality_reliability_issues",
+        "value": "45",
+        "bestValue": false
+      },
+      {
+        "metric": "tests",
+        "value": "28"
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "203",
+        "bestValue": false
+      },
+      {
+        "metric": "ncloc",
+        "value": "5354"
+      },
+      {
+        "metric": "software_quality_maintainability_issues",
+        "value": "52",
+        "bestValue": false
+      },
+      {
+        "metric": "software_quality_reliability_rating",
+        "value": "4.0",
+        "bestValue": false
+      },
+      {
+        "metric": "files",
+        "value": "94"
+      },
+      {
+        "metric": "software_quality_maintainability_rating",
+        "value": "1.0",
+        "bestValue": true
+      },
+      {
+        "metric": "test_errors",
+        "value": "0",
+        "bestValue": true
+      }
+    ]
+  }
+}

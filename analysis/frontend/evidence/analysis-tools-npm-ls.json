@@ -1,0 +1,20 @@
+{
+  "name": "knygnesys-frontend-analysis-tools",
+  "dependencies": {
+    "@typescript-eslint/parser": {
+      "version": "8.57.2",
+      "resolved": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.57.2.tgz",
+      "overridden": false
+    },
+    "eslint-plugin-sonarjs": {
+      "version": "4.2.2",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-4.2.2.tgz",
+      "overridden": false
+    },
+    "eslint": {
+      "version": "10.1.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-10.1.0.tgz",
+      "overridden": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "private_credential_checks": "PASS",
+  "missing_token_rejection": "PASS",
+  "desktop_render": "PASS",
+  "mobile_render": "PASS",
+  "javascript_errors": [],
+  "verification": "ad-hoc; not full-suite success",
+  "final_gate_transcription": "new_violations=0, threshold=0; existing issues remain",
+  "docx_uncompressed_credential_check": "PASS",
+  "rendered_pdf_pages": 25,
+  "off_page_text_spans": 0,
+  "rendered_contents": "PASS"
+}

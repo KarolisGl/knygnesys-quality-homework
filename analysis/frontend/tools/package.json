@@ -1,0 +1,15 @@
+{
+  "name": "knygnesys-frontend-analysis-tools",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/parser": "8.57.2",
+    "eslint": "10.1.0",
+    "eslint-plugin-sonarjs": "4.2.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
+    "typescript": "^5.9.2",
+    "typhonjs-escomplex": "^0.1.0"
+  }
+}

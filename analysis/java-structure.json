@@ -1,0 +1,1887 @@
+{
+  "tool": "tree-sitter-java 0.23.5 / tree-sitter 0.25.2 + explicit metric policy",
+  "scope": "main Java; top-level declarations; no generated Lombok methods or framework dispatch",
+  "ccPolicy": "Base 1 per concrete method/constructor; +1 per if, for, foreach, while, do, catch, ternary, non-default switch label, && or ||; nested lambdas/classes excluded from parent. Decision locations included.",
+  "cboPolicy": "distinct explicit imports from lt.prifkodas; proxy only, not resolved type-use CBO",
+  "ditPolicy": "explicit extends chain, external root adds one edge; implicit Object excluded",
+  "parseErrors": [],
+  "declarations": [
+    {
+      "class": "KnygnesysApplication",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/KnygnesysApplication.java",
+      "line": 10,
+      "endLine": 23,
+      "loc": 14,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "main",
+          "line": 19,
+          "endLine": 21,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "AuthApi",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "line": 15,
+      "endLine": 40,
+      "loc": 26,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.auth.dto.AuthResponse",
+        "lt.prifkodas.knygnesys.auth.dto.LoginRequest",
+        "lt.prifkodas.knygnesys.auth.dto.RegisterRequest"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "AuthController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/controller/AuthController.java",
+      "line": 13,
+      "endLine": 39,
+      "loc": 27,
+      "declaredConcreteMethodsIncludingConstructors": 3,
+      "wmc": 3,
+      "cbo_import": 5,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.auth.dto.AuthResponse",
+        "lt.prifkodas.knygnesys.auth.dto.LoginRequest",
+        "lt.prifkodas.knygnesys.auth.dto.RegisterRequest",
+        "lt.prifkodas.knygnesys.auth.service.AuthService",
+        "lt.prifkodas.knygnesys.user.User"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "register",
+          "line": 19,
+          "endLine": 25,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "login",
+          "line": 27,
+          "endLine": 32,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "logout",
+          "line": 34,
+          "endLine": 38,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "AuthResponse",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/dto/AuthResponse.java",
+      "line": 7,
+      "endLine": 14,
+      "loc": 8,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "LoginRequest",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/dto/LoginRequest.java",
+      "line": 7,
+      "endLine": 15,
+      "loc": 9,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "RegisterRequest",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/dto/RegisterRequest.java",
+      "line": 7,
+      "endLine": 14,
+      "loc": 8,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "AuthService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/auth/service/AuthService.java",
+      "line": 18,
+      "endLine": 66,
+      "loc": 49,
+      "declaredConcreteMethodsIncludingConstructors": 3,
+      "wmc": 5,
+      "cbo_import": 5,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.auth.dto.LoginRequest",
+        "lt.prifkodas.knygnesys.auth.dto.RegisterRequest",
+        "lt.prifkodas.knygnesys.shared.exception.ResourceNotFoundException",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.repository.UserRepository"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "register",
+          "line": 26,
+          "endLine": 40,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 27,
+              "type": "if_statement",
+              "code": "if (userRepository.existsByEmail(request.getEmail())) {"
+            },
+            {
+              "line": 30,
+              "type": "if_statement",
+              "code": "if (userRepository.existsByUsername(request.getUsername())) {"
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "line": 42,
+          "endLine": 60,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "logout",
+          "line": 62,
+          "endLine": 65,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "Book",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/book/Book.java",
+      "line": 6,
+      "endLine": 34,
+      "loc": 29,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "BookRepository",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/book/repository/BookRepository.java",
+      "line": 8,
+      "endLine": 10,
+      "loc": 3,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.book.Book"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "Goal",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/Goal.java",
+      "line": 8,
+      "endLine": 28,
+      "loc": 21,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GoalApi",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "line": 14,
+      "endLine": 46,
+      "loc": 33,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 2,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.goal.dto.GoalResponse",
+        "lt.prifkodas.knygnesys.goal.dto.SetGoalRequest"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GoalController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/controller/GoalController.java",
+      "line": 12,
+      "endLine": 32,
+      "loc": 21,
+      "declaredConcreteMethodsIncludingConstructors": 3,
+      "wmc": 3,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.goal.dto.GoalResponse",
+        "lt.prifkodas.knygnesys.goal.dto.SetGoalRequest",
+        "lt.prifkodas.knygnesys.goal.service.GoalService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getGoal",
+          "line": 18,
+          "endLine": 21,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getGoalByUserId",
+          "line": 23,
+          "endLine": 26,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "setGoal",
+          "line": 28,
+          "endLine": 31,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GoalResponse",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/dto/GoalResponse.java",
+      "line": 7,
+      "endLine": 14,
+      "loc": 8,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "SetGoalRequest",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/dto/SetGoalRequest.java",
+      "line": 7,
+      "endLine": 12,
+      "loc": 6,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GoalRepository",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/repository/GoalRepository.java",
+      "line": 12,
+      "endLine": 27,
+      "loc": 16,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.goal.Goal"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "EmailService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/service/EmailService.java",
+      "line": 8,
+      "endLine": 36,
+      "loc": 29,
+      "declaredConcreteMethodsIncludingConstructors": 2,
+      "wmc": 2,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "sendInactivityReminder",
+          "line": 14,
+          "endLine": 20,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "buildEmailText",
+          "line": 22,
+          "endLine": 35,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GoalService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "line": 16,
+      "endLine": 65,
+      "loc": 50,
+      "declaredConcreteMethodsIncludingConstructors": 4,
+      "wmc": 6,
+      "cbo_import": 7,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.goal.Goal",
+        "lt.prifkodas.knygnesys.goal.dto.GoalResponse",
+        "lt.prifkodas.knygnesys.goal.dto.SetGoalRequest",
+        "lt.prifkodas.knygnesys.goal.repository.GoalRepository",
+        "lt.prifkodas.knygnesys.readinglist.repository.ReadingListRepository",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.service.UserService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getGoal",
+          "line": 24,
+          "endLine": 30,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "setGoal",
+          "line": 32,
+          "endLine": 48,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 33,
+              "type": "if_statement",
+              "code": "if (request.getTargetBooks() == null || request.getTargetBooks() < 1) {"
+            },
+            {
+              "line": 33,
+              "type": "binary_expression",
+              "code": "request.getTargetBooks() == null || request.getTargetBooks() < 1"
+            }
+          ]
+        },
+        {
+          "name": "getGoalByUserId",
+          "line": 50,
+          "endLine": 56,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "buildResponse",
+          "line": 58,
+          "endLine": 64,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "InactivitySchedulerService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "line": 16,
+      "endLine": 45,
+      "loc": 30,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 3,
+      "cbo_import": 4,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.goal.Goal",
+        "lt.prifkodas.knygnesys.goal.repository.GoalRepository",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.service.UserService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "checkInactivityAndNotify",
+          "line": 25,
+          "endLine": 44,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 33,
+              "type": "enhanced_for_statement",
+              "code": "for (Goal goal : goalsToNotify) {"
+            },
+            {
+              "line": 40,
+              "type": "catch_clause",
+              "code": "catch (Exception e) {"
+            }
+          ]
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "ReadingProgress",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "line": 9,
+      "endLine": 41,
+      "loc": 33,
+      "declaredConcreteMethodsIncludingConstructors": 2,
+      "wmc": 2,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "ReadingProgress",
+          "line": 31,
+          "endLine": 35,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "onCreate",
+          "line": 37,
+          "endLine": 40,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "ReadingProgressRepository",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/progress/repository/ReadingProgressRepository.java",
+      "line": 9,
+      "endLine": 11,
+      "loc": 3,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.progress.ReadingProgress"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "ReadingList",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "line": 10,
+      "endLine": 46,
+      "loc": 37,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 2,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.book.Book",
+        "lt.prifkodas.knygnesys.user.User"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "onCreate",
+          "line": 42,
+          "endLine": 45,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "LibraryApi",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "line": 19,
+      "endLine": 105,
+      "loc": 87,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.readinglist.dto.AddBookRequest",
+        "lt.prifkodas.knygnesys.readinglist.dto.LibraryBookDto",
+        "lt.prifkodas.knygnesys.readinglist.dto.UpdateProgressRequest"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "LibraryController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/controller/LibraryController.java",
+      "line": 20,
+      "endLine": 77,
+      "loc": 58,
+      "declaredConcreteMethodsIncludingConstructors": 7,
+      "wmc": 7,
+      "cbo_import": 4,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.readinglist.dto.AddBookRequest",
+        "lt.prifkodas.knygnesys.readinglist.dto.LibraryBookDto",
+        "lt.prifkodas.knygnesys.readinglist.dto.UpdateProgressRequest",
+        "lt.prifkodas.knygnesys.readinglist.service.LibraryService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getLibrary",
+          "line": 26,
+          "endLine": 29,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "filterLibrary",
+          "line": 31,
+          "endLine": 43,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "addBook",
+          "line": 45,
+          "endLine": 49,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "uploadEpub",
+          "line": 51,
+          "endLine": 55,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getEpub",
+          "line": 57,
+          "endLine": 64,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "updateProgress",
+          "line": 66,
+          "endLine": 70,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "removeBook",
+          "line": 72,
+          "endLine": 76,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "AddBookRequest",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/dto/AddBookRequest.java",
+      "line": 7,
+      "endLine": 18,
+      "loc": 12,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "LibraryBookDto",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/dto/LibraryBookDto.java",
+      "line": 7,
+      "endLine": 22,
+      "loc": 16,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UpdateProgressRequest",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/dto/UpdateProgressRequest.java",
+      "line": 7,
+      "endLine": 12,
+      "loc": 6,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "ReadingListRepository",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/repository/ReadingListRepository.java",
+      "line": 12,
+      "endLine": 34,
+      "loc": 23,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.readinglist.ReadingList"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "LibraryService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "line": 27,
+      "endLine": 161,
+      "loc": 135,
+      "declaredConcreteMethodsIncludingConstructors": 8,
+      "wmc": 22,
+      "cbo_import": 11,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.book.Book",
+        "lt.prifkodas.knygnesys.book.repository.BookRepository",
+        "lt.prifkodas.knygnesys.progress.ReadingProgress",
+        "lt.prifkodas.knygnesys.progress.repository.ReadingProgressRepository",
+        "lt.prifkodas.knygnesys.readinglist.ReadingList",
+        "lt.prifkodas.knygnesys.readinglist.dto.AddBookRequest",
+        "lt.prifkodas.knygnesys.readinglist.dto.LibraryBookDto",
+        "lt.prifkodas.knygnesys.readinglist.repository.ReadingListRepository",
+        "lt.prifkodas.knygnesys.shared.exception.ResourceNotFoundException",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.service.UserService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "addBook",
+          "line": 39,
+          "endLine": 63,
+          "cc": 2,
+          "decisionPoints": [
+            {
+              "line": 60,
+              "type": "ternary_expression",
+              "code": "request.getStatus() != null ? request.getStatus() : \"WANT_TO_READ\""
+            }
+          ]
+        },
+        {
+          "name": "getLibrary",
+          "line": 65,
+          "endLine": 71,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "filterLibrary",
+          "line": 73,
+          "endLine": 84,
+          "cc": 5,
+          "decisionPoints": [
+            {
+              "line": 77,
+              "type": "ternary_expression",
+              "code": "title != null ? title.toLowerCase() : null"
+            },
+            {
+              "line": 78,
+              "type": "ternary_expression",
+              "code": "author != null ? author.toLowerCase() : null"
+            },
+            {
+              "line": 79,
+              "type": "ternary_expression",
+              "code": "progress != null && progress >= 0 ? progress : null"
+            },
+            {
+              "line": 79,
+              "type": "binary_expression",
+              "code": "progress != null && progress >= 0"
+            }
+          ]
+        },
+        {
+          "name": "uploadEpub",
+          "line": 86,
+          "endLine": 104,
+          "cc": 2,
+          "decisionPoints": [
+            {
+              "line": 97,
+              "type": "if_statement",
+              "code": "if (entry.getEpubPath() != null) {"
+            }
+          ]
+        },
+        {
+          "name": "getEpub",
+          "line": 106,
+          "endLine": 116,
+          "cc": 2,
+          "decisionPoints": [
+            {
+              "line": 111,
+              "type": "if_statement",
+              "code": "if (entry.getEpubPath() == null) {"
+            }
+          ]
+        },
+        {
+          "name": "removeBook",
+          "line": 118,
+          "endLine": 128,
+          "cc": 2,
+          "decisionPoints": [
+            {
+              "line": 123,
+              "type": "if_statement",
+              "code": "if (entry.getEpubPath() != null) {"
+            }
+          ]
+        },
+        {
+          "name": "updateProgress",
+          "line": 130,
+          "endLine": 144,
+          "cc": 5,
+          "decisionPoints": [
+            {
+              "line": 136,
+              "type": "if_statement",
+              "code": "if (pageCount != null && currentPage >= pageCount) {"
+            },
+            {
+              "line": 136,
+              "type": "binary_expression",
+              "code": "pageCount != null && currentPage >= pageCount"
+            },
+            {
+              "line": 139,
+              "type": "if_statement",
+              "code": "if (\"WANT_TO_READ\".equals(entry.getStatus()) && currentPage > 0) {"
+            },
+            {
+              "line": 139,
+              "type": "binary_expression",
+              "code": "\"WANT_TO_READ\".equals(entry.getStatus()) && currentPage > 0"
+            }
+          ]
+        },
+        {
+          "name": "toDto",
+          "line": 146,
+          "endLine": 160,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 155,
+              "type": "ternary_expression",
+              "code": "entry.getCurrentPage() != null ? entry.getCurrentPage() : 0"
+            },
+            {
+              "line": 157,
+              "type": "ternary_expression",
+              "code": "entry.getAddedAt() != null ? entry.getAddedAt().toString() : null"
+            }
+          ]
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "RecommendationsController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/recommendation/controller/RecommendationsController.java",
+      "line": 14,
+      "endLine": 27,
+      "loc": 14,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 2,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.recommendation.dto.RecommendationDto",
+        "lt.prifkodas.knygnesys.recommendation.service.RecommendationsService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getPopularRecommendations",
+          "line": 21,
+          "endLine": 26,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "OpenLibraryBookDoc",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/recommendation/dto/OpenLibraryBookDoc.java",
+      "line": 8,
+      "endLine": 19,
+      "loc": 12,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "OpenLibrarySearchResponse",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/recommendation/dto/OpenLibrarySearchResponse.java",
+      "line": 7,
+      "endLine": 10,
+      "loc": 4,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "RecommendationDto",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/recommendation/dto/RecommendationDto.java",
+      "line": 7,
+      "endLine": 15,
+      "loc": 9,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "RecommendationsService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "line": 15,
+      "endLine": 66,
+      "loc": 52,
+      "declaredConcreteMethodsIncludingConstructors": 2,
+      "wmc": 7,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.recommendation.dto.OpenLibraryBookDoc",
+        "lt.prifkodas.knygnesys.recommendation.dto.OpenLibrarySearchResponse",
+        "lt.prifkodas.knygnesys.recommendation.dto.RecommendationDto"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getPopularRecommendations",
+          "line": 23,
+          "endLine": 46,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 38,
+              "type": "if_statement",
+              "code": "if (response == null || response.getDocs() == null) {"
+            },
+            {
+              "line": 38,
+              "type": "binary_expression",
+              "code": "response == null || response.getDocs() == null"
+            }
+          ]
+        },
+        {
+          "name": "toDto",
+          "line": 48,
+          "endLine": 65,
+          "cc": 4,
+          "decisionPoints": [
+            {
+              "line": 50,
+              "type": "if_statement",
+              "code": "if (doc.getAuthorName() != null && !doc.getAuthorName().isEmpty()) {"
+            },
+            {
+              "line": 50,
+              "type": "binary_expression",
+              "code": "doc.getAuthorName() != null && !doc.getAuthorName().isEmpty()"
+            },
+            {
+              "line": 55,
+              "type": "if_statement",
+              "code": "if (doc.getCoverId() != null) {"
+            }
+          ]
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "CorsConfig",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/config/CorsConfig.java",
+      "line": 9,
+      "endLine": 24,
+      "loc": 16,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "corsConfigurationSource",
+          "line": 12,
+          "endLine": 23,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "OpenApiConfig",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/config/OpenApiConfig.java",
+      "line": 8,
+      "endLine": 19,
+      "loc": 12,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "knygnesysOpenAPI",
+          "line": 11,
+          "endLine": 18,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "SecurityConfig",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "line": 15,
+      "endLine": 55,
+      "loc": 41,
+      "declaredConcreteMethodsIncludingConstructors": 3,
+      "wmc": 3,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "filterChain",
+          "line": 20,
+          "endLine": 44,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "passwordEncoder",
+          "line": 46,
+          "endLine": 49,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "authenticationManager",
+          "line": 51,
+          "endLine": 54,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UserDetailsServiceImpl",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/config/UserDetailsServiceImpl.java",
+      "line": 13,
+      "endLine": 30,
+      "loc": 18,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 2,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.repository.UserRepository"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "loadUserByUsername",
+          "line": 19,
+          "endLine": 29,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GlobalExceptionHandler",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/exception/GlobalExceptionHandler.java",
+      "line": 8,
+      "endLine": 20,
+      "loc": 13,
+      "declaredConcreteMethodsIncludingConstructors": 2,
+      "wmc": 2,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "handleNotFound",
+          "line": 11,
+          "endLine": 14,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "handleBadRequest",
+          "line": 16,
+          "endLine": 19,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "ResourceNotFoundException",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/shared/exception/ResourceNotFoundException.java",
+      "line": 3,
+      "endLine": 7,
+      "loc": 5,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": "RuntimeException",
+      "methods": [
+        {
+          "name": "ResourceNotFoundException",
+          "line": 4,
+          "endLine": 6,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 1,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsApi",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "line": 19,
+      "endLine": 59,
+      "loc": 41,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.stats.dto.GenreDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.PagesDayDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.StatsResponse"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/controller/StatsController.java",
+      "line": 16,
+      "endLine": 46,
+      "loc": 31,
+      "declaredConcreteMethodsIncludingConstructors": 3,
+      "wmc": 3,
+      "cbo_import": 4,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.stats.dto.GenreDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.PagesDayDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.StatsResponse",
+        "lt.prifkodas.knygnesys.stats.service.StatsService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getStats",
+          "line": 22,
+          "endLine": 30,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getPagesPerDay",
+          "line": 32,
+          "endLine": 39,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getGenreStats",
+          "line": 41,
+          "endLine": 45,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "GenreDataPoint",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/dto/GenreDataPoint.java",
+      "line": 7,
+      "endLine": 13,
+      "loc": 7,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "PagesDayDataPoint",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/dto/PagesDayDataPoint.java",
+      "line": 7,
+      "endLine": 13,
+      "loc": 7,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsDataPoint",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/dto/StatsDataPoint.java",
+      "line": 7,
+      "endLine": 14,
+      "loc": 8,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsResponse",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/dto/StatsResponse.java",
+      "line": 9,
+      "endLine": 16,
+      "loc": 8,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsSummary",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/dto/StatsSummary.java",
+      "line": 7,
+      "endLine": 15,
+      "loc": 9,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "StatsService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "line": 25,
+      "endLine": 312,
+      "loc": 288,
+      "declaredConcreteMethodsIncludingConstructors": 11,
+      "wmc": 69,
+      "cbo_import": 11,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.progress.ReadingProgress",
+        "lt.prifkodas.knygnesys.progress.repository.ReadingProgressRepository",
+        "lt.prifkodas.knygnesys.readinglist.ReadingList",
+        "lt.prifkodas.knygnesys.readinglist.repository.ReadingListRepository",
+        "lt.prifkodas.knygnesys.stats.dto.GenreDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.PagesDayDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.StatsDataPoint",
+        "lt.prifkodas.knygnesys.stats.dto.StatsResponse",
+        "lt.prifkodas.knygnesys.stats.dto.StatsSummary",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.service.UserService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getStats",
+          "line": 37,
+          "endLine": 70,
+          "cc": 6,
+          "decisionPoints": [
+            {
+              "line": 39,
+              "type": "if_statement",
+              "code": "if (!List.of(\"DAY\", \"WEEK\", \"MONTH\", \"YEAR\").contains(normalizedPeriod)) {"
+            },
+            {
+              "line": 48,
+              "type": "if_statement",
+              "code": "if (startDate != null && endDate != null) {"
+            },
+            {
+              "line": 48,
+              "type": "binary_expression",
+              "code": "startDate != null && endDate != null"
+            },
+            {
+              "line": 51,
+              "type": "if_statement",
+              "code": "if (anchor.isBefore(since)) {"
+            },
+            {
+              "line": 60,
+              "type": "ternary_expression",
+              "code": "date != null"
+            }
+          ]
+        },
+        {
+          "name": "getPagesPerDay",
+          "line": 72,
+          "endLine": 128,
+          "cc": 11,
+          "decisionPoints": [
+            {
+              "line": 75,
+              "type": "ternary_expression",
+              "code": "endDate != null ? LocalDate.parse(endDate) : LocalDate.now()"
+            },
+            {
+              "line": 76,
+              "type": "ternary_expression",
+              "code": "startDate != null"
+            },
+            {
+              "line": 79,
+              "type": "if_statement",
+              "code": "if (rangeEnd.isBefore(rangeStart)) {"
+            },
+            {
+              "line": 91,
+              "type": "for_statement",
+              "code": "for (LocalDate d = rangeStart; !d.isAfter(rangeEnd); d = d.plusDays(1)) {"
+            },
+            {
+              "line": 99,
+              "type": "enhanced_for_statement",
+              "code": "for (List<ReadingProgress> bookLogs : byBook.values()) {"
+            },
+            {
+              "line": 102,
+              "type": "enhanced_for_statement",
+              "code": "for (ReadingProgress log : bookLogs) {"
+            },
+            {
+              "line": 104,
+              "type": "if_statement",
+              "code": "if (!logDate.isAfter(rangeEnd)) {"
+            },
+            {
+              "line": 116,
+              "type": "for_statement",
+              "code": "for (LocalDate d = rangeStart; !d.isAfter(rangeEnd); d = d.plusDays(1)) {"
+            },
+            {
+              "line": 118,
+              "type": "if_statement",
+              "code": "if (dayMax != null && dayMax > runningMax) {"
+            },
+            {
+              "line": 118,
+              "type": "binary_expression",
+              "code": "dayMax != null && dayMax > runningMax"
+            }
+          ]
+        },
+        {
+          "name": "getGenreStats",
+          "line": 130,
+          "endLine": 142,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "buildSummary",
+          "line": 144,
+          "endLine": 159,
+          "cc": 5,
+          "decisionPoints": [
+            {
+              "line": 150,
+              "type": "enhanced_for_statement",
+              "code": "for (ReadingList entry : entries) {"
+            },
+            {
+              "line": 152,
+              "type": "switch_label",
+              "code": "case \"FINISHED\""
+            },
+            {
+              "line": 153,
+              "type": "switch_label",
+              "code": "case \"READING\""
+            },
+            {
+              "line": 154,
+              "type": "switch_label",
+              "code": "case \"WANT_TO_READ\""
+            }
+          ]
+        },
+        {
+          "name": "calculateSince",
+          "line": 161,
+          "endLine": 170,
+          "cc": 5,
+          "decisionPoints": [
+            {
+              "line": 163,
+              "type": "switch_label",
+              "code": "case \"DAY\""
+            },
+            {
+              "line": 165,
+              "type": "switch_label",
+              "code": "case \"WEEK\""
+            },
+            {
+              "line": 166,
+              "type": "switch_label",
+              "code": "case \"MONTH\""
+            },
+            {
+              "line": 167,
+              "type": "switch_label",
+              "code": "case \"YEAR\""
+            }
+          ]
+        },
+        {
+          "name": "filterByRange",
+          "line": 172,
+          "endLine": 177,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "buildDataPointsForRange",
+          "line": 179,
+          "endLine": 241,
+          "cc": 18,
+          "decisionPoints": [
+            {
+              "line": 184,
+              "type": "switch_label",
+              "code": "case \"DAY\""
+            },
+            {
+              "line": 186,
+              "type": "while_statement",
+              "code": "while (!cursor.isAfter(anchor.toLocalDate())) {"
+            },
+            {
+              "line": 192,
+              "type": "switch_label",
+              "code": "case \"WEEK\""
+            },
+            {
+              "line": 196,
+              "type": "while_statement",
+              "code": "while (!cursor.isAfter(endWeek)) {"
+            },
+            {
+              "line": 202,
+              "type": "switch_label",
+              "code": "case \"MONTH\""
+            },
+            {
+              "line": 205,
+              "type": "while_statement",
+              "code": "while (!cursor.isAfter(endMonth)) {"
+            },
+            {
+              "line": 211,
+              "type": "switch_label",
+              "code": "case \"YEAR\""
+            },
+            {
+              "line": 214,
+              "type": "while_statement",
+              "code": "while (!cursor.isAfter(endYear)) {"
+            },
+            {
+              "line": 222,
+              "type": "enhanced_for_statement",
+              "code": "for (ReadingList entry : entries) {"
+            },
+            {
+              "line": 223,
+              "type": "if_statement",
+              "code": "if (entry.getAddedAt() != null && !entry.getAddedAt().isBefore(since) && !entry.getAddedAt().isAfter"
+            },
+            {
+              "line": 223,
+              "type": "binary_expression",
+              "code": "entry.getAddedAt() != null && !entry.getAddedAt().isBefore(since) && !entry.getAddedAt().isAfter(anc"
+            },
+            {
+              "line": 223,
+              "type": "binary_expression",
+              "code": "entry.getAddedAt() != null && !entry.getAddedAt().isBefore(since)"
+            },
+            {
+              "line": 226,
+              "type": "if_statement",
+              "code": "if (point != null) {"
+            },
+            {
+              "line": 231,
+              "type": "if_statement",
+              "code": "if (entry.getCompletedAt() != null && !entry.getCompletedAt().isBefore(since) && !entry.getCompleted"
+            },
+            {
+              "line": 231,
+              "type": "binary_expression",
+              "code": "entry.getCompletedAt() != null && !entry.getCompletedAt().isBefore(since) && !entry.getCompletedAt()"
+            },
+            {
+              "line": 231,
+              "type": "binary_expression",
+              "code": "entry.getCompletedAt() != null && !entry.getCompletedAt().isBefore(since)"
+            },
+            {
+              "line": 234,
+              "type": "if_statement",
+              "code": "if (point != null) {"
+            }
+          ]
+        },
+        {
+          "name": "toGranularityBucketKey",
+          "line": 243,
+          "endLine": 251,
+          "cc": 5,
+          "decisionPoints": [
+            {
+              "line": 245,
+              "type": "switch_label",
+              "code": "case \"DAY\""
+            },
+            {
+              "line": 246,
+              "type": "switch_label",
+              "code": "case \"WEEK\""
+            },
+            {
+              "line": 247,
+              "type": "switch_label",
+              "code": "case \"MONTH\""
+            },
+            {
+              "line": 248,
+              "type": "switch_label",
+              "code": "case \"YEAR\""
+            }
+          ]
+        },
+        {
+          "name": "weekLabel",
+          "line": 253,
+          "endLine": 255,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "buildDataPoints",
+          "line": 257,
+          "endLine": 303,
+          "cc": 13,
+          "decisionPoints": [
+            {
+              "line": 261,
+              "type": "if_statement",
+              "code": "if (\"DAY\".equals(period)) {"
+            },
+            {
+              "line": 262,
+              "type": "for_statement",
+              "code": "for (int hour = 0; hour < 24; hour++) {"
+            },
+            {
+              "line": 266,
+              "type": "if_statement",
+              "code": "if (\"YEAR\".equals(period)) {"
+            },
+            {
+              "line": 269,
+              "type": "while_statement",
+              "code": "while (!start.isAfter(end)) {"
+            },
+            {
+              "line": 277,
+              "type": "while_statement",
+              "code": "while (!start.isAfter(end)) {"
+            },
+            {
+              "line": 284,
+              "type": "enhanced_for_statement",
+              "code": "for (ReadingList entry : entries) {"
+            },
+            {
+              "line": 285,
+              "type": "if_statement",
+              "code": "if (entry.getAddedAt() != null && !entry.getAddedAt().isBefore(since)) {"
+            },
+            {
+              "line": 285,
+              "type": "binary_expression",
+              "code": "entry.getAddedAt() != null && !entry.getAddedAt().isBefore(since)"
+            },
+            {
+              "line": 288,
+              "type": "if_statement",
+              "code": "if (point != null) {"
+            },
+            {
+              "line": 293,
+              "type": "if_statement",
+              "code": "if (entry.getCompletedAt() != null && !entry.getCompletedAt().isBefore(since)) {"
+            },
+            {
+              "line": 293,
+              "type": "binary_expression",
+              "code": "entry.getCompletedAt() != null && !entry.getCompletedAt().isBefore(since)"
+            },
+            {
+              "line": 296,
+              "type": "if_statement",
+              "code": "if (point != null) {"
+            }
+          ]
+        },
+        {
+          "name": "toBucketKey",
+          "line": 305,
+          "endLine": 311,
+          "cc": 3,
+          "decisionPoints": [
+            {
+              "line": 307,
+              "type": "switch_label",
+              "code": "case \"DAY\""
+            },
+            {
+              "line": 308,
+              "type": "switch_label",
+              "code": "case \"YEAR\""
+            }
+          ]
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "User",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/user/User.java",
+      "line": 8,
+      "endLine": 36,
+      "loc": 29,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 1,
+      "cbo_import": 0,
+      "projectImports": [],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "onCreate",
+          "line": 32,
+          "endLine": 35,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UserApi",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "line": 14,
+      "endLine": 25,
+      "loc": 12,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.auth.dto.AuthResponse"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UserController",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/user/controller/UserController.java",
+      "line": 12,
+      "endLine": 26,
+      "loc": 15,
+      "declaredConcreteMethodsIncludingConstructors": 1,
+      "wmc": 2,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.auth.dto.AuthResponse",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.service.UserService"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getMe",
+          "line": 18,
+          "endLine": 25,
+          "cc": 2,
+          "decisionPoints": [
+            {
+              "line": 20,
+              "type": "if_statement",
+              "code": "if (userDetails == null) {"
+            }
+          ]
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UserRepository",
+      "kind": "interface_declaration",
+      "path": "lt/prifkodas/knygnesys/user/repository/UserRepository.java",
+      "line": 10,
+      "endLine": 21,
+      "loc": 12,
+      "declaredConcreteMethodsIncludingConstructors": 0,
+      "wmc": 0,
+      "cbo_import": 1,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.user.User"
+      ],
+      "explicitSuperclass": null,
+      "methods": [],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    },
+    {
+      "class": "UserService",
+      "kind": "class_declaration",
+      "path": "lt/prifkodas/knygnesys/user/service/UserService.java",
+      "line": 12,
+      "endLine": 35,
+      "loc": 24,
+      "declaredConcreteMethodsIncludingConstructors": 4,
+      "wmc": 4,
+      "cbo_import": 3,
+      "projectImports": [
+        "lt.prifkodas.knygnesys.shared.exception.ResourceNotFoundException",
+        "lt.prifkodas.knygnesys.user.User",
+        "lt.prifkodas.knygnesys.user.repository.UserRepository"
+      ],
+      "explicitSuperclass": null,
+      "methods": [
+        {
+          "name": "getById",
+          "line": 18,
+          "endLine": 21,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "create",
+          "line": 23,
+          "endLine": 25,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getByUsername",
+          "line": 27,
+          "endLine": 30,
+          "cc": 1,
+          "decisionPoints": []
+        },
+        {
+          "name": "getPublicProfiles",
+          "line": 32,
+          "endLine": 34,
+          "cc": 1,
+          "decisionPoints": []
+        }
+      ],
+      "dit_explicit": 0,
+      "noc_direct": 0
+    }
+  ]
+}

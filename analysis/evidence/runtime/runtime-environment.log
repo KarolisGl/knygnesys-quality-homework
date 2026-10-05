@@ -1,0 +1,29 @@
+=== timestamp ===
+2026-10-05T21:24:56+03:00
+=== host java ===
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode, sharing)
+=== host javac ===
+/usr/bin/bash: line 3: javac: command not found
+=== host maven ===
+/usr/bin/bash: line 3: mvn: command not found
+=== discovered Temurin JDK21 ===
+JAVA_HOME=/home/airuk/Desktop/Knygnesys-homework-work/backend/tools/jdk-21.0.12.1+1
+openjdk version "21.0.12.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)
+javac 21.0.12.1
+=== approved Maven/JDK image ===
+id=b9611ad9b2f6ebef1c9369a32d794718fc28ebe2b9bb37b81a64b731370907bd tags=[docker.io/library/maven:3.9.11-eclipse-temurin-21] digests=[docker.io/library/maven@sha256:463a1849665463254b2dd56e3a5b316f1596bc93d0571065c06ea05bb48ab8f4 docker.io/library/maven@sha256:6fdc855a6ed81d288ca7ca37ac6ff5e9308b612485c0801d70b25a858c83d237]
+=== containers ===
+knygnesys-homework-db status=Up 20 minutes ports=127.0.0.1:15432->5432/tcp
+=== database readiness ===
+127.0.0.1:5432 - accepting connections
+=== database final cleanup counts ===
+users=0
+books=0
+reading_list=0
+reading_progress=0
+sessions=0
+session_attributes=0

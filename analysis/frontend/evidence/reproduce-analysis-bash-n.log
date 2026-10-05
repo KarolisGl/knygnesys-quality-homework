@@ -1,0 +1,1 @@
+bash -n reproduce-analysis.sh exit=0

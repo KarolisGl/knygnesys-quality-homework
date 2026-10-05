@@ -1,0 +1,7 @@
+27a335a60c8e898cae9901aa0c6732f5fc41e23575494fbf27fd9ed674bb7003  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/package.json
+10422028e60e085481ef97dea9b2201e96c34d46809b562842771b6bf6432331  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/package-lock.json
+e426aeeeee53ad3526634c9866eb04bb80835648515ce622b9ae7905e5c5374d  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/angular.json
+7ac50b4b2ed1328f5675bf522f5678cd870717102f087721c50927daeada7994  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/eslint.config.js
+b6445b51aafffbe2fed1026bbe83c8bdf1f9194c928f6bad0db9bad66fa10b4a  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/tsconfig.json
+5fd4b1994fe3c2d0d4e2e9f3c21a54912765a4948d0d2048ddf96726889f4692  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/tsconfig.app.json
+1e90321d1afed110a815a62074d8b96558ffddabbb87d4a3df6c5de8c372b422  /home/airuk/Desktop/Knygnesys-main/knygnesys-ui/tsconfig.spec.json

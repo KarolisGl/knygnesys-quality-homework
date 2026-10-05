@@ -1,0 +1,18 @@
+npm warn deprecated @types/localforage@0.0.34: This is a stub types definition for localforage (https://github.com/localForage/localForage). localforage provides its own type definitions, so you don't need @types/localforage installed!
+npm warn deprecated @xmldom/xmldom@0.7.13: this version has critical issues, please update to the latest version
+
+added 588 packages, and audited 589 packages in 6s
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+44 vulnerabilities (3 low, 17 moderate, 22 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm --prefix /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui ci exit=0

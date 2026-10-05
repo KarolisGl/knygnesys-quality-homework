@@ -1,0 +1,103 @@
+{
+  "productionTsFiles": 22,
+  "sourcePhysicalLoc": 1815,
+  "staticImports": 93,
+  "internalImportEdges": 31,
+  "externalImportStatements": 62,
+  "internalGraphNodes": 22,
+  "classes": 17,
+  "totalClassPhysicalLoc": 1442,
+  "averageClassPhysicalLoc": 84.82352941176471,
+  "maxClass": {
+    "name": "BibliotekaPuslapis",
+    "startLine": 12,
+    "endLine": 295,
+    "physicalLoc": 284,
+    "memberCount": 46,
+    "methodCount": 24,
+    "sourceFile": "app/pages/biblioteka/biblioteka.component.ts"
+  },
+  "maxFanOut": {
+    "sourceFile": "app/app.routes.ts",
+    "physicalLoc": 17,
+    "staticImports": 7,
+    "internalImports": 6,
+    "externalImports": 1,
+    "imports": [
+      {
+        "specifier": "@angular/router",
+        "internalTarget": null
+      },
+      {
+        "specifier": "./pages/home/home",
+        "internalTarget": "app/pages/home/home.ts"
+      },
+      {
+        "specifier": "./pages/login/login.component",
+        "internalTarget": "app/pages/login/login.component.ts"
+      },
+      {
+        "specifier": "./pages/register/register.component",
+        "internalTarget": "app/pages/register/register.component.ts"
+      },
+      {
+        "specifier": "./pages/biblioteka/biblioteka.component",
+        "internalTarget": "app/pages/biblioteka/biblioteka.component.ts"
+      },
+      {
+        "specifier": "./pages/statistika/statistika.component",
+        "internalTarget": "app/pages/statistika/statistika.component.ts"
+      },
+      {
+        "specifier": "./guards/auth.guard",
+        "internalTarget": "app/guards/auth.guard.ts"
+      }
+    ],
+    "classes": [],
+    "functions": [],
+    "coupling": {
+      "fanOut": 6,
+      "fanOutUnique": 6,
+      "fanIn": 1
+    }
+  },
+  "maxFanIn": {
+    "sourceFile": "app/services/auth.service.ts",
+    "physicalLoc": 34,
+    "staticImports": 3,
+    "internalImports": 0,
+    "externalImports": 3,
+    "imports": [
+      {
+        "specifier": "@angular/core",
+        "internalTarget": null
+      },
+      {
+        "specifier": "@angular/common/http",
+        "internalTarget": null
+      },
+      {
+        "specifier": "rxjs/operators",
+        "internalTarget": null
+      }
+    ],
+    "classes": [
+      {
+        "name": "AuthService",
+        "startLine": 5,
+        "endLine": 33,
+        "physicalLoc": 29,
+        "memberCount": 6,
+        "methodCount": 3,
+        "sourceFile": "app/services/auth.service.ts"
+      }
+    ],
+    "functions": [],
+    "coupling": {
+      "fanOut": 0,
+      "fanOutUnique": 0,
+      "fanIn": 4
+    }
+  }
+}
+measure-structure exit=0

@@ -1,0 +1,20 @@
+openapi_api_docs: status=200 bytes=12377 content_type=application/json
+openapi_paths=15
+unauthenticated_me_before_login: status=401 bytes=0 content_type=none
+unauthenticated_library_before_login: status=401 bytes=0 content_type=none
+register: status=201 bytes=113 content_type=application/json
+login: status=200 bytes=113 content_type=application/json
+session_cookie_count=1
+me_after_login: status=200 bytes=113 content_type=application/json
+library_add: status=201 bytes=277 content_type=application/json
+library_list_after_add: status=200 bytes=276 content_type=application/json
+library_count_after_add=1
+library_progress_update: status=200 bytes=0 content_type=none
+library_list_after_progress: status=200 bytes=272 content_type=application/json
+library_remove: status=204 bytes=0 content_type=none
+library_list_after_remove: status=200 bytes=2 content_type=application/json
+logout: status=204 bytes=0 content_type=none
+unauthenticated_me_after_logout: status=401 bytes=0 content_type=none
+unauthenticated_library_after_logout: status=401 bytes=0 content_type=none
+RESULT PASS
+exit_code=0

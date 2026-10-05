@@ -1,0 +1,17 @@
+{
+  "tool": "detect-secrets 1.5.0",
+  "scope": "All Git-indexed publication files, uncompressed DOCX entries and standalone HTML",
+  "finding_types": [
+    "Hex High Entropy String"
+  ],
+  "reviewed_nonsecret_metadata_fields": {
+    "hash": 70,
+    "implementationBuild": 14,
+    "verified Git revision": 1,
+    "sha256": 129
+  },
+  "unexpected_findings": 0,
+  "private_sonar_credential_matches": 0,
+  "original_manifests_unchanged": true,
+  "limits": "A scan and exact-value checks do not prove absence of every possible secret. Raw logs retained unchanged; whitespace check excludes logs."
+}

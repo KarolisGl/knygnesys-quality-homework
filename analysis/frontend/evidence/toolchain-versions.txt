@@ -1,0 +1,4 @@
+node=v22.23.1
+npm=10.9.8
+npx=10.9.8
+uv=uv 0.11.29 (x86_64-unknown-linux-gnu)

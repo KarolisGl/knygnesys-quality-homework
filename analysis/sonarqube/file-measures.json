@@ -1,0 +1,5422 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 500,
+    "total": 94
+  },
+  "baseComponent": {
+    "key": "knygnesys-homework",
+    "name": "Knygnesys code-quality homework",
+    "qualifier": "TRK",
+    "measures": []
+  },
+  "components": [
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/AddBookRequest.java",
+      "name": "AddBookRequest.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/AddBookRequest.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "16"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/app.config.ts",
+      "name": "app.config.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/app.config.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "0"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "12"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/app.html",
+      "name": "app.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/app.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "4"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/app.routes.ts",
+      "name": "app.routes.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/app.routes.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "0"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "15"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/app.ts",
+      "name": "app.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/app.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "16"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/guards/auth.guard.ts",
+      "name": "auth.guard.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/guards/auth.guard.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "0"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "15"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/auth.service.ts",
+      "name": "auth.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/auth.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "5"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "5"
+        },
+        {
+          "metric": "ncloc",
+          "value": "28"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "name": "AuthApi.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "35"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthController.java",
+      "name": "AuthController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "33"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/AuthResponse.java",
+      "name": "AuthResponse.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/AuthResponse.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "12"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/service/AuthService.java",
+      "name": "AuthService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/service/AuthService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "6"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "55"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "name": "biblioteka.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "262"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "12",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "3.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "20",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+      "name": "biblioteka.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "401"
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_index",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "name": "biblioteka.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "23",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "70"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "47"
+        },
+        {
+          "metric": "ncloc",
+          "value": "259"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "11",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "4.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "11",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/book-search.service.ts",
+      "name": "book-search.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/book-search.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "13"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "5"
+        },
+        {
+          "metric": "ncloc",
+          "value": "64"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/Book.java",
+      "name": "Book.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/Book.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "24"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/repository/BookRepository.java",
+      "name": "BookRepository.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/book/repository/BookRepository.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "7"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.scss",
+      "name": "books-per-month-chart.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "51"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "name": "books-per-month-chart.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "14"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "10"
+        },
+        {
+          "metric": "ncloc",
+          "value": "115"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/CorsConfig.java",
+      "name": "CorsConfig.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/CorsConfig.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "20"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/interceptors/credentials.interceptor.ts",
+      "name": "credentials.interceptor.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/interceptors/credentials.interceptor.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "0"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "7"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/EmailService.java",
+      "name": "EmailService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/EmailService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "21"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+      "name": "epub-reader.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "93"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "2.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.scss",
+      "name": "epub-reader.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "328"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "name": "epub-reader.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "20",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "50"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "29"
+        },
+        {
+          "metric": "ncloc",
+          "value": "205"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "7",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.1",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "7",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "name": "epub-storage.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "24"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "21"
+        },
+        {
+          "metric": "ncloc",
+          "value": "60"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "3.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "1.4",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "25",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/GenreDataPoint.java",
+      "name": "GenreDataPoint.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/GenreDataPoint.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "11"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.scss",
+      "name": "genres-chart.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "61"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.ts",
+      "name": "genres-chart.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/genres-chart/genres-chart.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "13"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "duplicated_lines_density",
+          "value": "25.9",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "10"
+        },
+        {
+          "metric": "ncloc",
+          "value": "105"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/GlobalExceptionHandler.java",
+      "name": "GlobalExceptionHandler.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "16"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/Goal.java",
+      "name": "Goal.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/Goal.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "20"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/goal.service.ts",
+      "name": "goal.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/goal.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "19"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "name": "GoalApi.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "41"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "6",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "6",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalController.java",
+      "name": "GoalController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "26"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/repository/GoalRepository.java",
+      "name": "GoalRepository.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/repository/GoalRepository.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "14"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/GoalResponse.java",
+      "name": "GoalResponse.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/GoalResponse.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "12"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "name": "GoalService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "9"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "4"
+        },
+        {
+          "metric": "ncloc",
+          "value": "57"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.9",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.9",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.html",
+      "name": "home.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/home/home.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "118"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "3.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.scss",
+      "name": "home.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/home/home.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "253"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.ts",
+      "name": "home.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/home/home.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "17",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "47"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "33"
+        },
+        {
+          "metric": "ncloc",
+          "value": "154"
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "name": "InactivitySchedulerService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "38"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "1.3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "1.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/index.html",
+      "name": "index.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/index.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "13"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/KnygnesysApplication.java",
+      "name": "KnygnesysApplication.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/KnygnesysApplication.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "17"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/library.service.ts",
+      "name": "library.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/library.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "11"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "7"
+        },
+        {
+          "metric": "ncloc",
+          "value": "68"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "name": "LibraryApi.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "7"
+        },
+        {
+          "metric": "ncloc",
+          "value": "95"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "7",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "14",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "14",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/LibraryBookDto.java",
+      "name": "LibraryBookDto.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/LibraryBookDto.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "20"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryController.java",
+      "name": "LibraryController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "7"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "7"
+        },
+        {
+          "metric": "ncloc",
+          "value": "66"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "name": "LibraryService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "14",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "28"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "8"
+        },
+        {
+          "metric": "ncloc",
+          "value": "136"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "name": "login.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "22"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "4",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "3.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "1.5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "10",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.scss",
+      "name": "login.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "0"
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_index",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.ts",
+      "name": "login.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "24"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/LoginRequest.java",
+      "name": "LoginRequest.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/LoginRequest.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "11"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/main.ts",
+      "name": "main.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/main.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "0"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "5"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/navbar/navbar.component.html",
+      "name": "navbar.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/navbar/navbar.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "14"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/navbar/navbar.component.scss",
+      "name": "navbar.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/navbar/navbar.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "68"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/navbar/navbar.component.ts",
+      "name": "navbar.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/navbar/navbar.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "19"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/OpenApiConfig.java",
+      "name": "OpenApiConfig.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/OpenApiConfig.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "16"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibraryBookDoc.java",
+      "name": "OpenLibraryBookDoc.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibraryBookDoc.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "13"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibrarySearchResponse.java",
+      "name": "OpenLibrarySearchResponse.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/OpenLibrarySearchResponse.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "7"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.scss",
+      "name": "pages-per-day-chart.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "51"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts",
+      "name": "pages-per-day-chart.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/components/charts/pages-per-day-chart/pages-per-day-chart.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "10"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "duplicated_lines_density",
+          "value": "28.8",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "8"
+        },
+        {
+          "metric": "ncloc",
+          "value": "94"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/PagesDayDataPoint.java",
+      "name": "PagesDayDataPoint.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/PagesDayDataPoint.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "11"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "name": "ReadingList.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "34"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/repository/ReadingListRepository.java",
+      "name": "ReadingListRepository.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/repository/ReadingListRepository.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "6"
+        },
+        {
+          "metric": "ncloc",
+          "value": "24"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "name": "ReadingProgress.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "31"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/repository/ReadingProgressRepository.java",
+      "name": "ReadingProgressRepository.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/repository/ReadingProgressRepository.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "8"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/RecommendationDto.java",
+      "name": "RecommendationDto.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/dto/RecommendationDto.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "13"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/controller/RecommendationsController.java",
+      "name": "RecommendationsController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/controller/RecommendationsController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "22"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "name": "RecommendationsService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "7"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "2"
+        },
+        {
+          "metric": "ncloc",
+          "value": "54"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "name": "register.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "26"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "6",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "3.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "1.9",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.scss",
+      "name": "register.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "0"
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_index",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.ts",
+      "name": "register.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "25"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/RegisterRequest.java",
+      "name": "RegisterRequest.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/dto/RegisterRequest.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "12"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/ResourceNotFoundException.java",
+      "name": "ResourceNotFoundException.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/exception/ResourceNotFoundException.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "6"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "name": "SecurityConfig.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "9"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "49"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "4.0",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/SetGoalRequest.java",
+      "name": "SetGoalRequest.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/dto/SetGoalRequest.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "10"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/statistika/statistika.component.html",
+      "name": "statistika.component.html",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.html",
+      "language": "web",
+      "measures": [
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "89"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/statistika/statistika.component.scss",
+      "name": "statistika.component.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "282"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/statistika/statistika.component.ts",
+      "name": "statistika.component.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/pages/statistika/statistika.component.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "15",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "44"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "22"
+        },
+        {
+          "metric": "ncloc",
+          "value": "212"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/stats.service.ts",
+      "name": "stats.service.ts",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/app/services/stats.service.ts",
+      "language": "ts",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "8"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "48"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "name": "StatsApi.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "53"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "6",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.4",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "6",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsController.java",
+      "name": "StatsController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "3"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "3"
+        },
+        {
+          "metric": "ncloc",
+          "value": "39"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsDataPoint.java",
+      "name": "StatsDataPoint.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsDataPoint.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "12"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsResponse.java",
+      "name": "StatsResponse.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsResponse.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "13"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "name": "StatsService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "73",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "83"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "11"
+        },
+        {
+          "metric": "ncloc",
+          "value": "262"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.7",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "7",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "55",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "2.0",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.7",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "55",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsSummary.java",
+      "name": "StatsSummary.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/dto/StatsSummary.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "13"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/styles.scss",
+      "name": "styles.scss",
+      "qualifier": "FIL",
+      "path": "knygnesys-ui/src/styles.scss",
+      "language": "css",
+      "measures": [
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "0"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/UpdateProgressRequest.java",
+      "name": "UpdateProgressRequest.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/dto/UpdateProgressRequest.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "0"
+        },
+        {
+          "metric": "ncloc",
+          "value": "10"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+      "name": "User.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "1"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "26"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.6",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.6",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "5",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "name": "UserApi.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "22"
+        },
+        {
+          "metric": "software_quality_maintainability_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_issues",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_maintainability_remediation_effort",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_debt_ratio",
+          "value": "0.3",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_index",
+          "value": "2",
+          "bestValue": false
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserController.java",
+      "name": "UserController.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserController.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "cognitive_complexity",
+          "value": "1",
+          "bestValue": false
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "22"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/UserDetailsServiceImpl.java",
+      "name": "UserDetailsServiceImpl.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/UserDetailsServiceImpl.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "2"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "1"
+        },
+        {
+          "metric": "ncloc",
+          "value": "24"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/repository/UserRepository.java",
+      "name": "UserRepository.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/repository/UserRepository.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "0"
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "5"
+        },
+        {
+          "metric": "ncloc",
+          "value": "14"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/service/UserService.java",
+      "name": "UserService.java",
+      "qualifier": "FIL",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/service/UserService.java",
+      "language": "java",
+      "measures": [
+        {
+          "metric": "classes",
+          "value": "1"
+        },
+        {
+          "metric": "complexity",
+          "value": "6"
+        },
+        {
+          "metric": "coverage",
+          "value": "0.0",
+          "bestValue": false
+        },
+        {
+          "metric": "files",
+          "value": "1"
+        },
+        {
+          "metric": "functions",
+          "value": "4"
+        },
+        {
+          "metric": "ncloc",
+          "value": "26"
+        },
+        {
+          "metric": "software_quality_maintainability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_reliability_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "software_quality_security_rating",
+          "value": "1.0",
+          "bestValue": true
+        },
+        {
+          "metric": "sqale_rating",
+          "value": "1.0",
+          "bestValue": true
+        }
+      ]
+    }
+  ]
+}

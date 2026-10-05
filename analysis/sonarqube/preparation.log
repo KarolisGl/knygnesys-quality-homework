@@ -1,0 +1,167 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< lt.prifkodas.knygnesys:knygnesys-app >----------------
+[INFO] Building knygnesys-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ knygnesys-app ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ knygnesys-app ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 52 source files with javac [debug parameters release 21] to target/classes
+[INFO] /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java: Some input files use or override a deprecated API.
+[INFO] /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ knygnesys-app ---
+[INFO] skip non existing resourceDirectory /home/airuk/Desktop/knygnesys-quality-homework/knygnesys-app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ knygnesys-app ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ knygnesys-app ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running lt.prifkodas.knygnesys.auth.service.AuthServiceTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (/home/airuk/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.109 s -- in lt.prifkodas.knygnesys.auth.service.AuthServiceTest
+[INFO] Running lt.prifkodas.knygnesys.stats.service.StatsServiceTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s -- in lt.prifkodas.knygnesys.stats.service.StatsServiceTest
+[INFO] Running lt.prifkodas.knygnesys.user.service.UserServiceTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in lt.prifkodas.knygnesys.user.service.UserServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:copy-dependencies (default-cli) @ knygnesys-app ---
+[INFO] org.springframework.boot:spring-boot-starter-data-jpa:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-autoconfigure:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-logging:jar:3.4.3 already exists in destination.
+[INFO] ch.qos.logback:logback-classic:jar:1.5.16 already exists in destination.
+[INFO] ch.qos.logback:logback-core:jar:1.5.16 already exists in destination.
+[INFO] org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3 already exists in destination.
+[INFO] org.apache.logging.log4j:log4j-api:jar:2.24.3 already exists in destination.
+[INFO] org.slf4j:jul-to-slf4j:jar:2.0.16 already exists in destination.
+[INFO] jakarta.annotation:jakarta.annotation-api:jar:2.1.1 already exists in destination.
+[INFO] org.yaml:snakeyaml:jar:2.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-jdbc:jar:3.4.3 already exists in destination.
+[INFO] com.zaxxer:HikariCP:jar:5.1.0 already exists in destination.
+[INFO] org.hibernate.orm:hibernate-core:jar:6.6.8.Final already exists in destination.
+[INFO] jakarta.persistence:jakarta.persistence-api:jar:3.1.0 already exists in destination.
+[INFO] jakarta.transaction:jakarta.transaction-api:jar:2.0.1 already exists in destination.
+[INFO] org.jboss.logging:jboss-logging:jar:3.6.1.Final already exists in destination.
+[INFO] org.hibernate.common:hibernate-commons-annotations:jar:7.0.3.Final already exists in destination.
+[INFO] io.smallrye:jandex:jar:3.2.0 already exists in destination.
+[INFO] com.fasterxml:classmate:jar:1.7.0 already exists in destination.
+[INFO] net.bytebuddy:byte-buddy:jar:1.15.11 already exists in destination.
+[INFO] org.glassfish.jaxb:jaxb-runtime:jar:4.0.5 already exists in destination.
+[INFO] org.glassfish.jaxb:jaxb-core:jar:4.0.5 already exists in destination.
+[INFO] org.glassfish.jaxb:txw2:jar:4.0.5 already exists in destination.
+[INFO] com.sun.istack:istack-commons-runtime:jar:4.1.2 already exists in destination.
+[INFO] jakarta.inject:jakarta.inject-api:jar:2.0.1 already exists in destination.
+[INFO] org.antlr:antlr4-runtime:jar:4.13.0 already exists in destination.
+[INFO] org.springframework.data:spring-data-jpa:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.data:spring-data-commons:jar:3.4.3 already exists in destination.
+[INFO] org.springframework:spring-orm:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-tx:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-beans:jar:6.2.3 already exists in destination.
+[INFO] org.slf4j:slf4j-api:jar:2.0.16 already exists in destination.
+[INFO] org.springframework:spring-aspects:jar:6.2.3 already exists in destination.
+[INFO] org.aspectj:aspectjweaver:jar:1.9.22.1 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-web:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-json:jar:3.4.3 already exists in destination.
+[INFO] com.fasterxml.jackson.core:jackson-databind:jar:2.18.2 already exists in destination.
+[INFO] com.fasterxml.jackson.core:jackson-annotations:jar:2.18.2 already exists in destination.
+[INFO] com.fasterxml.jackson.core:jackson-core:jar:2.18.2 already exists in destination.
+[INFO] com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.18.2 already exists in destination.
+[INFO] com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.18.2 already exists in destination.
+[INFO] com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.2 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-tomcat:jar:3.4.3 already exists in destination.
+[INFO] org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.36 already exists in destination.
+[INFO] org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.36 already exists in destination.
+[INFO] org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.36 already exists in destination.
+[INFO] org.springframework:spring-web:jar:6.2.3 already exists in destination.
+[INFO] io.micrometer:micrometer-observation:jar:1.14.4 already exists in destination.
+[INFO] io.micrometer:micrometer-commons:jar:1.14.4 already exists in destination.
+[INFO] org.springframework:spring-webmvc:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-expression:jar:6.2.3 already exists in destination.
+[INFO] org.postgresql:postgresql:jar:42.7.5 already exists in destination.
+[INFO] org.checkerframework:checker-qual:jar:3.48.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-test:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-test:jar:3.4.3 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-test-autoconfigure:jar:3.4.3 already exists in destination.
+[INFO] com.jayway.jsonpath:json-path:jar:2.9.0 already exists in destination.
+[INFO] jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2 already exists in destination.
+[INFO] jakarta.activation:jakarta.activation-api:jar:2.1.3 already exists in destination.
+[INFO] net.minidev:json-smart:jar:2.5.2 already exists in destination.
+[INFO] net.minidev:accessors-smart:jar:2.5.2 already exists in destination.
+[INFO] org.ow2.asm:asm:jar:9.7.1 already exists in destination.
+[INFO] org.assertj:assertj-core:jar:3.26.3 already exists in destination.
+[INFO] org.awaitility:awaitility:jar:4.2.2 already exists in destination.
+[INFO] org.hamcrest:hamcrest:jar:2.2 already exists in destination.
+[INFO] org.junit.jupiter:junit-jupiter:jar:5.11.4 already exists in destination.
+[INFO] org.junit.jupiter:junit-jupiter-api:jar:5.11.4 already exists in destination.
+[INFO] org.opentest4j:opentest4j:jar:1.3.0 already exists in destination.
+[INFO] org.junit.platform:junit-platform-commons:jar:1.11.4 already exists in destination.
+[INFO] org.apiguardian:apiguardian-api:jar:1.1.2 already exists in destination.
+[INFO] org.junit.jupiter:junit-jupiter-params:jar:5.11.4 already exists in destination.
+[INFO] org.junit.jupiter:junit-jupiter-engine:jar:5.11.4 already exists in destination.
+[INFO] org.junit.platform:junit-platform-engine:jar:1.11.4 already exists in destination.
+[INFO] org.mockito:mockito-core:jar:5.14.2 already exists in destination.
+[INFO] net.bytebuddy:byte-buddy-agent:jar:1.15.11 already exists in destination.
+[INFO] org.objenesis:objenesis:jar:3.3 already exists in destination.
+[INFO] org.mockito:mockito-junit-jupiter:jar:5.14.2 already exists in destination.
+[INFO] org.skyscreamer:jsonassert:jar:1.5.3 already exists in destination.
+[INFO] com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1 already exists in destination.
+[INFO] org.springframework:spring-core:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-jcl:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-test:jar:6.2.3 already exists in destination.
+[INFO] org.xmlunit:xmlunit-core:jar:2.10.0 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-security:jar:3.4.3 already exists in destination.
+[INFO] org.springframework:spring-aop:jar:6.2.3 already exists in destination.
+[INFO] org.springframework.security:spring-security-config:jar:6.4.3 already exists in destination.
+[INFO] org.springframework.security:spring-security-core:jar:6.4.3 already exists in destination.
+[INFO] org.springframework.security:spring-security-crypto:jar:6.4.3 already exists in destination.
+[INFO] org.springframework.security:spring-security-web:jar:6.4.3 already exists in destination.
+[INFO] org.springframework.session:spring-session-jdbc:jar:3.4.2 already exists in destination.
+[INFO] org.springframework.session:spring-session-core:jar:3.4.2 already exists in destination.
+[INFO] org.springframework:spring-context:jar:6.2.3 already exists in destination.
+[INFO] org.springframework:spring-jdbc:jar:6.2.3 already exists in destination.
+[INFO] org.projectlombok:lombok:jar:1.18.38 already exists in destination.
+[INFO] org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.8.6 already exists in destination.
+[INFO] org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.8.6 already exists in destination.
+[INFO] org.springdoc:springdoc-openapi-starter-common:jar:2.8.6 already exists in destination.
+[INFO] io.swagger.core.v3:swagger-core-jakarta:jar:2.2.29 already exists in destination.
+[INFO] org.apache.commons:commons-lang3:jar:3.17.0 already exists in destination.
+[INFO] io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.29 already exists in destination.
+[INFO] io.swagger.core.v3:swagger-models-jakarta:jar:2.2.29 already exists in destination.
+[INFO] jakarta.validation:jakarta.validation-api:jar:3.0.2 already exists in destination.
+[INFO] com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.18.2 already exists in destination.
+[INFO] org.webjars:swagger-ui:jar:5.20.1 already exists in destination.
+[INFO] org.webjars:webjars-locator-lite:jar:1.0.1 already exists in destination.
+[INFO] org.jspecify:jspecify:jar:1.0.0 already exists in destination.
+[INFO] org.springframework.boot:spring-boot-starter-mail:jar:3.4.3 already exists in destination.
+[INFO] org.springframework:spring-context-support:jar:6.2.3 already exists in destination.
+[INFO] org.eclipse.angus:jakarta.mail:jar:2.0.3 already exists in destination.
+[INFO] org.eclipse.angus:angus-activation:jar:2.0.2 already exists in destination.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.665 s
+[INFO] Finished at: 2026-10-05T21:52:47+03:00
+[INFO] ------------------------------------------------------------------------

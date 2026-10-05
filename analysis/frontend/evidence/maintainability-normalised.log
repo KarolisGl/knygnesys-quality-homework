@@ -1,0 +1,6 @@
+{
+  "files": 22,
+  "medianFileMINormalised": 46.18301142157224,
+  "selectedMethods": 5
+}
+python3 /home/airuk/Desktop/knygnesys-quality-homework/analysis/frontend/../normalise_mi.py /home/airuk/Desktop/knygnesys-quality-homework/analysis/frontend/evidence/maintainability.json /home/airuk/Desktop/knygnesys-quality-homework/analysis/frontend/evidence/maintainability-normalised.json exit=0

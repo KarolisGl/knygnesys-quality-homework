@@ -1,0 +1,18 @@
+BEGIN
+DELETE 1
+DELETE 0
+DELETE 0
+DELETE 0
+DELETE 1
+DELETE 1
+COMMIT
+exit_code=0
+post-stop session cleanup (the unauthenticated verification request created one framework session row):
+DELETE 1
+DELETE 1
+final counts:
+users=0
+books=0
+reading_list=0
+reading_progress=0
+sessions=0

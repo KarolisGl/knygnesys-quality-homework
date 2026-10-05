@@ -1,0 +1,5321 @@
+{
+  "total": 85,
+  "p": 1,
+  "ps": 500,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 500,
+    "total": 85
+  },
+  "effortTotal": 407,
+  "issues": [
+    {
+      "key": "5f2cf7e8-b06b-417c-a832-e274be70529c",
+      "rule": "css:S4667",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.scss",
+      "project": "knygnesys-homework",
+      "line": 1,
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Empty source",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:37:50+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "7a1c19ab-81af-47da-bec3-28596739257a",
+      "rule": "css:S4667",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.scss",
+      "project": "knygnesys-homework",
+      "line": 1,
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Empty source",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:37:50+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "bc3c0267-fa3c-4b28-85bc-315dc8b031ca",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "project": "knygnesys-homework",
+      "line": 20,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 20,
+        "endLine": 20,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a244f158-40af-447a-81c9-64c783560e65",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "project": "knygnesys-homework",
+      "line": 28,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "638bdb75-5747-4abb-a89f-e445728ba551",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "project": "knygnesys-homework",
+      "line": 19,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "52bea05f-e9f2-4e64-a333-f7f797d203e9",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "project": "knygnesys-homework",
+      "line": 27,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 27,
+        "endLine": 27,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "3875a415-0c5a-47a6-910b-648b7606fe2c",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "project": "knygnesys-homework",
+      "line": 36,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 36,
+        "endLine": 36,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "dc0fa00f-c9ca-42cb-8d80-0735cb213c64",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "project": "knygnesys-homework",
+      "line": 26,
+      "hash": "0753f1a011a3d5b40b9ada44bee4bf08",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 41,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "d78ed4bd-0d03-47c2-86a4-f1cc16722a39",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "project": "knygnesys-homework",
+      "line": 37,
+      "hash": "0753f1a011a3d5b40b9ada44bee4bf08",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 41,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "21c3ceb4-7403-4989-926c-827962f1b940",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "project": "knygnesys-homework",
+      "line": 52,
+      "hash": "0753f1a011a3d5b40b9ada44bee4bf08",
+      "textRange": {
+        "startLine": 52,
+        "endLine": 52,
+        "startOffset": 41,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "4599f577-7529-4aa0-badf-26ef43173dcf",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "project": "knygnesys-homework",
+      "line": 27,
+      "hash": "0753f1a011a3d5b40b9ada44bee4bf08",
+      "textRange": {
+        "startLine": 27,
+        "endLine": 27,
+        "startOffset": 41,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ddd22073-0dc0-4255-9acc-5d337c23a9bd",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "project": "knygnesys-homework",
+      "line": 28,
+      "hash": "cedbd587b403fcfa7454f2c2c4fe3e7d",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 45,
+        "endOffset": 50
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "f966f4a7-7ae5-45c9-ab5e-e1cb97200646",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "project": "knygnesys-homework",
+      "line": 37,
+      "hash": "eced4e5e5ebe4168f9877e9176524a22",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 49,
+        "endOffset": 54
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "1fd51a65-024b-4513-8d56-fa1209ef9a87",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "project": "knygnesys-homework",
+      "line": 39,
+      "hash": "ceb1f682f776383285e2a80c72a5d3d3",
+      "textRange": {
+        "startLine": 39,
+        "endLine": 39,
+        "startOffset": 34,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "c8030e50-8144-41e5-b364-95d03ae5910d",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "project": "knygnesys-homework",
+      "line": 44,
+      "hash": "c3591625e901a242c0e147d3bc18a043",
+      "textRange": {
+        "startLine": 44,
+        "endLine": 44,
+        "startOffset": 32,
+        "endOffset": 37
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "12d5c004-1654-4fa1-aa20-c13caba3ed2e",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 24,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b4b5f5c3-71b4-4c36-81e1-550a741457cb",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 32,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 32,
+        "endLine": 32,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "895198a2-bb36-4104-b531-8c3b6f4c6ee8",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 44,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 44,
+        "endLine": 44,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "230f1e89-2e2a-4346-ab8e-7f207497c7cb",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 57,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 57,
+        "endLine": 57,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "1a7b8c29-38ee-46ad-b9aa-99dc8b81e525",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 69,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 69,
+        "endLine": 69,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e7d977e4-6329-4c92-87f9-1be2d190fc98",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 82,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 82,
+        "endLine": 82,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e2f325ea-04e7-4727-92be-4c2163354c8a",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "project": "knygnesys-homework",
+      "line": 95,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 95,
+        "endLine": 95,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ce1477bb-f968-4f73-b62b-545d20c91d29",
+      "rule": "java:S1192",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "project": "knygnesys-homework",
+      "line": 89,
+      "hash": "24c5635999212e6a6d6725dc4358bda0",
+      "textRange": {
+        "startLine": 89,
+        "endLine": 89,
+        "startOffset": 65,
+        "endOffset": 94
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+              "textRange": {
+                "startLine": 109,
+                "endLine": 109,
+                "startOffset": 65,
+                "endOffset": 94
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+              "textRange": {
+                "startLine": 121,
+                "endLine": 121,
+                "startOffset": 65,
+                "endOffset": 94
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+              "textRange": {
+                "startLine": 133,
+                "endLine": 133,
+                "startOffset": 65,
+                "endOffset": 94
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Define a constant instead of duplicating this literal \"Bibliotekos įrašas nerastas\" 4 times.",
+      "effort": "10min",
+      "debt": "10min",
+      "tags": [
+        "design"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "DISTINCT",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "8581fafa-f6f2-47f0-ba76-2bfd69a23dac",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "project": "knygnesys-homework",
+      "line": 138,
+      "hash": "da7d2708083f3354a94ab47c7eecd28c",
+      "textRange": {
+        "startLine": 138,
+        "endLine": 138,
+        "startOffset": 47,
+        "endOffset": 52
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2560e489-be8b-4ec2-8913-078035841ce8",
+      "rule": "java:S6885",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "project": "knygnesys-homework",
+      "line": 24,
+      "hash": "824f81e94caf69242b63e3d3db0ec2f1",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 24,
+        "endOffset": 56
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Use \"Math.clamp\" instead of \"Math.min\" or \"Math.max\".",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "java21"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "59b85cc5-3b26-4c47-baa1-25f19cef716a",
+      "rule": "java:S4502",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "project": "knygnesys-homework",
+      "line": 24,
+      "hash": "a6c4d18dbd47ffaf8188f3ce45188aa6",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 35,
+        "endOffset": 42
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Make sure disabling Spring Security's CSRF protection is safe here.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "cwe",
+        "spring",
+        "former-hotspot"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "521666b6-430c-4e09-afd6-d8b8bcee1c83",
+      "rule": "java:S5344",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "project": "knygnesys-homework",
+      "line": 48,
+      "hash": "34593a540c3f5e83e23350f0f0b65cbf",
+      "textRange": {
+        "startLine": 48,
+        "endLine": 48,
+        "startOffset": 35,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Use secure \"PasswordEncoder\" implementation.",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe",
+        "spring"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "TRUSTWORTHY",
+      "cleanCodeAttributeCategory": "RESPONSIBLE",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "52b1562a-257d-42ba-a584-ca370bf5518d",
+      "rule": "java:S4790",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "project": "knygnesys-homework",
+      "line": 48,
+      "hash": "34593a540c3f5e83e23350f0f0b65cbf",
+      "textRange": {
+        "startLine": 48,
+        "endLine": 48,
+        "startOffset": 35,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Make sure this weak hash algorithm is not used in a sensitive context here.",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe",
+        "former-hotspot"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "VULNERABILITY",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "TRUSTWORTHY",
+      "cleanCodeAttributeCategory": "RESPONSIBLE",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "8bc99b6c-acdc-4056-835d-98b3a26c8a3a",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "project": "knygnesys-homework",
+      "line": 24,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "254d604f-6344-47a8-ac6e-6afc7176874d",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "project": "knygnesys-homework",
+      "line": 38,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 38,
+        "endLine": 38,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "6d859691-7f63-4ad0-8e91-8192cf6648b2",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "project": "knygnesys-homework",
+      "line": 51,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 51,
+        "endLine": 51,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e4f37a01-f8c1-4a9a-a446-ed27939ff88f",
+      "rule": "java:S1192",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 39,
+      "hash": "2c401d68b79985751bb449af1e6eab80",
+      "textRange": {
+        "startLine": 39,
+        "endLine": 39,
+        "startOffset": 36,
+        "endOffset": 43
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 166,
+                "endLine": 166,
+                "startOffset": 17,
+                "endOffset": 24
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 202,
+                "endLine": 202,
+                "startOffset": 17,
+                "endOffset": 24
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 247,
+                "endLine": 247,
+                "startOffset": 17,
+                "endOffset": 24
+              },
+              "msg": "Duplication",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Define a constant instead of duplicating this literal \"MONTH\" 4 times.",
+      "effort": "10min",
+      "debt": "10min",
+      "tags": [
+        "design"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "DISTINCT",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "7e246c50-29b9-45ce-bf21-4bd61b412322",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 62,
+      "hash": "006a6999bc3d1f0cd09c1e420c13c75b",
+      "textRange": {
+        "startLine": 62,
+        "endLine": 62,
+        "startOffset": 32,
+        "endOffset": 37
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "270dedca-e75c-4271-bba3-96af7410bc48",
+      "rule": "java:S3776",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 72,
+      "hash": "362b849bfcf4787fe5a72ac3ec2c443e",
+      "textRange": {
+        "startLine": 72,
+        "endLine": 72,
+        "startOffset": 35,
+        "endOffset": 49
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 75,
+                "endLine": 75,
+                "startOffset": 45,
+                "endOffset": 46
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 77,
+                "endLine": 77,
+                "startOffset": 16,
+                "endOffset": 17
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 79,
+                "endLine": 79,
+                "startOffset": 8,
+                "endOffset": 10
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 91,
+                "endLine": 91,
+                "startOffset": 8,
+                "endOffset": 11
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 99,
+                "endLine": 99,
+                "startOffset": 8,
+                "endOffset": 11
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 102,
+                "endLine": 102,
+                "startOffset": 12,
+                "endOffset": 15
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 104,
+                "endLine": 104,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 116,
+                "endLine": 116,
+                "startOffset": 12,
+                "endOffset": 15
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 118,
+                "endLine": 118,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 118,
+                "endLine": 118,
+                "startOffset": 35,
+                "endOffset": 37
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+      "effort": "6min",
+      "debt": "6min",
+      "tags": [
+        "brain-overload"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "FOCUSED",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "901e0cbb-5ce6-499e-a2fe-6aca70e780a6",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 75,
+      "hash": "bcb14c9531ee54fa613675c5760b330f",
+      "textRange": {
+        "startLine": 75,
+        "endLine": 75,
+        "startOffset": 84,
+        "endOffset": 89
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "c509c8b2-7897-4bdd-8dd0-6b566b8fd21b",
+      "rule": "java:S2184",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 78,
+      "hash": "c9d796d9b78a642a1b4d8a924aee607e",
+      "textRange": {
+        "startLine": 78,
+        "endLine": 78,
+        "startOffset": 42,
+        "endOffset": 43
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Cast one of the operands of this subtraction operation to a \"long\".",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "cwe",
+        "overflow",
+        "cert"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "76d71676-30f6-4c67-a384-fcabb9880798",
+      "rule": "java:S3776",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 179,
+      "hash": "25b93c2283593c85ef70d5168b70d149",
+      "textRange": {
+        "startLine": 179,
+        "endLine": 179,
+        "startOffset": 33,
+        "endOffset": 56
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 183,
+                "endLine": 183,
+                "startOffset": 8,
+                "endOffset": 14
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 186,
+                "endLine": 186,
+                "startOffset": 16,
+                "endOffset": 21
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 196,
+                "endLine": 196,
+                "startOffset": 16,
+                "endOffset": 21
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 205,
+                "endLine": 205,
+                "startOffset": 16,
+                "endOffset": 21
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 214,
+                "endLine": 214,
+                "startOffset": 16,
+                "endOffset": 21
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 222,
+                "endLine": 222,
+                "startOffset": 8,
+                "endOffset": 11
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 223,
+                "endLine": 223,
+                "startOffset": 12,
+                "endOffset": 14
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 223,
+                "endLine": 223,
+                "startOffset": 43,
+                "endOffset": 45
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 226,
+                "endLine": 226,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 231,
+                "endLine": 231,
+                "startOffset": 12,
+                "endOffset": 14
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 231,
+                "endLine": 231,
+                "startOffset": 47,
+                "endOffset": 49
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 234,
+                "endLine": 234,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.",
+      "effort": "12min",
+      "debt": "12min",
+      "tags": [
+        "brain-overload"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "FOCUSED",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "dff6c3dd-f021-4642-a6fb-51dccc1ac457",
+      "rule": "java:S131",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 183,
+      "hash": "e90a65ca3a2c14a3607cfe70dbe056fd",
+      "textRange": {
+        "startLine": 183,
+        "endLine": 183,
+        "startOffset": 8,
+        "endOffset": 14
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a default case to this switch.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "cwe",
+        "cert"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "704936d3-a5cf-48a9-a09a-9e959a9f2bcc",
+      "rule": "java:S3776",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "project": "knygnesys-homework",
+      "line": 257,
+      "hash": "610dc6bbe28fea3c6a025a0bcb79a233",
+      "textRange": {
+        "startLine": 257,
+        "endLine": 257,
+        "startOffset": 33,
+        "endOffset": 48
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 261,
+                "endLine": 261,
+                "startOffset": 8,
+                "endOffset": 10
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 262,
+                "endLine": 262,
+                "startOffset": 12,
+                "endOffset": 15
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 266,
+                "endLine": 266,
+                "startOffset": 15,
+                "endOffset": 17
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 269,
+                "endLine": 269,
+                "startOffset": 12,
+                "endOffset": 17
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 274,
+                "endLine": 274,
+                "startOffset": 10,
+                "endOffset": 14
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 277,
+                "endLine": 277,
+                "startOffset": 12,
+                "endOffset": 17
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 284,
+                "endLine": 284,
+                "startOffset": 8,
+                "endOffset": 11
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 285,
+                "endLine": 285,
+                "startOffset": 12,
+                "endOffset": 14
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 285,
+                "endLine": 285,
+                "startOffset": 43,
+                "endOffset": 45
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 288,
+                "endLine": 288,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 293,
+                "endLine": 293,
+                "startOffset": 12,
+                "endOffset": 14
+              },
+              "msg": "+2 (incl 1 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 293,
+                "endLine": 293,
+                "startOffset": 47,
+                "endOffset": 49
+              },
+              "msg": "+1",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+              "textRange": {
+                "startLine": 296,
+                "endLine": 296,
+                "startOffset": 16,
+                "endOffset": 18
+              },
+              "msg": "+3 (incl 2 for nesting)",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.",
+      "effort": "12min",
+      "debt": "12min",
+      "tags": [
+        "brain-overload"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "FOCUSED",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "185da302-7f04-46d3-9d46-dd3f60c99ede",
+      "rule": "java:S8688",
+      "severity": "INFO",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+      "project": "knygnesys-homework",
+      "line": 34,
+      "hash": "7e46079347158bdfee9b5d0dce216dce",
+      "textRange": {
+        "startLine": 34,
+        "endLine": 34,
+        "startOffset": 34,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Explicitly specify the time zone by passing a ZoneId or a Clock to the .now() method.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "datetime",
+        "java8",
+        "timezone",
+        "pitfall"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "INFO"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "INFO"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "faacaade-5607-453d-b3a9-23d145135914",
+      "rule": "java:S1710",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "project": "knygnesys-homework",
+      "line": 19,
+      "hash": "2555b2a47889be7012dc06dc4661a69c",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 5,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove the 'ApiResponses' wrapper from this annotation group",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "java8"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "9e130142-99a5-4b6f-b43e-8090b6fcaff9",
+      "rule": "typescript:S2933",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "project": "knygnesys-homework",
+      "line": 46,
+      "hash": "94150a05b6e6029515982dccb56ec917",
+      "textRange": {
+        "startLine": 46,
+        "endLine": 46,
+        "startOffset": 13,
+        "endOffset": 40
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+              "textRange": {
+                "startLine": 50,
+                "endLine": 50,
+                "startOffset": 2,
+                "endOffset": 17
+              },
+              "msg": "Member '_period' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Mark this member as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "type-dependent",
+        "confusing"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b4cb2d5c-e55c-4bc1-8a55-6744f4736db6",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 22,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 22,
+        "endLine": 27,
+        "startOffset": 8,
+        "endOffset": 10
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "577ebf2f-d415-48b8-b558-e6db4adc1c90",
+      "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 42,
+      "hash": "26009fb29797262eca36e99bc53de6da",
+      "textRange": {
+        "startLine": 42,
+        "endLine": 42,
+        "startOffset": 10,
+        "endOffset": 92
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a 'onKeyDown|onKeyUp' attribute to this <li> tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "ecd045c7-10b9-474e-8964-a58b11f2812c",
+      "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 46,
+      "hash": "ba782fd629995a0684a42603582d76cc",
+      "textRange": {
+        "startLine": 46,
+        "endLine": 46,
+        "startOffset": 10,
+        "endOffset": 98
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a 'onKeyDown|onKeyUp' attribute to this <li> tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "e9b3658b-8a35-43c6-80cc-2609d8a2ca26",
+      "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 50,
+      "hash": "004dd9bf0ee7f2b21d38d3c18229a3c2",
+      "textRange": {
+        "startLine": 50,
+        "endLine": 50,
+        "startOffset": 10,
+        "endOffset": 108
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a 'onKeyDown|onKeyUp' attribute to this <li> tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "5f5794f9-84c5-48ef-80e8-20f602beca38",
+      "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 54,
+      "hash": "8e6dc74a36d5d32493516f718e3d1e58",
+      "textRange": {
+        "startLine": 54,
+        "endLine": 54,
+        "startOffset": 10,
+        "endOffset": 100
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a 'onKeyDown|onKeyUp' attribute to this <li> tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a7bcd22a-b74d-41e4-bbf9-c08657e7659a",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 138,
+      "hash": "ba5a090a6faba5622fc36dca78be2d49",
+      "textRange": {
+        "startLine": 138,
+        "endLine": 138,
+        "startOffset": 14,
+        "endOffset": 90
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "93747487-5aa6-4c96-ab93-8708927af3b7",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 139,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 139,
+        "endLine": 144,
+        "startOffset": 14,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "9e69f95c-12a5-4560-be49-6ad62d98f9a4",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 147,
+      "hash": "ca8f7b74b7186d2bb649c67fe617ca0a",
+      "textRange": {
+        "startLine": 147,
+        "endLine": 147,
+        "startOffset": 14,
+        "endOffset": 90
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "4dbddd4e-c31f-4705-a1f8-884aa8a8ad83",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 148,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 148,
+        "endLine": 153,
+        "startOffset": 14,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2bb526a6-80f5-4bef-8131-2126bfb1ea54",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 156,
+      "hash": "f200a31982049b967e5d66d84b574ae9",
+      "textRange": {
+        "startLine": 156,
+        "endLine": 156,
+        "startOffset": 14,
+        "endOffset": 90
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a95121c6-079d-4bc5-bb17-6c92ba1d6178",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 157,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 157,
+        "endLine": 163,
+        "startOffset": 14,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "f6d871f3-ea73-46a3-bacb-d10762c226c6",
+      "rule": "css:S7924",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 165,
+      "hash": "0260b9435075c689b455b3a5809aa5da",
+      "textRange": {
+        "startLine": 165,
+        "endLine": 165,
+        "startOffset": 97,
+        "endOffset": 110
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Text does not meet the minimal contrast requirement with its background.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "css",
+        "accessibility",
+        "wcag",
+        "contrast"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "12328f4f-36f5-4314-8286-907afd18ff71",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "project": "knygnesys-homework",
+      "line": 231,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 231,
+        "endLine": 239,
+        "startOffset": 24,
+        "endOffset": 26
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "af4eeca9-59dc-4541-bda9-2a7b06b0adaf",
+      "rule": "css:S7924",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+      "project": "knygnesys-homework",
+      "line": 123,
+      "hash": "b70008619e234c42a3e1564f3e2f2a19",
+      "textRange": {
+        "startLine": 123,
+        "endLine": 123,
+        "startOffset": 53,
+        "endOffset": 65
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Text does not meet the minimal contrast requirement with its background.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "css",
+        "accessibility",
+        "wcag",
+        "contrast"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "97b948f3-8a94-4e04-a5f3-e81b2423b1ae",
+      "rule": "typescript:S3863",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "project": "knygnesys-homework",
+      "line": 4,
+      "hash": "f67fbbc002d89dc3c1534a117ea02799",
+      "textRange": {
+        "startLine": 4,
+        "endLine": 4,
+        "startOffset": 24,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "'/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/node_modules/rxjs/dist/esm5/index.js' imported multiple times.",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "29d24d3a-46c2-4bb7-8392-dc0e08ecefe0",
+      "rule": "typescript:S3863",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "project": "knygnesys-homework",
+      "line": 6,
+      "hash": "d035555308ac56751df7651f31fc544a",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 19,
+        "endOffset": 25
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "'/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/node_modules/rxjs/dist/esm5/index.js' imported multiple times.",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "9c9ab031-eced-4df5-b3b6-1a60f948e179",
+      "rule": "typescript:S7059",
+      "severity": "CRITICAL",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "project": "knygnesys-homework",
+      "line": 78,
+      "hash": "8f8951b4a76eaf09940c023de24fd41e",
+      "textRange": {
+        "startLine": 78,
+        "endLine": 78,
+        "startOffset": 4,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Refactor this asynchronous operation outside of the constructor.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "es2017",
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "MODULAR",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "26a07592-2ece-4812-9f2a-1fd181118236",
+      "rule": "typescript:S7773",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "project": "knygnesys-homework",
+      "line": 233,
+      "hash": "2d499e4aaa0436c69976520aefd3d455",
+      "textRange": {
+        "startLine": 233,
+        "endLine": 233,
+        "startOffset": 18,
+        "endOffset": 26
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.parseInt` over `parseInt`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "81f1660f-e7a9-4d4a-a264-73f7aebf6aa0",
+      "rule": "typescript:S7773",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "project": "knygnesys-homework",
+      "line": 234,
+      "hash": "daafd589c3d6c72e1d4c8f5ddcdbe9c1",
+      "textRange": {
+        "startLine": 234,
+        "endLine": 234,
+        "startOffset": 8,
+        "endOffset": 13
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Prefer `Number.isNaN` over `isNaN`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "convention",
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "d70ba90f-05d7-455d-9321-7698c9b7b2ae",
+      "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+      "project": "knygnesys-homework",
+      "line": 1,
+      "hash": "51a2baa08b953d636272b8fd9206dc85",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 46
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add a 'onKeyDown|onKeyUp' attribute to this <div> tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "3aae078e-fd08-47d3-89d5-caf66f36b519",
+      "rule": "typescript:S2933",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "project": "knygnesys-homework",
+      "line": 26,
+      "hash": "5c42e03e124aa8eb1648a80f30fef13a",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 13,
+        "endOffset": 32
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 2,
+                "endOffset": 17
+              },
+              "msg": "Member 'blobUrl' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+              "textRange": {
+                "startLine": 46,
+                "endLine": 46,
+                "startOffset": 2,
+                "endOffset": 20
+              },
+              "msg": "Member 'keyHandler' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Mark these members as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "type-dependent",
+        "confusing"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "b67cb14b-5b80-4e05-9c9c-03b1369f05ac",
+      "rule": "typescript:S7651",
+      "severity": "BLOCKER",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "project": "knygnesys-homework",
+      "line": 31,
+      "hash": "4da616f9a25c84f7dd64348fe2fdcae8",
+      "textRange": {
+        "startLine": 31,
+        "endLine": 31,
+        "startOffset": 12,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Output bindings, including aliases, should not be named as standard DOM events",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "angular"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "BLOCKER"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a8458284-aa89-4cb0-b868-eca2240b55b4",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.html",
+      "project": "knygnesys-homework",
+      "line": 10,
+      "hash": "cdc25cdd05ee25c9ea83a53a4aa750dd",
+      "textRange": {
+        "startLine": 10,
+        "endLine": 15,
+        "startOffset": 16,
+        "endOffset": 18
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "1325c5f5-e939-4ce7-945a-d88f93a064db",
+      "rule": "typescript:S3863",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.ts",
+      "project": "knygnesys-homework",
+      "line": 4,
+      "hash": "f67fbbc002d89dc3c1534a117ea02799",
+      "textRange": {
+        "startLine": 4,
+        "endLine": 4,
+        "startOffset": 24,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "'/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/node_modules/rxjs/dist/esm5/index.js' imported multiple times.",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a03d871f-091c-449e-9b83-1a66c1a025c6",
+      "rule": "typescript:S3863",
+      "severity": "MINOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.ts",
+      "project": "knygnesys-homework",
+      "line": 6,
+      "hash": "d035555308ac56751df7651f31fc544a",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 19,
+        "endOffset": 25
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "'/home/airuk/Desktop/knygnesys-quality-homework/knygnesys-ui/node_modules/rxjs/dist/esm5/index.js' imported multiple times.",
+      "effort": "1min",
+      "debt": "1min",
+      "tags": [
+        "es2015",
+        "editable-source"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "457065b2-c624-4c4e-9024-915599fa1368",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "project": "knygnesys-homework",
+      "line": 11,
+      "hash": "242b4c3663023c7472b6f4e9cafbdf87",
+      "textRange": {
+        "startLine": 11,
+        "endLine": 11,
+        "startOffset": 8,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "8a3a3077-3d80-4db6-9d2d-dc6cefeff699",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "project": "knygnesys-homework",
+      "line": 12,
+      "hash": "244aa3c43d66ee21b4c482727e647949",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 8,
+        "endOffset": 72
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "3ddb8c33-4859-4d02-9a40-774df70459f5",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "project": "knygnesys-homework",
+      "line": 15,
+      "hash": "5fb47232831882a994e9573765044245",
+      "textRange": {
+        "startLine": 15,
+        "endLine": 15,
+        "startOffset": 8,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "5be3f287-f273-492c-8602-698ad1f2cfd1",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "project": "knygnesys-homework",
+      "line": 16,
+      "hash": "1ccfa3cd91d6dc9e0fad8b9700a2182d",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 8,
+        "endOffset": 76
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "82650dbf-3bc7-468a-be9d-8925fa7b56a8",
+      "rule": "typescript:S2933",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.ts",
+      "project": "knygnesys-homework",
+      "line": 13,
+      "hash": "524452228e1bd7bb92c209ee79c25261",
+      "textRange": {
+        "startLine": 13,
+        "endLine": 13,
+        "startOffset": 13,
+        "endOffset": 27
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.ts",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 2,
+                "endOffset": 21
+              },
+              "msg": "Member 'authService' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.ts",
+              "textRange": {
+                "startLine": 15,
+                "endLine": 15,
+                "startOffset": 2,
+                "endOffset": 16
+              },
+              "msg": "Member 'router' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Mark these members as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "type-dependent",
+        "confusing"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "d90cc3fa-4347-43bb-aca4-a85ffe836707",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 11,
+      "hash": "d77996bcb46cf9ce06bfef6255812260",
+      "textRange": {
+        "startLine": 11,
+        "endLine": 11,
+        "startOffset": 8,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "802fc296-2744-4384-9a18-41e177cbdbf1",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 12,
+      "hash": "620b7b697e690ee937004887ceff5ad7",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 8,
+        "endOffset": 70
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a1d59362-72fd-44bf-8b14-1b92c4e066ad",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 15,
+      "hash": "242b4c3663023c7472b6f4e9cafbdf87",
+      "textRange": {
+        "startLine": 15,
+        "endLine": 15,
+        "startOffset": 8,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "0d104802-c09f-4951-9e58-92e3f0e5ca05",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 16,
+      "hash": "244aa3c43d66ee21b4c482727e647949",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 8,
+        "endOffset": 72
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "da61dd36-972f-4d34-a5a2-125b90d1ff51",
+      "rule": "Web:S6853",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 19,
+      "hash": "5fb47232831882a994e9573765044245",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 8,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "A form label must be associated with a control and have accessible text.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a5ced907-2992-412a-89c3-9da30d4bbaf8",
+      "rule": "Web:InputWithoutLabelCheck",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "project": "knygnesys-homework",
+      "line": 20,
+      "hash": "1ccfa3cd91d6dc9e0fad8b9700a2182d",
+      "textRange": {
+        "startLine": 20,
+        "endLine": 20,
+        "startOffset": 8,
+        "endOffset": 76
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add an \"id\" attribute to this input field and associate it with a label.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "BUG",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "d143d559-b984-4fd5-9129-9e39782cd305",
+      "rule": "typescript:S2933",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.ts",
+      "project": "knygnesys-homework",
+      "line": 13,
+      "hash": "cb9a43b8f655781afde857170e6c7b66",
+      "textRange": {
+        "startLine": 13,
+        "endLine": 13,
+        "startOffset": 13,
+        "endOffset": 30
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.ts",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 2,
+                "endOffset": 21
+              },
+              "msg": "Member 'authService' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.ts",
+              "textRange": {
+                "startLine": 15,
+                "endLine": 15,
+                "startOffset": 2,
+                "endOffset": 16
+              },
+              "msg": "Member 'router' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Mark these members as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "type-dependent",
+        "confusing"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "a85bb5f4-b82e-4822-b7e8-26309c0c1c6b",
+      "rule": "typescript:S2933",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/auth.service.ts",
+      "project": "knygnesys-homework",
+      "line": 6,
+      "hash": "f0cacd5d575e34c0b898d47cf0c7aa7a",
+      "textRange": {
+        "startLine": 6,
+        "endLine": 6,
+        "startOffset": 13,
+        "endOffset": 24
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/services/auth.service.ts",
+              "textRange": {
+                "startLine": 7,
+                "endLine": 7,
+                "startOffset": 2,
+                "endOffset": 14
+              },
+              "msg": "Member 'http' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "knygnesys-homework:knygnesys-ui/src/app/services/auth.service.ts",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 2,
+                "endOffset": 16
+              },
+              "msg": "Member 'apiUrl' is never reassigned; mark it as `readonly`.",
+              "msgFormattings": []
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Mark these members as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "type-dependent",
+        "confusing"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": true,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "122ad2f5-5d9c-44a8-901b-b3ee084c90eb",
+      "rule": "typescript:S6671",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "project": "knygnesys-homework",
+      "line": 23,
+      "hash": "c7ea1353d8c74d3c9399290b56b897cd",
+      "textRange": {
+        "startLine": 23,
+        "endLine": 23,
+        "startOffset": 30,
+        "endOffset": 51
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Expected the Promise rejection reason to be an Error.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "2b854725-e101-4757-b840-4a8c4af50077",
+      "rule": "typescript:S6671",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "project": "knygnesys-homework",
+      "line": 33,
+      "hash": "c67069a1e28119e7bbd5a8a1ef73765f",
+      "textRange": {
+        "startLine": 33,
+        "endLine": 33,
+        "startOffset": 25,
+        "endOffset": 41
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Expected the Promise rejection reason to be an Error.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "bee9cfeb-afa1-4018-b7e8-5bf06a045891",
+      "rule": "typescript:S6671",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "project": "knygnesys-homework",
+      "line": 43,
+      "hash": "001ada5a5c6b339ef7a6a6958d351ab4",
+      "textRange": {
+        "startLine": 43,
+        "endLine": 43,
+        "startOffset": 26,
+        "endOffset": 43
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Expected the Promise rejection reason to be an Error.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "700e4668-ecd0-484b-ad7f-ffcc48d49d3b",
+      "rule": "typescript:S6671",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "project": "knygnesys-homework",
+      "line": 53,
+      "hash": "001ada5a5c6b339ef7a6a6958d351ab4",
+      "textRange": {
+        "startLine": 53,
+        "endLine": 53,
+        "startOffset": 26,
+        "endOffset": 43
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Expected the Promise rejection reason to be an Error.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    },
+    {
+      "key": "1254fb69-c17d-4d8d-9a76-778b9e2a2267",
+      "rule": "typescript:S6671",
+      "severity": "MAJOR",
+      "component": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "project": "knygnesys-homework",
+      "line": 63,
+      "hash": "c67069a1e28119e7bbd5a8a1ef73765f",
+      "textRange": {
+        "startLine": 63,
+        "endLine": 63,
+        "startOffset": 25,
+        "endOffset": 41
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Expected the Promise rejection reason to be an Error.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "type-dependent"
+      ],
+      "transitions": [],
+      "actions": [],
+      "comments": [],
+      "creationDate": "2026-10-05T18:15:47+0000",
+      "updateDate": "2026-10-05T18:37:50+0000",
+      "type": "CODE_SMELL",
+      "scope": "MAIN",
+      "quickFixAvailable": false,
+      "messageFormattings": [],
+      "codeVariants": [],
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "prioritizedRule": false,
+      "fromSonarQubeUpdate": false,
+      "internalTags": [],
+      "linkedTicketStatus": "NOT_LINKED"
+    }
+  ],
+  "components": [
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ReadingList.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/ReadingList.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.html",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "home.html",
+      "longName": "knygnesys-ui/src/app/pages/home/home.html",
+      "path": "knygnesys-ui/src/app/pages/home/home.html"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "biblioteka.component.ts",
+      "longName": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.scss",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "register.component.scss",
+      "longName": "knygnesys-ui/src/app/pages/register/register.component.scss",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.scss"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "StatsService.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/service/StatsService.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "GoalApi.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/controller/GoalApi.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "epub-storage.service.ts",
+      "longName": "knygnesys-ui/src/app/services/epub-storage.service.ts",
+      "path": "knygnesys-ui/src/app/services/epub-storage.service.ts"
+    },
+    {
+      "key": "knygnesys-homework",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "Knygnesys code-quality homework",
+      "longName": "Knygnesys code-quality homework"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/home/home.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "home.ts",
+      "longName": "knygnesys-ui/src/app/pages/home/home.ts",
+      "path": "knygnesys-ui/src/app/pages/home/home.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/services/auth.service.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "auth.service.ts",
+      "longName": "knygnesys-ui/src/app/services/auth.service.ts",
+      "path": "knygnesys-ui/src/app/services/auth.service.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.html",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "register.component.html",
+      "longName": "knygnesys-ui/src/app/pages/register/register.component.html",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.html"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "GoalService.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/GoalService.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/register/register.component.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "register.component.ts",
+      "longName": "knygnesys-ui/src/app/pages/register/register.component.ts",
+      "path": "knygnesys-ui/src/app/pages/register/register.component.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "StatsApi.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/stats/controller/StatsApi.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "AuthApi.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/auth/controller/AuthApi.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "login.component.ts",
+      "longName": "knygnesys-ui/src/app/pages/login/login.component.ts",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "epub-reader.component.ts",
+      "longName": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts",
+      "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ReadingProgress.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/progress/ReadingProgress.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "InactivitySchedulerService.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/goal/service/InactivitySchedulerService.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.html",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "login.component.html",
+      "longName": "knygnesys-ui/src/app/pages/login/login.component.html",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.html"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "biblioteka.component.scss",
+      "longName": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.scss"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "User.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/User.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "biblioteka.component.html",
+      "longName": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html",
+      "path": "knygnesys-ui/src/app/pages/biblioteka/biblioteka.component.html"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "SecurityConfig.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/shared/config/SecurityConfig.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/login/login.component.scss",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "login.component.scss",
+      "longName": "knygnesys-ui/src/app/pages/login/login.component.scss",
+      "path": "knygnesys-ui/src/app/pages/login/login.component.scss"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "books-per-month-chart.component.ts",
+      "longName": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts",
+      "path": "knygnesys-ui/src/app/components/charts/books-per-month-chart/books-per-month-chart.component.ts"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "LibraryService.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/service/LibraryService.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "RecommendationsService.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/recommendation/service/RecommendationsService.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "epub-reader.component.html",
+      "longName": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html",
+      "path": "knygnesys-ui/src/app/pages/epub-reader/epub-reader.component.html"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "LibraryApi.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/readinglist/controller/LibraryApi.java"
+    },
+    {
+      "key": "knygnesys-homework:knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "UserApi.java",
+      "longName": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java",
+      "path": "knygnesys-app/src/main/java/lt/prifkodas/knygnesys/user/controller/UserApi.java"
+    }
+  ],
+  "rules": [
+    {
+      "key": "java:S5344",
+      "name": "Passwords should not be stored in plaintext or with a fast hashing algorithm",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "java:S4790",
+      "name": "Weak hashing algorithms should not be used",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "css:S4667",
+      "name": "CSS files should not be empty",
+      "lang": "css",
+      "status": "READY",
+      "langName": "CSS"
+    },
+    {
+      "key": "java:S8688",
+      "name": "Time-based \".now()\" methods should specify a ZoneId or a Clock",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+      "name": "Mouse events should have corresponding keyboard events",
+      "lang": "web",
+      "status": "READY",
+      "langName": "HTML"
+    },
+    {
+      "key": "Web:InputWithoutLabelCheck",
+      "name": "\"input\", \"select\" and \"textarea\" tags should be labeled",
+      "lang": "web",
+      "status": "READY",
+      "langName": "HTML"
+    },
+    {
+      "key": "java:S3776",
+      "name": "Cognitive Complexity of methods should not be too high",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "java:S6885",
+      "name": "Use built-in \"Math.clamp\" methods",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "java:S1192",
+      "name": "String literals should not be duplicated",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "typescript:S3863",
+      "name": "Imports from the same module should be merged",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "typescript:S6671",
+      "name": "Literals should not be used for promise rejection",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "typescript:S7059",
+      "name": "Constructors should not contain asynchronous operations",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "java:S1710",
+      "name": "Annotation repetitions should not be wrapped",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "typescript:S7651",
+      "name": "Output bindings should not be named as standard DOM events",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "css:S7924",
+      "name": "Text and background colors should have sufficient contrast",
+      "lang": "css",
+      "status": "READY",
+      "langName": "CSS"
+    },
+    {
+      "key": "java:S4502",
+      "name": "CSRF protections should not be disabled",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "Web:S6853",
+      "name": "Label elements should have a text label and an associated control",
+      "lang": "web",
+      "status": "READY",
+      "langName": "HTML"
+    },
+    {
+      "key": "java:S131",
+      "name": "\"switch\" statements should have \"default\" clauses",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    },
+    {
+      "key": "typescript:S7773",
+      "name": "Number static methods and properties should be preferred over global equivalents",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "typescript:S2933",
+      "name": "Fields that are only assigned in the constructor should be \"readonly\"",
+      "lang": "ts",
+      "status": "READY",
+      "langName": "TypeScript"
+    },
+    {
+      "key": "java:S2184",
+      "name": "Math operands should be cast before assignment",
+      "lang": "java",
+      "status": "READY",
+      "langName": "Java"
+    }
+  ],
+  "users": [],
+  "languages": [
+    {
+      "key": "py",
+      "name": "Python"
+    },
+    {
+      "key": "ipynb",
+      "name": "IPython Notebooks"
+    },
+    {
+      "key": "go",
+      "name": "Go"
+    },
+    {
+      "key": "kotlin",
+      "name": "Kotlin"
+    },
+    {
+      "key": "terraform",
+      "name": "Terraform"
+    },
+    {
+      "key": "cloudformation",
+      "name": "CloudFormation"
+    },
+    {
+      "key": "kubernetes",
+      "name": "Kubernetes"
+    },
+    {
+      "key": "docker",
+      "name": "Docker"
+    },
+    {
+      "key": "azureresourcemanager",
+      "name": "Azure Resource Manager"
+    },
+    {
+      "key": "yaml",
+      "name": "YAML"
+    },
+    {
+      "key": "json",
+      "name": "JSON"
+    },
+    {
+      "key": "js",
+      "name": "JavaScript"
+    },
+    {
+      "key": "ts",
+      "name": "TypeScript"
+    },
+    {
+      "key": "css",
+      "name": "CSS"
+    },
+    {
+      "key": "ruby",
+      "name": "Ruby"
+    },
+    {
+      "key": "scala",
+      "name": "Scala"
+    },
+    {
+      "key": "rust",
+      "name": "Rust"
+    },
+    {
+      "key": "cs",
+      "name": "C#"
+    },
+    {
+      "key": "java",
+      "name": "Java"
+    },
+    {
+      "key": "web",
+      "name": "HTML"
+    },
+    {
+      "key": "jsp",
+      "name": "JSP"
+    },
+    {
+      "key": "flex",
+      "name": "Flex"
+    },
+    {
+      "key": "xml",
+      "name": "XML"
+    },
+    {
+      "key": "php",
+      "name": "PHP"
+    },
+    {
+      "key": "text",
+      "name": "Text"
+    },
+    {
+      "key": "secrets",
+      "name": "Secrets"
+    },
+    {
+      "key": "vbnet",
+      "name": "VB.NET"
+    }
+  ],
+  "facets": []
+}
